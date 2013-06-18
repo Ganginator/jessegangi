@@ -1,0 +1,195 @@
+/*!
+ * Custom CSS for jessegangi.com
+ * Copyright 2012 Jesse Gangi
+ * Built by Ganginator for jessegangi.com
+ */
+
+/*
+	Jesse Gangi
+	jessegangi.com
+	218 310 2447
+	jgangi @ aerialapps.com
+	@Ganginator
+*/
+
+/*
+CSS Specificity
+
+#1 = !important Class
+	+10000 Points
+#2 = Inline Styling, Style Attributes
+	+1000 Points
+#3 = Identifiers, Types, Psuedo-elements
+	+100 Points
+#4 = Classes, Psuedo-classes, Attributes
+	+10 Points
+#5 = HTML, Elements, Content Elements
+	+1 Points
+*/
+
+/*
+EMPTY fields are for referencing what elements the code contains, whether or not I am applying a style.
+aside AND article CONTENT AREA width ARE DESIGNATED BY DYNAMIC pagename QUERY
+
+Padding = Defines the space inside the element between the content and the element's border.
+Margin = Defines the space outside the element between the element's border and other elements.
+ID = Singular. i.e. A person's Identification (ID) is unique to one person.
+Class = Multiple. i.e. There are many people in a class.
+
+CONSIDER CHANGING TO em's
+http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw
+100% = 1 em ~= 16px ~= 14pt
+*/
+
+
+/*** IDs +100 ***/
+
+
+#wrapper {
+	/* border: 1px dashed blue; */
+}
+
+#outer {
+	/* border: 1px dashed blue; */
+}
+
+#viewport {
+	/* border: 1px dashed blue; */
+}
+
+#inner {
+	/* border: 1px dashed blue; */
+}
+
+#content {
+	/* border: 1px dashed blue; */
+}
+
+#leftsidebar {
+	/* border: 1px dashed blue; */
+}
+
+#rightsidebar {
+	/* border: 1px dashed blue; */
+}
+
+#credit {
+	text-align: center;
+	/* border: 1px dashed blue; */
+}
+
+#feet {
+	/* border: 1px dashed blue; */
+}
+
+
+/* These are for the testing vertically centered images. */
+
+#verticaltable {
+	display: table;
+	height: 100%;
+	background-color: blue;
+	/* border: 1px dashed blue; */
+}
+
+#verticalcell {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	background-color: silver;
+	/* border: 1px dashed blue; */
+}
+
+/* THEY DON'T SEEMED TO WORK */
+
+
+/*** END IDs ***/
+
+
+/*** CLASSes +10 ***/
+
+
+.100Center {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.bump-right {
+	margin-left: 40px;
+}
+
+.bump-left {
+	margin-right: 40px;
+}
+
+.breadcrumb {
+	text-align: center;
+	text-decoration: none;
+}
+
+.breadcrumb a:hover {
+	text-decoration: none;
+}
+
+
+/*** END CLASSes ***/
+
+
+/*** ELEMENTS +1 ***/
+
+
+head {
+	/* border: 1px dashed green; */
+}
+
+
+body {
+	margin: 0;
+	font-family: Georgia, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	/* color: #333333; ORIGINAL */
+	color: #5a5a5a;
+	background-color: #000000;
+	padding-bottom: 20px;
+	/* border: 1px dashed green; */
+}
+
+header {
+	/* border: 1px dashed green; */
+}
+
+article {
+	/* border: 1px dashed green; */
+}
+
+aside {
+	/* border: 1px dashed green; */
+}
+
+footer {
+	/* border: 1px dashed green; */
+}
+
+iframe {
+	color: silver;
+	text-align: center;
+	width: 100%;
+	height: 400px;
+	border: 0;
+	/* border: 1px dashed green; */
+}
+
+
+/*** END ELEMENTS ***/
+
+
+/*** CONTENT ELEMENTS +1 ***/
+
+
+/* EMPTY */
+
+
+/*** END CONTENT ELEMENTS ***/
+

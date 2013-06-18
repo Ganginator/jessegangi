@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<urlset 
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+	xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" 
+	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+	http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+
+
+	<url>
+	
+		<loc>http://jessegangi.com/</loc>
+		
+		<lastmod>2013-06-14</lastmod>
+		
+		<changefreq>monthly</changefreq>
+		
+		<priority>1.0</priority>
+		
+	</url>
+	
+	<url>
+	
+		<loc>http://jessegangi.com/?pagename=about</loc>
+		
+		<lastmod>2013-06-14</lastmod>
+		
+		<changefreq>monthly</changefreq>
+		
+		<priority>0.8</priority>
+		
+	</url>
+	
+	<url>
+	
+		<loc>http://jessegangi.com/?pagename=about/experience</loc>
+		
+		<lastmod>2013-06-14</lastmod>
+		
+		<changefreq>monthly</changefreq>
+		
+		<priority>0.4</priority>
+		
+	</url>
+	
+	<url>
+	
+		<loc>http://jessegangi.com/?pagename=about/portfolio</loc>
+		
+		<lastmod>2013-06-14</lastmod>
+		
+		<changefreq>monthly</changefreq>
+		
+		<priority>0.4</priority>
+		
+	</url>
+
+	<url>
+	
+		<loc>http://jessegangi.com/?pagename=about/activities</loc>
+		
+		<lastmod>2013-06-14</lastmod>
+		
+		<changefreq>monthly</changefreq>
+		
+		<priority>0.4</priority>
+		
+	</url>
+	
+	<url>
+	
+		<loc>http://jessegangi.com/?pagename=about/education</loc>
+		
+		<lastmod>2013-06-14</lastmod>
+		
+		<changefreq>monthly</changefreq>
+		
+		<priority>0.4</priority>
+		
+	</url>
+	
+	<url>
+	
+		<loc>http://jessegangi.com/?pagename=tools</loc>
+		
+		<lastmod>2013-06-14</lastmod>
+		
+		<changefreq>monthly</changefreq>
+		
+		<priority>0.7</priority>
+		
+	</url>
+	
+	<url>
+	
+		<loc>http://jessegangi.com/?pagename=tools/software</loc>
+		
+		<lastmod>2013-06-14</lastmod>
+		
+		<changefreq>monthly</changefreq>
+		
+		<priority>0.4</priority>
+		
+	</url>
+	
+	<url>
+	
+		<loc>http://jessegangi.com/?pagename=tools/code</loc>
+		
+		<lastmod>2013-06-14</lastmod>
+		
+		<changefreq>monthly</changefreq>
+		
+		<priority>0.4</priority>
+		
+	</url>
+	
+	<url>
+	
+		<loc>http://jessegangi.com/?pagename=tools/frameworks</loc>
+		
+		<lastmod>2013-06-14</lastmod>
+		
+		<changefreq>monthly</changefreq>
+		
+		<priority>0.4</priority>
+		
+	</url>
+	
+	<url>
+	
+		<loc>http://jessegangi.com/?pagename=links</loc>
+		
+		<lastmod>2013-06-14</lastmod>
+		
+		<changefreq>monthly</changefreq>
+		
+		<priority>0.5</priority>
+		
+	</url>
+	
+	<url>
+	
+		<loc>http://jessegangi.com/?pagename=contact</loc>
+		
+		<lastmod>2013-06-14</lastmod>
+		
+		<changefreq>monthly</changefreq>
+		
+		<priority>0.6</priority>
+		
+	</url>
+	
+	
+</urlset>

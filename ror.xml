@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+
+
+<channel>
+
+
+	<title>ROR Sitemap for http://jessegangi.com/</title>
+	
+	<link>http://jessegangi.com/</link>
+	
+	
+	<item>
+	
+		<link>http://jessegangi.com/</link>
+		
+		<title>. - : Jesse Gangi's Online Resume | Home | Duluth, Minnesota : - .</title>
+		
+		<description>This is Jesse Gangi's Online Resume's Home Page. Duluth, Minnesota.</description>
+		
+		<ror:updatePeriod>monthly</ror:updatePeriod>
+		
+		<ror:sortOrder>0</ror:sortOrder>
+		
+		<ror:resourceOf>sitemap</ror:resourceOf>
+		
+	</item>
+	
+	<item>
+	
+		<link>http://jessegangi.com/?pagename=about</link>
+		
+		<title>. - : Jesse Gangi's Online Resume | About | Duluth, Minnesota : - .</title>
+		
+		<description>This is Jesse Gangi's Online Resume's About Page. Duluth, Minnesota.</description>
+		
+		<ror:updatePeriod>monthly</ror:updatePeriod>
+		
+		<ror:sortOrder>1</ror:sortOrder>
+		
+		<ror:resourceOf>sitemap</ror:resourceOf>
+		
+	</item>
+	
+	<item>
+	
+		<link>http://jessegangi.com/?pagename=about/experience</link>
+		
+		<title>. - : Jesse Gangi's Online Resume | Experience | Duluth, Minnesota : - .</title>
+		
+		<description>This is Jesse Gangi's Online Resume's Experience Page. Duluth, Minnesota.</description>
+		
+		<ror:updatePeriod>monthly</ror:updatePeriod>
+		
+		<ror:sortOrder>2</ror:sortOrder>
+		
+		<ror:resourceOf>sitemap</ror:resourceOf>
+		
+	</item>
+	
+	<item>
+	
+		<link>http://jessegangi.com/?pagename=about/portfolio</link>
+		
+		<title>. - : Jesse Gangi's Online Resume | Portfolio | Duluth, Minnesota : - .</title>
+		
+		<description>This is Jesse Gangi's Online Resume's Portfolio Page. Duluth, Minnesota.</description>
+		
+		<ror:updatePeriod>monthly</ror:updatePeriod>
+		
+		<ror:sortOrder>2</ror:sortOrder>
+		
+		<ror:resourceOf>sitemap</ror:resourceOf>
+		
+	</item>
+	
+	<item>
+	
+		<link>http://jessegangi.com/?pagename=about/activities</link>
+		
+		<title>. - : Jesse Gangi's Online Resume | Activities | Duluth, Minnesota : - .</title>
+		
+		<description>This is Jesse Gangi's Online Resume's Activities Page. Duluth, Minnesota.</description>
+		
+		<ror:updatePeriod>monthly</ror:updatePeriod>
+		
+		<ror:sortOrder>2</ror:sortOrder>
+		
+		<ror:resourceOf>sitemap</ror:resourceOf>
+		
+	</item>
+	
+	<item>
+	
+		<link>http://jessegangi.com/?pagename=about/education</link>
+		
+		<title>. - : Jesse Gangi's Online Resume | Education | Duluth, Minnesota : - .</title>
+		
+		<description>This is Jesse Gangi's Online Resume's Education Page. Duluth, Minnesota.</description>
+		
+		<ror:updatePeriod>monthly</ror:updatePeriod>
+		
+		<ror:sortOrder>2</ror:sortOrder>
+		
+		<ror:resourceOf>sitemap</ror:resourceOf>
+		
+	</item>
+	
+	<item>
+	
+		<link>http://jessegangi.com/?pagename=tools</link>
+		
+		<title>. - : Jesse Gangi's Online Resume | Tools | Duluth, Minnesota : - .</title>
+		
+		<description>This is Jesse Gangi's Online Resume's Tools Page. Duluth, Minnesota.</description>
+		
+		<ror:updatePeriod>monthly</ror:updatePeriod>
+		
+		<ror:sortOrder>1</ror:sortOrder>
+		
+		<ror:resourceOf>sitemap</ror:resourceOf>
+		
+	</item>
+	
+	<item>
+	
+		<link>http://jessegangi.com/?pagename=tools/software</link>
+		
+		<title>. - : Jesse Gangi's Online Resume | Software | Duluth, Minnesota : - .</title>
+		
+		<description>This is Jesse Gangi's Online Resume's Software Page. Duluth, Minnesota.</description>
+		
+		<ror:updatePeriod>monthly</ror:updatePeriod>
+		
+		<ror:sortOrder>2</ror:sortOrder>
+		
+		<ror:resourceOf>sitemap</ror:resourceOf>
+		
+	</item>
+	
+	<item>
+	
+		<link>http://jessegangi.com/?pagename=tools/code</link>
+		
+		<title>. - : Jesse Gangi's Online Resume | Code | Duluth, Minnesota : - .</title>
+		
+		<description>This is Jesse Gangi's Online Resume's Code Page. Duluth, Minnesota.</description>
+		
+		<ror:updatePeriod>monthly</ror:updatePeriod>
+		
+		<ror:sortOrder>2</ror:sortOrder>
+		
+		<ror:resourceOf>sitemap</ror:resourceOf>
+		
+	</item>
+	
+	<item>
+	
+		<link>http://jessegangi.com/?pagename=tools/frameworks</link>
+		
+		<title>. - : Jesse Gangi's Online Resume | Frameworks | Duluth, Minnesota : - .</title>
+		
+		<description>This is Jesse Gangi's Online Resume's Frameworks Page. Duluth, Minnesota.</description>
+		
+		<ror:updatePeriod>monthly</ror:updatePeriod>
+		
+		<ror:sortOrder>2</ror:sortOrder>
+		
+		<ror:resourceOf>sitemap</ror:resourceOf>
+		
+	</item>
+	
+	<item>
+	
+		<link>http://jessegangi.com/?pagename=links</link>
+		
+		<title>. - : Jesse Gangi's Online Resume | Links | Duluth, Minnesota : - .</title>
+		
+		<description>This is Jesse Gangi's Online Resume's Links Page. Duluth, Minnesota.</description>
+		
+		<ror:updatePeriod>monthly</ror:updatePeriod>
+		
+		<ror:sortOrder>1</ror:sortOrder>
+		
+		<ror:resourceOf>sitemap</ror:resourceOf>
+		
+	</item>
+	
+	<item>
+	
+		<link>http://jessegangi.com/?pagename=contact</link>
+		
+		<title>. - : Jesse Gangi's Online Resume | Contact | Duluth, Minnesota : - .</title>
+		
+		<description>This is Jesse Gangi's Online Resume's Contact Page. Duluth, Minnesota.</description>
+		
+		<ror:updatePeriod>monthly</ror:updatePeriod>
+		
+		<ror:sortOrder>1</ror:sortOrder>
+		
+		<ror:resourceOf>sitemap</ror:resourceOf>
+		
+	</item>
+	
+	
+</channel>
+
+
+</rss>

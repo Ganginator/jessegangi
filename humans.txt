@@ -1,0 +1,28 @@
+# humanstxt.org
+# The humans responsible, and technology colophon.
+
+# TEAM
+
+    # <name> -- <role> -- <twitter>
+	Jesse Gangi -- The Guy -- @Ganginator
+
+# THANKS
+
+    Sam Gangi, Kim Gangi, AMSOIL
+
+# TECHNOLOGY COLOPHON
+
+    HTML5,
+	CSS3,
+	JavaScript,
+    jQuery,
+	Modernizr,
+	Normalize,
+	PHP,
+	MySQL,
+	InnoDB,
+	HTML5 Boilerplate,
+	Bootstrap,
+	Font Awesome
+	
+	

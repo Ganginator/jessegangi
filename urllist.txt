@@ -1,0 +1,12 @@
+http://jessegangi.com/
+http://jessegangi.com/?pagename=about
+http://jessegangi.com/?pagename=about/experience
+http://jessegangi.com/?pagename=about/portfolio
+http://jessegangi.com/?pagename=about/activities
+http://jessegangi.com/?pagename=about/education
+http://jessegangi.com/?pagename=tools
+http://jessegangi.com/?pagename=tools/software
+http://jessegangi.com/?pagename=tools/code
+http://jessegangi.com/?pagename=tools/frameworks
+http://jessegangi.com/?pagename=links
+http://jessegangi.com/?pagename=contact

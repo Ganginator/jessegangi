@@ -1,0 +1,5 @@
+# robotstxt.org/
+
+User-agent: *
+
+Sitemap: http://www.jessegangi.com/sitemap.xml
