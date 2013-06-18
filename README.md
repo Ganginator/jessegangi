@@ -16,7 +16,7 @@ Jesse Gangi | jessegangi.com | 218 310 2447 | jgangi @ aerialapps.com | @Gangina
 ***
 
 <h5>The old repository became corrupted on 6/18/13.<br />
-Cloned this from master.
+Cloned this from master.<br />
 Marked other repository as "CORRUPTED" and saved it for the history.</h5>
 
 <p>Check back easily by bookmarking this in your favorite browser!</p>
