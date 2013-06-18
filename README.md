@@ -5,15 +5,19 @@ Jesse Gangi - My Online Resume
 
 <h4>I am currently developing this live.</h4>
 
-<h5>Life: 8/11/12 to 6/14/13</h5>
+<h5>Life: 8/11/12 to 6/18/13</h5>
 
-<h5>Last Update: 6/14/13</h5>
+<h5>Last Update: 6/18/13</h5>
 
 ***
 
 Jesse Gangi | jessegangi.com | 218 310 2447 | jgangi @ aerialapps.com | @Ganginator
 
 ***
+
+<h5>The old repository became corrupted on 6/18/13.<br />
+Cloned this from master.
+Marked other repository as "CORRUPTED" and saved it for the history.</h5>
 
 <p>Check back easily by bookmarking this in your favorite browser!</p>
 
