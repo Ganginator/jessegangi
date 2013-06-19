@@ -1,3 +1,6 @@
+<!-- <div class="navbar-fixed-top"> -->
+
+
 <div class="navbar-wrapper">
 
 
@@ -154,3 +157,6 @@
 	
 	
 </div><!-- / .navbar-wrapper -->
+
+
+<!-- </div> -->
