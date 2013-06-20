@@ -65,7 +65,7 @@
 								<li><a href="http://aerialapps.com" target="_blank"><i class="icon-bolt icon-black"></i>&nbsp;&nbsp;Aerial Apps.&nbsp; </a></li>
 								<li><a href="http://www.cookthekitty.com" target="_blank"><i class="icon-fire icon-black"></i>&nbsp;&nbsp;Cook The _____ !&nbsp; </a></li>
 								<li><a href="http://twitter.com/ganginator" target="_blank"><i class="icon-twitter icon-black"></i>&nbsp;&nbsp;Twitter&nbsp; </a></li> -->
-								<li><a href="http://www.linkedin.com/pub/jesse-gangi/20/244/b14" target="_blank"><i class="icon-linkedin icon-black"></i>&nbsp;&nbsp;LinkedIn&nbsp; </a></li>
+								<li><a href="http://www.linkedin.com/in/jessegangi" target="_blank"><i class="icon-linkedin icon-black"></i>&nbsp;&nbsp;LinkedIn&nbsp; </a></li>
 								<li><a href="https://github.com/Ganginator" target="_blank"><i class="icon-github-alt icon-black"></i>&nbsp;&nbsp;Github&nbsp; </a></li>
 							</ul><!-- / .dropdown-menu -->
 						</li><!-- / .dropdown -->

@@ -15,13 +15,13 @@
 					&nbsp;<span class="divider" style="color: black;">&raquo;</span>&nbsp;
 				<li><a href="?pagename=about"><i class="icon-user icon-black" title="About"></i></a></li>
 					&nbsp;<span class="divider" style="color: black;">&raquo;</span>&nbsp;
-				<li><a href="?pagename=about/experience"><i class="icon-certificate icon-black" title="Experience"></i></a></li>
+				<li><a href="?pagename=about/experience"><i class="icon-road icon-black" title="Experience"></i></a></li>
 					&nbsp;<span class="divider" style="color: black;">&raquo;</span>&nbsp;
 				<li><a href="?pagename=about/portfolio"><i class="icon-briefcase icon-black" title="Portfolio"></i></a></li>
 					&nbsp;<span class="divider" style="color: black;">&raquo;</span>&nbsp;
-				<li><a href="?pagename=about/activities"><i class="icon-star-empty icon-black" title="Activities"></i></a></li>
+				<li><a href="?pagename=about/activities"><i class="icon-music icon-black" title="Activities"></i></a></li>
 					&nbsp;<span class="divider" style="color: black;">&raquo;</span>&nbsp;
-				<li><a href="?pagename=about/education"><i class="icon-eye-open icon-black" title="Education"></i></a></li>
+				<li><a href="?pagename=about/education"><i class="icon-book icon-black" title="Education"></i></a></li>
 					&nbsp;<span class="divider" style="color: black;">&raquo;</span>&nbsp;
 				<li><a href="?pagename=tools"><i class="icon-wrench icon-white" title="Tools"></i></a></li>
 					&nbsp;<span class="divider" style="color: black;">&raquo;</span>&nbsp;
