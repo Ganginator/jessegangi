@@ -23,7 +23,7 @@
 	h5bp.com/d/head-Tips -->
 	
 	
-	<title>. - : Jesse Gangi's Online Resume | ECHO THIS | Duluth, Minnesota : - .</title>
+	<title>.: Jesse Gangi's Online Resume | Duluth, Minnesota :.</title><!-- ECHO THIS -->
 	
 	
 	<!-- http://en.wikipedia.org/wiki/Musikalisches_W%C3%BCrfelspiel -->

@@ -1,29 +1,12 @@
-/*!
- * Custom JS for jessegangi.com
- * Copyright 2012-13 Jesse Gangi
+/*! HEADER:
+ * LIFE 8/11/12 to 11/05/13
+ * Custom JavaScript for Jesse Gangi's Online Resume
+ * Copyright 2012-13 Jesse Gangi, Aerial Applications
  * Built by Ganginator for jessegangi.com
  */
- 
-/*
-	Jesse Gangi
-	jessegangi.com
-	218 310 2447
-	jgangi @ aerialapps.com
-	@Ganginator
-*/
 
-/*
-Added scripts, for added awesomeness.
-*/
 
-/* POPOVERS */
-/* PER: 
-http://jsfiddle.net/weuWk/
-http://www.joostrap.com/popovers#
-https://groups.google.com/forum/#!topic/twitter-bootstrap/_DqQsRZRz6E
-http://stackoverflow.com/questions/7703878/how-can-i-hold-twitter-bootstrap-popover-open-until-my-mouse-moves-into-it
-https://github.com/twitter/bootstrap/issues/512
-*/
+/* Popovers */
 
 
 $("#blob").popover({ 
@@ -35,11 +18,7 @@ trigger: 'hover' /* THIS WAS ALL I NEEDED FOR HOVERING AT FIRST */
 });
 
 
-/* CLICKOVERS */
-/* PER: 
-http://www.leecarmichael.com/bootstrapx-clickover/examples.html
-https://github.com/lecar-red/bootstrapx-clickover
-*/
+/* Clickovers */
 
 
 /* Software Page Clickovers */
@@ -108,6 +87,72 @@ $('#auto-close-co-6').clickover({
 	title: '<div style="text-align: center;"><h3><a href="">Microsoft Excel</a></h3></div>', 
 	content: '<div style="text-align: center;"><h4>Spreadsheet Application</h4><p>A lot of people say that this is a useless program, unnecessary, pointless, but I find it very usefull for organizing my projects, and data.<br /><br /><a class="btn btn-mini" href="http://success.adobe.com/en/na/sem/products/photoshopfamily.html/">Would you like to know more?</a></p></div>', 
 	allow_multiple: false, 
+});
+
+
+/* git */
+$('#co-git').clickover({
+	auto_close: 10 * 1000,
+	placement: 'top',
+	html: true, /* IT SEEMS THIS IS UNECESSARY? */
+	title: '<div style="text-align: center;"><h3><a href="http://git-scm.com">git</a></h3></div>',
+	content: '<div style="text-align: center;"><h4>Distributed Version Control, and Source Code Management System</h4><p>Who knows? Maybe a quick distributed version control, and source code management system is not for you?<br /><br /><a class="btn btn-mini" href="http://git-scm.com">Would you like to know more?</a></p></div>',
+	allow_multiple: false,
+});
+
+
+/* MySQL */
+$('#co-mysql').clickover({
+	auto_close: 10 * 1000,
+	placement: 'top',
+	html: true, /* IT SEEMS THIS IS UNECESSARY? */
+	title: '<div style="text-align: center;"><h3><a href="http://git-scm.com">MySQL</a></h3></div>',
+	content: '<div style="text-align: center;"><h4>The world\'s most popular open source database</h4><p>The data sandbox. There is nothing better than playing with data.<br /><br /><a class="btn btn-mini" href="http://www.mysql.com">Would you like to know more?</a></p></div>',
+	allow_multiple: false,
+});
+
+
+/* Google Chrome */
+$('#co-google-chrome').clickover({
+	auto_close: 10 * 1000,
+	placement: 'top',
+	html: true, /* IT SEEMS THIS IS UNECESSARY? */
+	title: '<div style="text-align: center;"><h3><a href="http://google.com/chrome">Google Chrome</a></h3></div>',
+	content: '<div style="text-align: center;"><h4>The fast, free browser that is built for the modern web.</h4><p>The fastest, most complient web browser that performs as you would expect, when you need it, and does it efficiently. Did you expect anything less from the wizards at Google?<br /><br /><a class="btn btn-mini" href="http://google.com/chrome">Would you like to know more?</a></p></div>',
+	allow_multiple: false,
+});
+
+
+/* Mozilla Firefox */
+$('#co-mozilla-firefox').clickover({
+	auto_close: 10 * 1000,
+	placement: 'top',
+	html: true, /* IT SEEMS THIS IS UNECESSARY? */
+	title: '<div style="text-align: center;"><h3><a href="http://mozilla.org">Mozilla Firefox</a></h3></div>',
+	content: '<div style="text-align: center;"><h4>Different by Design.</h4><p>Mozilla is a game changer. From the ashes of Netscape, came Pheonix, renamed Firebird, and finally born as Firefox. This browser bridged the gap for many years, remaining the go to solution till the release of Google Chrome in late 2008.<br /><br /><a class="btn btn-mini" href="http://mozilla.org">Would you like to know more?</a></p></div>',
+	allow_multiple: false,
+});
+
+
+/* Apple Safari */
+$('#co-apple-safari').clickover({
+	auto_close: 10 * 1000,
+	placement: 'top',
+	html: true, /* IT SEEMS THIS IS UNECESSARY? */
+	title: '<div style="text-align: center;"><h3><a href="http://apple.com/safari">Apple Safari</a></h3></div>',
+	content: '<div style="text-align: center;"><h4>Browse the web in smarter, more powerful ways.</h4><p>Safari is a great browser, mainly based on Apple devices, but is also available on Widnows, and some other systems.<br /><br /><a class="btn btn-mini" href="http://apple.com/safari">Would you like to know more?</a></p></div>',
+	allow_multiple: false,
+});
+
+
+/* Microsoft Internet Explorer */
+$('#co-microsoft-internet-explorer').clickover({
+	auto_close: 10 * 1000,
+	placement: 'top',
+	html: true, /* IT SEEMS THIS IS UNECESSARY? */
+	title: '<div style="text-align: center;"><h3><a href="http://microsoft.com/ie">Internet Explorer</a></h3></div>',
+	content: '<div style="text-align: center;"><h4>Safer, easier, more reliable.</h4><p>Microsoft has made many mistakes when considering IE, and allowing support for antiquated versions. They are finally starting to see that it is important to include new web technologies, and to play nice with other vendors. IE is the bane of the web, and the reason we can not have nice things.<br /><br /><a class="btn btn-mini" href="http://microsoft.com/ie">Would you like to know more?</a></p></div>',
+	allow_multiple: false,
 });
 
 
@@ -252,7 +297,10 @@ $('#co-javascript').clickover({
 });
 
 
-/* JavaScript */
+/* Other Clickovers */
+
+
+/* Information */
 $('#info').clickover({
 	auto_close: 10 * 1000, 
 	placement: 'top', 
@@ -262,3 +310,12 @@ $('#info').clickover({
 	allow_multiple: false, 
 });
 
+
+/* STAMP:
+	Jesse Gangi
+	jessegangi.com
+	218 310 2447
+	jgangi @ aerialapps.com
+	@Ganginator
+	"Added scripts, for added awesomeness."
+*/

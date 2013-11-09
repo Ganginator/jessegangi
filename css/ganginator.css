@@ -1,44 +1,53 @@
-/*!
- * Custom CSS for jessegangi.com
- * Copyright 2012 Jesse Gangi
+/*! HEADER:
+ * LIFE 10/3/13 to 11/07/13
+ * Custom CSS for Jesse Gangi's Online Resume
+ * Copyright 2012-13 Jesse Gangi, Aerial Applications
  * Built by Ganginator for jessegangi.com
  */
 
-/*
-	Jesse Gangi
-	jessegangi.com
-	218 310 2447
-	jgangi @ aerialapps.com
-	@Ganginator
-*/
 
-/*
-CSS Specificity
-
-#1 = !important Class
-	+10000 Points
-#2 = Inline Styling, Style Attributes
-	+1000 Points
-#3 = Identifiers, Types, Psuedo-elements
-	+100 Points
-#4 = Classes, Psuedo-classes, Attributes
-	+10 Points
-#5 = HTML, Elements, Content Elements
-	+1 Points
-*/
-
-/*
+/* NOTES:
 EMPTY fields are for referencing what elements the code contains, whether or not I am applying a style.
-aside AND article CONTENT AREA width ARE DESIGNATED BY DYNAMIC pagename QUERY
 
-Padding = Defines the space inside the element between the content and the element's border.
-Margin = Defines the space outside the element between the element's border and other elements.
-ID = Singular. i.e. A person's Identification (ID) is unique to one person.
-Class = Multiple. i.e. There are many people in a class.
+IN DATABASE SITES, THE #page CONTENT AREA'S width, THE #page GLOBALS, AND THE content ARE DESIGNATED BY A DYNAMIC ?page=/?pagename= QUERY REFERENCING style, layout, AND content TABLES.
 
-CONSIDER CHANGING TO em's
+IN TEMPLATE SITES, WITHOUT A DATABASE, THE #page CONTENT IS FETCHED WITH $_GET BASED ON ?page=, AND THE RESPECTIVE FILES ARE LOCATED IN ~includes/content; WHILE THE LAYOUT IS DETERMINED BY THE RESPECTIVE FILES LOCATED IN ~includes.
+
+I'm Still Modifying, and will remove uneccesary stuff as I go.
+I'm still considering minifying eveything when finished.
+Please give me credit where it is due.
+And as always, contact me if you are interested in hiring me, or with any errors, sugestions, or help.
+I also add some unnecessary Styles for referencing.
+So don't be too surprised. ;-)
+
+CONSIDER CHANGING TO em's OR rem's
 http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw
 100% = 1 em ~= 16px ~= 14pt
+*/
+
+/* Definitions:
+ID = Singular. i.e. A person's Identification (ID) is unique to one person.
+Class = Multiple. i.e. There are many people in a class.
+Padding = Defines the space inside the element between the content, and the element's border.
+Margin = Defines the space outside the element between the element's border, and other elements.
+*/
+
+/* <!-- CONFIGURATION:
+TIE FIGHTER - Custom DOG PHP Templates
+--> */
+
+/* THIS DOCUMENT IS ORDERED BY THE BELOW CSS SPECIFICITY */
+/* CSS Specificity:
+	#1 = !important Class
+		+10000 Points
+	#2 = Inline Styling, Style Attributes
+		+1000 Points
+	#3 = Identifiers, Types, Psuedo-elements
+		+100 Points
+	#4 = Classes, Psuedo-classes, Attributes
+		+10 Points
+	#5 = HTML, Elements, Content Elements
+		+1 Points
 */
 
 
@@ -193,3 +202,12 @@ iframe {
 
 /*** END CONTENT ELEMENTS ***/
 
+
+/* STAMP:
+	Jesse Gangi
+	jessegangi.com
+	218 310 2447
+	jgangi @ aerialapps.com
+	@Ganginator
+	"It's always the padding..."
+*/

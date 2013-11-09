@@ -47,7 +47,7 @@
 					&nbsp;<span class="divider" style="color: black;">&raquo;</span>&nbsp;
 				<li><a href="?pagename=contact"><i class="icon-envelope-alt icon-white" title="Contact"></i></a></li>
 					&nbsp;<span class="divider" style="color: black;">&raquo;</span>&nbsp;
-				<li><a href="http://aerialapps.com/files/documents/resumes/resume_Jesse-Gangi_13-05-09.pdf" target="_blank"><i class="icon-download-alt icon-white" title="One Sheet PDF"></i></a></li>
+				<li><a href="http://aerialapps.com/files/documents/resumes/resume_Jesse-Gangi_13-11-07.pdf" target="_blank"><i class="icon-download-alt icon-white" title="One Sheet PDF"></i></a></li>
 			</ul><!-- / .breadcrumb -->
 			
 			
@@ -60,8 +60,8 @@
 		<!-- pull-left DISABLED -->
 		<!-- With HTML5 small is now a wrapper for 'Small Print'. Perfect for Copyright! -->
 		<small class="muted credit"><strong>Copyright &copy; 2007-13 <a href="http://jessegangi.com" target="_blank">Jesse Gangi</a>, <a href="http://aerialapps.com" target="_blank">Aerial Applications</a><!-- , <a href="http://aerialmediadesign.com">Aerial Media Design</a>, <a href="http://aerialadvertising.com">Aerial Advertising</a>, and <a href="http://aerialcorporations.com" target="_blank">Aerial Corporations</a> --> - Duluth, Minnesota<br />
-		Built with <a href="http://html5boilerplate.com">HTML5 Boilerplate</a>, <a href="http://twitter.github.io/bootstrap" target="_blank">Bootstrap</a>, and <a href="http://fortawesome.github.io/Font-Awesome" target="_blank">Font Awesome</a><br />
-		<span style="color: red;">I &nbsp;&hearts;&nbsp; HTML5 &nbsp;&amp;&nbsp; CSS3 &nbsp;&amp;&nbsp; JavaScript &nbsp;&amp;&nbsp; PHP</span></strong></small><!-- / .muted .credit -->
+		Built with <a href="http://en.wikipedia.org/wiki/HTML5_Boilerplate">HTML5 Boilerplate</a>, <a href="http://en.wikipedia.org/wiki/Bootstrap_%28front-end_framework%29" target="_blank">Bootstrap</a>, and <a href="http://en.wikipedia.org/wiki/?" target="_blank">Font Awesome</a><br />
+		<span style="color: red;">I &nbsp;&hearts;&nbsp; <a href="http://en.wikipedia.org/wiki/HTML5" target="_blank">HTML5</a> &nbsp;&amp;&nbsp; <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3" target="_blank">CSS3</a> &nbsp;&amp;&nbsp; <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a> &nbsp;&amp;&nbsp; <a href="https://en.wikipedia.org/wiki/PHP" target="_blank">PHP</a></span></strong></small><!-- / .muted .credit -->
 		
 		
 		</div><!-- / #credit -->

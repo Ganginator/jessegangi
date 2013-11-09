@@ -1,13 +1,13 @@
-Jesse Gangi - My Online Resume
+Jesse Gangi's Online Resume
 ==========
 
 <h3>This is my Online Resume.</h3>
 
 <h4>I am currently developing this live.</h4>
 
-<h5>Life: 8/11/12 to 6/18/13</h5>
+<h5>Life: 8/11/12 to 11/8/13</h5>
 
-<h5>Last Update: 6/18/13</h5>
+&hearts;
 
 ***
 
