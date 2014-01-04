@@ -1,8 +1,12 @@
 	<!-- Javascript: Placed at the end of the document so the pages load faster. Also, index.php contains all links for reference. -->
 	<!-- AS ALWAYS, THE ORDER OF THE STACK IS IMPORTANT!!! -->
+	
+	<!-- Libraries -->
+	
 	<!-- JQuery Version - Date 3/11/13: v1.9.1 -->
 	<!-- <script src="js/libraries/jquery/jquery-1.9.1.js"></script> -->
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<!-- CHANGE BELOW TO BootstrapCDN -->
 	<script src="js/libraries/bootstrap/bootstrap.min.js"></script>
 	<!-- <script src="js/carousel.js"></script> -->
 	<!-- <script src="js/libraries/jquery/jquery.pageslide.js"></script> -->
@@ -11,12 +15,19 @@
 	<!-- <script src="js/libraries/ember.js/ember-1.0.0-rc.3.js"></script> -->
 	<!-- <script src="js/libraries/showdown.js"></script> -->
 	<!-- <script src="js/libraries/moment.js"></script> -->
+	<script src="//cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed-cdn.js"></script>
+	<script src="//cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script>
+	<script src="//cdn.knightlab.com/libs/timeline/latest/js/timeline-min.js"></script>
+	
+	<!-- Customs -->
+	
 	<!-- <script src="js/app.js"></script> -->
 	<!-- <script src="js/main.js"></script> -->
 	<script src="js/plugins.js"></script>
 	<script src="js/ganginator.js"></script>
 	
 	<!-- INDIVIDUAL Bootstrap .js JUST FOR NOTES 
+	
 	<script src="js/jquery/jquery.js"></script>
 	<script src="js/bootstrap/bootstrap-transition.js"></script>
 	<script src="js/bootstrap/bootstrap-alert.js"></script>

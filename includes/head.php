@@ -61,6 +61,7 @@
 	<!-- It is no longer necessary to use the type attribute in stylesheets, it is implied in HTML5! -->
 	<!-- AS ALWAYS, THE ORDER OF THE STACK IS IMPORTANT!!! -->
 	<link rel="stylesheet" href="css/vendor/normalize.css" />
+	<!-- CHANGE BELOW TO BootstrapCDN -->
     <link rel="stylesheet" href="css/vendor/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="css/vendor/bootstrap/bootstrap-responsive.min.css" />
 	<!-- <link rel="stylesheet" href="css/vendor/jquery/jquery.pageslide.css" /> -->
@@ -72,6 +73,8 @@
 	<?php
 		include("includes/style.php")
 	?>
+	
+	<link rel="stylesheet" href="//cdn.knightlab.com/libs/timeline/latest/css/timeline.css" />
 	
 	<!-- <link rel="stylesheet" href="css/main.css" /> -->
 	<!-- <link rel="stylesheet" href="css/style.css" /> -->
