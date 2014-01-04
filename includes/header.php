@@ -75,6 +75,7 @@
 							<li><a href="http://twitter.com/ganginator" target="_blank"><i class="icon-twitter icon-black"></i> --><!-- Font Awesome / --><!-- &nbsp;&nbsp;Twitter&nbsp; </a></li> -->
 							<li><a href="http://www.linkedin.com/in/jessegangi" target="_blank"><i class="icon-linkedin icon-black"></i><!-- Font Awesome / -->&nbsp;&nbsp;LinkedIn&nbsp; </a></li>
 							<li><a href="https://github.com/Ganginator" target="_blank"><i class="icon-github-alt icon-black"></i><!-- Font Awesome / -->&nbsp;&nbsp;Github&nbsp; </a></li>
+							<li><a href="https://drupal.org/user/1101028" target="_blank"><i class="icon-link icon-black"></i><!-- Font Awesome / -->&nbsp;&nbsp;Drupal&nbsp; </a></li>
 							
 						</ul><!-- / .dropdown-menu Bootstrap -->
 						
@@ -94,7 +95,7 @@
 					</li> --><!-- / .dropdown Bootstrap -->
 					
 					<li <?php if ($pagename == 'contact'){ echo 'class="active"'; } ?>><a href="?pagename=contact"><i class="icon-envelope-alt icon-white"></i><!-- Font Awesome / -->&nbsp;&nbsp;Contact&nbsp; </a></li>
-					<li><a href="http://aerialapps.com/files/documents/resumes/resume_Jesse-Gangi_13-11-07.pdf" target="_blank"><i class="icon-download-alt icon-white"></i><!-- Font Awesome / -->&nbsp;&nbsp;One Sheet PDF</a></li>
+					<li><a href="http://jessegangi.com/files/documents/resumes/resume_Jesse-Gangi_13-11-07.pdf" target="_blank"><i class="icon-download-alt icon-white"></i><!-- Font Awesome / -->&nbsp;&nbsp;One Sheet PDF</a></li>
 					
 				</ul><!-- / .nav .pull-right Bootstrap -->
 				
@@ -149,7 +150,7 @@
 					</li><!-- / .dropdown -->
 						<li class="divider"></li>
 					<li><a href="?pagename=contact"><i class="icon-envelope-alt icon-white"></i>&nbsp;&nbsp;Contact&nbsp; </a></li>
-					<li><a href="http://aerialapps.com/files/documents/resumes/resume_Jesse-Gangi_13-05-09.pdf" target="_blank" title="PDF"><i class="icon-download-alt icon-white"></i>&nbsp;&nbsp;One Sheet</a></li>
+					<li><a href="http://jessegangi.com/files/documents/resumes/resume_Jesse-Gangi_13-11-07.pdf" target="_blank" title="PDF"><i class="icon-download-alt icon-white"></i>&nbsp;&nbsp;One Sheet</a></li>
 						<li class="divider"></li>
 					<li><a class="nav nav-pills nav-stacked" href="javascript:$.pageslide.close()"><i class="icon-x icon-white"></i>&nbsp;&nbsp;Close</a></li>
 				</ul><!-- / .nav .nav-pills .nav-stacked -->
