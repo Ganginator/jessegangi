@@ -58,14 +58,22 @@
 	?>
 	
 	
+	<!-- CSS -->
+	
+	
+	<!-- Vendors -->
+	
 	<!-- It is no longer necessary to use the type attribute in stylesheets, it is implied in HTML5! -->
 	<!-- AS ALWAYS, THE ORDER OF THE STACK IS IMPORTANT!!! -->
 	<link rel="stylesheet" href="css/vendor/normalize.css" />
-	<!-- CHANGE BELOW TO BootstrapCDN -->
-    <link rel="stylesheet" href="css/vendor/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/vendor/bootstrap/bootstrap-responsive.min.css" />
+	<!-- CHANGE BELOW TO BootstrapCDN > Bootstrap -->
+	<link rel="stylesheet" href="css/vendor/bootstrap/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/vendor/bootstrap/bootstrap-responsive.min.css" />
+	<!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" /> -->
 	<!-- <link rel="stylesheet" href="css/vendor/jquery/jquery.pageslide.css" /> -->
+	<!-- CHANGE BELOW TO BootstrapCDN > Font Awesome -->
 	<link rel="stylesheet" href="css/vendor/font-awesome/font-awesome.min.css" />
+	<!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" /> -->
 	<!-- PLACED carousel.css LINK IN database style home include VIA style.php -->
 	<!-- <link rel="stylesheet" href="css/carousel.css" /> -->
 	
@@ -75,6 +83,9 @@
 	?>
 	
 	<link rel="stylesheet" href="//cdn.knightlab.com/libs/timeline/latest/css/timeline.css" />
+	
+	
+	<!-- Customs -->
 	
 	<!-- <link rel="stylesheet" href="css/main.css" /> -->
 	<!-- <link rel="stylesheet" href="css/style.css" /> -->
@@ -86,6 +97,7 @@
 	<link rel="stylesheet" href="css/ganginator.css" />
 	
 	
+	<!-- / CSS -->
 	
 	
 	<!-- All JavaScript at the bottom so the pages load faster, except Modernizr for HTML5/CSS3 feature detection, and HTML5 Shiv for enabling HTML5 in IE. Technically Modernizer 1.5+ includes HTML5 Shiv. -->

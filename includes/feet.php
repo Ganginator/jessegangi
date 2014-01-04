@@ -1,13 +1,18 @@
-	<!-- Javascript: Placed at the end of the document so the pages load faster. Also, index.php contains all links for reference. -->
+	<!-- JavaScript -->
+	
+	
+	<!-- All JavaScript placed at the end of the document so the pages load faster. Also, index.php contains all links for reference. -->
 	<!-- AS ALWAYS, THE ORDER OF THE STACK IS IMPORTANT!!! -->
+	
 	
 	<!-- Libraries -->
 	
 	<!-- JQuery Version - Date 3/11/13: v1.9.1 -->
 	<!-- <script src="js/libraries/jquery/jquery-1.9.1.js"></script> -->
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<!-- CHANGE BELOW TO BootstrapCDN -->
+	<!-- CHANGED BELOW TO BootstrapCDN -->
 	<script src="js/libraries/bootstrap/bootstrap.min.js"></script>
+	<!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script> -->
 	<!-- <script src="js/carousel.js"></script> -->
 	<!-- <script src="js/libraries/jquery/jquery.pageslide.js"></script> -->
 	<script src="js/libraries/bootstrap/bootstrapx-clickover.js"></script>
@@ -19,12 +24,14 @@
 	<script src="//cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script>
 	<script src="//cdn.knightlab.com/libs/timeline/latest/js/timeline-min.js"></script>
 	
+	
 	<!-- Customs -->
 	
 	<!-- <script src="js/app.js"></script> -->
 	<!-- <script src="js/main.js"></script> -->
 	<script src="js/plugins.js"></script>
 	<script src="js/ganginator.js"></script>
+	
 	
 	<!-- INDIVIDUAL Bootstrap .js JUST FOR NOTES 
 	
@@ -42,6 +49,7 @@
 	<script src="js/bootstrap/bootstrap-carousel.js"></script>
 	<script src="js/bootstrap/bootstrap-typeahead.js"></script>
 	-->
+	
 	
 	<!-- MOVE INTO ganginator.js -->
 	<script>
@@ -68,3 +76,6 @@
 		ga('send', 'pageview');
 		
 	</script>
+	
+	
+	<!-- / JavaScript -->
