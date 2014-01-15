@@ -63,6 +63,11 @@
 						include('includes/content/contact.php');
 						break;
 						
+					case 'math':
+						echo ('<h1 class="title-page">"It\'s all about the percent."</h1>');
+						include('includes/math.php');
+						break;
+						
 					default:
 						echo ('<h1 class="title-page">Welcome!</h1>');
 						include('includes/content/home.php');

@@ -20,7 +20,16 @@
 		-->
 		
 		
-		<style>
+		<!-- 
+		Each is 3/5 of it's predecessor, or 60%. 1 x 0.6 (60%) = 0.6 0.6 x 0.6 = 0.36 0.36 x 0.6 = 0.216 7:48 PM
+		Me: 1 x 0.6 (60%) = 0.6, 0.6 x 0.6 = 0.36, 0.36 x 0.6 = 0.216 7:49 PM
+		Me: 1 x 0.6 (60%) = 0.6 7:49 PM
+		Me: 0.6 x 0.6 = 0.36 7:49 PM
+		Me: 0.36 x 0.6 = 0.216
+		-->
+		
+		
+		< style>
 		
 			#math-is-fun {
 				width: 96%;
@@ -53,7 +62,7 @@
 				text-decoration: underline;
 			}
 			
-		</style>
+		</ style>
 		
 		
 		<div id="math-is-fun">
@@ -108,6 +117,36 @@
 				
 				
 			</div><!-- / #pythagorean-theorem -->
+			
+			
+			<hr class="featurette-divider" /><!-- Bootstrap / -->
+			
+			<h2>Math Problem</h2>
+			
+			<hr class="featurette-divider" /><!-- Bootstrap / -->
+			
+			
+			<div id="math-problem-1" info="19:37 - 19:48" >
+			
+			
+				<h1>Problem:</h1>
+				
+				<h2>Find the pattern:</h2>
+				
+				<p>1, 0.6, 0.36, 0.216</p>
+				
+				<h1>Answer:</h1>
+				
+				<h2>Each is 3/5 of it's predecessor, or 60%.</h2>
+				
+				<p>1 x 0.6 (60%) = 0.6 x 0.6 = 0.36 x 0.6 = 0.216<br />
+				<br />
+				1 x 0.6 (60%) = 0.6<br />
+				0.6 x 0.6 = 0.36<br />
+				0.36 x 0.6 = 0.216</p>
+				
+				
+			</div><!-- / #math-problem-1 -->
 			
 			
 			<hr class="featurette-divider" /><!-- Bootstrap / -->
