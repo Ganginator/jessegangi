@@ -1,0 +1,286 @@
+/*** IDs +100 blue ***/
+
+
+#navbar-header-collapse {
+	/* border: 1px dashed blue; */
+}
+
+
+	/** / VERTICLE CENTERING +100 white **/
+	
+	
+	/* EMPTY */
+	
+	
+	/** / VERTICLE CENTERING **/
+
+
+/*** / IDs ***/
+
+
+/*** CLASSes +10 red ***/
+
+
+.navbar {
+	/* border: 1px dashed red; */
+}
+
+.navbar-inverse {
+	/* border: 1px dashed red; */
+}
+
+.navbar-static-top {
+	/* border: 1px dashed red; */
+}
+
+.navbar-header {
+	/* border: 1px dashed red; */
+}
+
+.navbar-toggle {
+	/* border: 1px dashed red; */
+}
+
+.sr-only {
+	/* border: 1px dashed red; */
+}
+
+.icon-bar {
+	/* border: 1px dashed red; */
+}
+
+.navbar-brand {
+	/* border: 1px dashed red; */
+}
+
+.navbar-collapse {
+	/* border: 1px dashed red; */
+}
+
+.collapse {
+	/* border: 1px dashed red; */
+}
+
+.nav {
+	/* border: 1px dashed red; */
+}
+
+.navbar-nav {
+	/* border: 1px dashed red; */
+}
+
+.active {
+	/* border: 1px dashed red; */
+}
+
+.dropdown {
+	/* border: 1px dashed red; */
+}
+
+.dropdown-toggle {
+	/* border: 1px dashed red; */
+}
+
+.caret {
+	/* border: 1px dashed red; */
+}
+
+.dropdown-menu {
+	/* border: 1px dashed red; */
+}
+
+.navbar-right {
+	/* border: 1px dashed red; */
+}
+
+/* IS THIS REALLY Bootstrap? */
+.container {
+	/* text-align: center; */
+	/* min-height: 270px; */
+	/* margin-bottom: 26px; */
+	/* margin: 30px 0 0 0; */
+	/* border: 1px dashed red; */
+}
+
+.row {
+	/* text-align: center; */
+	/* margin: 20px 0 0 0; */
+	/* margin-top: 30px; */
+	/* margin-bottom: 36px; */
+	/* margin-bottom: 20px;" */
+	/* margin-bottom: 8px; */
+	/* margin-bottom: 10px; */
+	/* margin-bottom: 26px; */
+	/* border: 1px dashed red; */
+}
+
+.btn {
+	/* border: 1px dashed red; */
+}
+
+.btn-large {
+	/* border: 1px dashed red; */
+}
+
+.btn-primary {
+	/* border: 1px dashed red; */
+}
+
+.lead {
+	/* text-align: center; */
+	/* border: 1px dashed red; */
+}
+
+.featurette-divider {
+	/* margin: 40px 0; */
+	/* border: 1px dashed red; */
+}
+
+.featurette {
+	/* border: 1px dashed red; */
+}
+
+.featurette-heading {
+	/* text-align: center; */
+	/* border: 1px dashed red; */
+}
+
+.muted {
+	/* border: 1px dashed red; */
+}
+
+.featurette-image {
+	/* border: 1px dashed red; */
+}
+
+.img-responsive {
+	/* border: 1px dashed red; */
+}
+
+.jumbotron {
+	/* border: 1px dashed red; */
+}
+
+.btn-info {
+	/* border: 1px dashed red; */
+}
+
+.btn-default {
+	/* border: 1px dashed red; */
+}
+
+.btn-xs {
+	/* border: 1px dashed red; */
+}
+
+.breadcrumb {
+	/* border: 1px dashed red; */
+}
+
+.divider {
+	/* color: black; */
+	/* border: 1px dashed red; */
+}
+
+/* IS THIS REALLY Bootstrap */
+.credit {
+	/* border: 1px dashed red; */
+}
+
+
+	/** COLUMN CLASSES +10 indigo **/
+	
+	
+	.col-* {
+		/* border: 1px dashed indigo; */
+	}
+	
+	.col-md-* {
+		/* border: 1px dashed indigo; */
+	}
+	
+	.col-md-3 {
+		/* margin-bottom: 20px; */
+		/* border: 1px dashed indigo; */
+	}
+	
+	.col-md-4 {
+		/* margin-bottom: 20px; */
+		/* border: 1px dashed indigo; */
+	}
+	
+	.col-md-5 {
+		/* border: 1px dashed indigo; */
+	}
+	
+	.col-md-6 {
+		/* border: 1px dashed indigo; */
+	}
+	
+	.col-md-7 {
+		/* border: 1px dashed indigo; */
+	}
+	
+	.col-md-12 {
+		/* margin-top: 10px; */
+		/* border: 1px dashed indigo; */
+	}
+	
+	
+	/** / COLUMN CLASSES **/
+
+
+/* VERIFIED ABOVE */
+
+
+.marketing .span4 {
+	text-align: center;
+	margin-top: 40px;
+	/* border: 1px dashed red; */
+}
+
+.marketing h2 {
+	/* font-weight: normal; ORIGINAL */
+	font-weight: bold;
+	/* border: 1px dashed red; */
+}
+
+.marketing .span4 p {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-weight: bold;
+	/* border: 1px dashed red; */
+}
+
+
+	/** HELPER CLASSES +10 orange **/
+	
+	
+	/* EMPTY */
+	
+	
+	/** / HELPER CLASSES **/
+
+
+/*** / CLASSes ***/
+
+
+/*** ELEMENTS +1 green ***/
+
+
+/* IS THIS REALLY Bootstrap? */
+button {
+	/* border: 1px dashed green; */
+}
+
+
+	/** CONTENT ELEMENTS +1 yellow **/
+	
+	
+	/* EMPTY */
+	
+	
+	/** / CONTENT ELEMENTS **/
+
+
+/*** / ELEMENTS ***/

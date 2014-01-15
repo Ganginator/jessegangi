@@ -1,0 +1,118 @@
+/*!
+ * Custom CSS for Bootstrap Carousel in jessegangi.com
+ * Copyright 2012 Jesse Gangi
+ * Built by Ganginator for jessegangi.com
+ */
+ 
+/*
+	Jesse Gangi
+	jessegangi.com
+	218 310 2447
+	jgangi @ aerialapps.com
+	@Ganginator
+*/
+
+
+/*** MEDIA QUERIES ***/
+
+
+/* INSERTED INTO style database */
+
+
+/*
+@media screen and (max-width: 699px) {
+	
+	*//* REMOVE CAROUSEL *//*
+    .mobile {
+        display: none !important;
+    }
+	
+	*//* ADD top bump FOR PAGES WITHOUT CAROUSEL *//*
+	.marketing {
+		padding-top: 90px;
+	}
+	
+}
+*/
+
+
+/*
+@media screen and (max-width: 699px) 
+{
+   /* Your Imports *//*
+   @import url('carousel.css');
+   @import url('ganginator-carousel.css');
+}
+
+
+	<link rel="stylesheet" href="css/carousel.css" />
+	<link rel="stylesheet" href="css/ganginator-carousel.css" />
+	
+	
+	<link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 900px)' href='css/medium.css' />
+	
+	<link rel='stylesheet' media='screen and (min-width: 700px)' href='css/carousel.css' />
+	<link rel='stylesheet' media='screen and (min-width: 700px)' href='css/ganginator-carousel.css' />
+*/
+
+
+/*** / MEDIA QUERIES ***/
+
+
+/*** SLIDES ***/
+
+
+#slide_1 {
+	background: url(../files/images/carousel/slide_01_Telegraph_1800x1200px.jpg);
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	/* border: 1px dashed blue; */
+}
+
+#slide_2 {
+	background: url(../files/images/carousel/slide_02_Data-Disk_1800x1200px.jpg);
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	/* border: 1px dashed blue; */
+}
+
+#slide_3 {
+	background: url(../files/images/carousel/slide_03_Careers-Bookshelf_1800x1200px.jpg);
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	/* border: 1px dashed blue; */
+}
+
+
+/*** SLIDES ***/
+
+
+/*** CAPTION FIX ***/
+
+
+/* ADD CAPTION BACKGROUND */
+.carousel-caption {
+	padding: 20px;
+	/* background-color: rgba(0,0,0,0.75); */
+	/* Fallback for Browsers that don't support RGBa */
+	background: rgb(0, 0, 0) transparent;
+	/* RGBa with 0.6 opacity */
+	background: rgba(0, 0, 0, 0.6);
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+	-webkit-border-radius: 15px;
+	   -moz-border-radius: 15px;
+	        border-radius: 15px;
+	/* border: 1px dashed blue; */
+}
+
+/*** CAPTION FIX ***/
+
