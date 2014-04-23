@@ -329,6 +329,7 @@ $('#co-wordpress').clickover({
 
 
 /* CakePHP */ 
+/* I have been using PHP since I started building web sites. I was introduced to the Model View Controller approach when learning EmberJS. Although many professionals look down on PHP, it is one of the most widely used scripting languages on the net, and by applying the MVC approach it makes this a very useful tool. */ 
 
 $('#co-cakephp').clickover({ 
 
@@ -339,12 +340,13 @@ $('#co-cakephp').clickover({
 	
 	title: '<div style="text-align: center;"><h3><a href="http://cakephp.org/">CakePHP</a></h3></div>', 
 	
-	content: '<div style="text-align: center;"><h4>MVC Framework</h4><p>I have been using PHP since I started building web sites. I was introduced to the Model View Controller approach when learning EmberJS. Although many professionals look down on PHP, it is one of the most widely used scripting languages on the net, and by applying the MVC approach it makes this a very useful tool.<br /><br /><a class="btn btn-mini" href="http://cakephp.org/">Would you like to know more?</a></p></div>', 
+	content: '<div style="text-align: center;"><h4>MVC Framework</h4><p>The rapid development PHP Framework.<br /><br /><a class="btn btn-mini" href="http://cakephp.org/">Would you like to know more?</a></p></div>', 
 	
 }); 
 
 
 /* Ruby on Rails */ 
+/* While I am very green to the whole Ruby world, I have found it to be a breath of fresh air. Relying on the Model View Controller approach, Active Record Pattern, Convention Over Configuration, and Don\'t Repeat Yourself principles, and paterns make it one of the best tools I have ever used. */ 
 
 $('#co-ruby-on-rails').clickover({ 
 
@@ -355,12 +357,13 @@ $('#co-ruby-on-rails').clickover({
 	
 	title: '<div class="bubbles"><a href="http://rubyonrails.org/" target="_blank"><h3>Ruby on Rails</h3></a></div><!-- / .bubbles -->', 
 	
-	content: '<div class="bubbles bubbles-snatch"><h4>MVC Framework</h4><p>While I am very green to the whole Ruby world, I have found it to be a breath of fresh air. Relying on the Model View Controller approach, Active Record Pattern, Convention Over Configuration, and Don\'t Repeat Yourself principles, and paterns make it one of the best tools I have ever used.</p><button type="button" class="btn btn-primary btn-xs btn-block" onclick="window.open(\'http://rubyonrails.org/\', \'_blank\')">&nbsp;Would you like to know more?&nbsp;</button></div><!-- / .bubbles --><br />', 
+	content: '<div class="bubbles bubbles-snatch"><h4>MVC Framework</h4><p>Web Development that doesn\'t hurt.</p><button type="button" class="btn btn-primary btn-xs btn-block" onclick="window.open(\'http://rubyonrails.org/\', \'_blank\')">&nbsp;Would you like to know more?&nbsp;</button></div><!-- / .bubbles --><br />', 
 	
 }); 
 
 
 /* AngularJS */ 
+/* Everyone who knows me knows I <3 Google. And what is better than the great Google giving us a MVC JavaScript Framework Library that beefs up your code with custom tag attributes that bind to models via standard variables. Simple, and elegant. */ 
 
 $('#co-angularjs').clickover({ 
 
@@ -371,12 +374,13 @@ $('#co-angularjs').clickover({
 	
 	title: '<div class="bubbles"><a href="https://angularjs.org/" target="_blank"><h3>AngularJS</h3></a></div><!-- / .bubbles -->', 
 	
-	content: '<div class="bubbles bubbles-snatch"><h4>MVC Framework</h4><p>Everyone who knows me knows I <3 Google. And what is better than the great Google giving us a MVC JavaScript Framework Library that beefs up your code with custom tag attributes that bind to models via standard variables. Simple, and elegant.</p><button type="button" class="btn btn-primary btn-xs btn-block" onclick="window.open(\'https://angularjs.org/\', \'_blank\')">&nbsp;Would you like to know more?&nbsp;</button></div><!-- / .bubbles --><br />', 
+	content: '<div class="bubbles bubbles-snatch"><h4>MVC Framework</h4><p>HTML enhanced for web apps!</p><button type="button" class="btn btn-primary btn-xs btn-block" onclick="window.open(\'https://angularjs.org/\', \'_blank\')">&nbsp;Would you like to know more?&nbsp;</button></div><!-- / .bubbles --><br />', 
 	
 }); 
 
 
 /* Node.js */ 
+/* Excuse me? Did you say a server side asynchronous scalable web server running applications in written in JavaScript, and bypassing the need for Apache entirely? Oh my. I can\'t wait to play. */ 
 
 $('#co-nodejs').clickover({ 
 
@@ -387,7 +391,7 @@ $('#co-nodejs').clickover({
 	
 	title: '<div class="bubbles"><a href="http://nodejs.org/" target="_blank"><h3>Node.js</h3></a></div><!-- / .bubbles -->', 
 	
-	content: '<div class="bubbles bubbles-snatch"><h4>Software Platform</h4><p>Excuse me? Did you say a server side asynchronous scalable web server running applications in written in JavaScript, and bypassing the need for Apache entirely? Oh my. I can\'t wait to play.</p><button type="button" class="btn btn-primary btn-xs btn-block" onclick="window.open(\'http://nodejs.org/\', \'_blank\')">&nbsp;Would you like to know more?&nbsp;</button></div><!-- / .bubbles --><br />', 
+	content: '<div class="bubbles bubbles-snatch"><h4>Software Platform</h4><p>A platform built on Chrome\'s JavaScript runtime for easily building fast, scalable network applications.</p><button type="button" class="btn btn-primary btn-xs btn-block" onclick="window.open(\'http://nodejs.org/\', \'_blank\')">&nbsp;Would you like to know more?&nbsp;</button></div><!-- / .bubbles --><br />', 
 	
 }); 
 
