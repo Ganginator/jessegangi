@@ -1,0 +1,20 @@
+/*!
+ * Custom CSS for jQuery Pageslide in jessegangi.com
+ * Copyright 2012 Jesse Gangi
+ * Built by Ganginator for jessegangi.com
+ */
+ 
+/*
+	Jesse Gangi
+	jessegangi.com
+	218 310 2447
+	jgangi @ aerialapps.com
+	@Ganginator
+*/
+
+
+#modal ul li {
+	width: 100%;
+	/* border: 1px dashed blue; */
+}
+

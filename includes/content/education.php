@@ -13,9 +13,9 @@
 		<div id="aih1tb">
 		
 		
-			<!-- <h1>Education</h1> -->
+			<h1>Education</h1>
 			
-			<img src="files/images/words/black/word_Black_Education.png" width="" height="" alt="Education" title="" border="0" />
+			<!-- <img src="files/images/words/black/word_Black_Education.png" width="" height="" alt="Education" title="" border="0" /> -->
 			
 			
 		</div><!-- / aih1tb -->
@@ -24,7 +24,7 @@
 		<div id="blurb">
 		
 		
-			<p>Here I list my Education, and schools I attended. Soon I will add the online courses I've taken.</p>
+			<p>Here I list what I am learning currently, where I went to school, and what courses I took on, and off, throughout my professional experience. Soon I will add the specific courses, and online courses I've taken.</p>
 			
 			
 		</div><!-- / #blurb -->
@@ -54,10 +54,9 @@
 		<div class="col-md-4"><!-- 1.2 -->
 		
 		
-			<h3><a href="http://www.uwsuper.edu" target="_blank">University of<br />
-			Wisconsin - Superior</a></h3>
+			<h3><a href="http://www.uwsuper.edu" target="_blank">University of Wisconsin - Superior</a></h3>
 			
-			<p><strong>I'm currently changing my major to Computer Science with a Programming Track, and a Video Production, and Spanish Minor.</strong></p>
+			<p>I'm currently changing my major to Computer Science with a Programming Track, and continuing Video Production, and Spanish as Minors.</p>
 			
 			
 		</div><!-- / .col-md-4 1.2 -->
@@ -66,25 +65,26 @@
 		<div class="col-md-4"><!-- 1.3 -->
 		
 		
-			<p>Sept. '06 - Current</p>
+			<p>September 2006 to 'Current'</p>
 			
 			<p><a href="tel:7153948101">(715) 394-8101</a><br />
-			Belknap &amp; Catlin<br />
+			<a href="https://maps.google.com/maps?q=Belknap+%26+Catlin+Superior,+WI+54880&hl=en&sll=46.720093,-92.079163&sspn=0.038071,0.084543&t=h&hnear=Belknap+St+%26+Catlin+Ave,+Superior,+Douglas,+Wisconsin+54880&z=16" target="_blank">Belknap &amp; Catlin<br />
 			P.O. Box 2000<br />
-			Superior, WI 54880<br />
+			Superior, WI 54880</a><br />
 			<a href="http://www.uwsuper.edu" target="_blank">UWSuper.Edu</a></p>
 			
 			
 		</div><!-- / .col-md-4 1.3 -->
 		
 		
-		<div class="col-md-12"><!-- 1.4 -->
+		<div class="col-md-12 margin-top"><!-- 1.4 -->
 		
 		
-			<p>Studied Video Production, Digital Media Design / Development, and Spanish. I was also involved in University Relations, and The Stinger.</p>
+			<p>Studied: Generals, Video Production, Direction, Digital Media Development / Design, Web Development / Design, and Spanish.<br />
+			Activities: University Relations, and The Stinger.</p>
 			
 			
-		</div><!-- / .col-md-12 1.4 -->
+		</div><!-- / .col-md-12 .margin-top 1.4 -->
 		
 		
 	</div><!-- / .row 1 -->
@@ -105,10 +105,9 @@
 		<div class="col-md-4"><!-- 2.2 -->
 		
 		
-			<h3><a href="http://www.hermantown.k12.mn.us/high" target="_blank">Hermantown<br />
-			High School</a></h3>
+			<h3><a href="http://www.hermantown.k12.mn.us/high" target="_blank">Hermantown High School</a></h3>
 			
-			<p><strong>High School Diploma</strong></p>
+			<p>High School Diploma</p>
 			
 			
 		</div><!-- / .col-md-4 2.2 -->
@@ -117,24 +116,25 @@
 		<div class="col-md-4"><!-- 2.3 -->
 		
 		
-			<p>Sept. '93 - May. '97</p>
+			<p>September 1993 to May 1997</p>
 			
 			<p><a href="tel:2187298874">(218) 729-8874</a><br />
-			4335 Hawk Circle Drive<br />
-			Hermantown, MN  55811<br />
+			<a href="https://maps.google.com/maps?q=4335+Hawk+Circle+Drive+Hermantown,+MN++55811&hl=en&sll=46.720592,-92.087526&sspn=0.009518,0.021136&t=h&hnear=4335+Hawk+Cir+Dr,+Hermantown,+Minnesota+55811&z=16" target="_blank">4335 Hawk Circle Drive<br />
+			Hermantown, MN  55811</a><br />
 			<a href="http://www.hermantown.k12.mn.us/high" target="_blank">Hermantown.K12.MN.US/High</a></p>
 			
 			
 		</div><!-- / .col-md-4 2.3 -->
 		
 		
-		<div class="col-md-12"><!-- 2.4 -->
+		<div class="col-md-12 margin-top"><!-- 2.4 -->
 		
 		
-			<p>I studied music, and video production as well. I was also involved in the Spanish Club, Chess Club, and Debate Team </p>
+			<p>Studied: Generals, Math, Music, Video Production, and Spanish.<br />
+			Activities: Debate Team, Chess Club, and Spanish Club</p>
 			
 			
-		</div><!-- / .col-md-12 2.4 -->
+		</div><!-- / .col-md-12 .margin-top 2.4 -->
 		
 		
 	</div><!-- / .row 2 -->

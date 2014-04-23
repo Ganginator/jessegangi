@@ -1,55 +1,67 @@
-Jesse Gangi's Online Resume
+/*! ROOT/README.md  */
+
+
+Jesse Gangi's Online Resume | &hearts;
 ==========
 
 
-<h1>This is my Online Resume.</h1>
+HELLO WORLD:
 
-<h2>I am currently developing this live.</h2>
+This is my Online Resume.
 
-&hearts;
+I am continuously developing this live.
 
+Check back easily by bookmarking this in your favorite browser!
 
-***
-
-
-<h3>STAMP:<br />
-<br />
-<strong>LIFE 8/11/12 to 1/4/14</strong></h3>
-
-<p><strong>Jesse Gangi | jessegangi .com | 218 310 2447 | jgangi @ aerialapps .com | @ Ganginator<strong></p>
+Use a shortcut: Ctrl+D, Cmd+D
 
 
 ***
 
 
-<h4>Ganginator's Notes:</h4>
+STAMP:
 
-<h5>The old repository became corrupted on 6/18/13.<br />
-Cloned this from master.<br />
-Marked other repository as "CORRUPTED" and saved it for the history.</h5>
+LIFE 8/11/12 to 4/22/14
 
-<p><strong>Check back easily by bookmarking this in your favorite browser!</strong></p>
+Jesse Gangi | jessegangi .com | 218 310 2447 | jgangi@aerialapps.com | @Ganginator
 
-<h5>Use a shortcut: Ctrl+D, Cmd+D</h5>
 
-<p>This is an mix of HTML5 Boilerplate http://html5boilerplate.com/, Bootstrap  http://getbootstrap.com/, and Font Awesome http://fontawesome.io/, and my own code, including many references.<br />
-<br />
-I'm using it for my Online Resume, my business Aerial Applications, Templating, and Examples.<br />
-<br />
-I'm Still Modifying for personal use, and will remove unnecessary stuff as I go.<br />
-<br />
-I'm Still considering minifying everything when finished.<br />
-<br />
-Contact me if you are interested in hiring me, or with any errors, suggestions, or help.<br />
-<br />
-I also add some unnecessary DIVs, ID's, and Styles for referencing.<br />
-<br />
-So don't be too surprised. ;-)</p>
+***
 
 
 NOTES:
 
+The old repository became corrupted on 6/18/13.
+Cloned this from master.
+Marked other repository as "CORRUPTED" and saved it for the history.
+
+This is an mix of 
+HTML5 Boilerplate: http://html5boilerplate.com/, 
+Bootstrap: http://getbootstrap.com/, and 
+Font Awesome: http://fontawesome.io/, 
+and my own code, including many references.
+
+I'm using it for my Online Resume, my business Aerial Applications, Templating, and Examples.
+
+I'm Still Modifying for personal use, and will remove unnecessary stuff as I go.
+
+I'm Still considering minifying everything when finished.
+
+Contact me if you are interested in hiring me, or with any errors, suggestions, or help.
+
+HTML5 does not require you to wrap your attributes in quotes, and you do not have to close your elements. I, however, prefer the XHTML Structured Semantic approach even though it can seem redundant.
+
+I do not indent the body, use it as a wrapper, or indent any wrappers.
+
+It is no longer necessary to use the type attribute in stylesheets, it is implied in HTML5!
+
+AS ALWAYS, THE ORDER OF THE STACK IS IMPORTANT!!!
+
 EMPTY fields are for referencing what elements the code contains, whether or not I am applying a style.
+
+I also add some unnecessary DIVs, ID's, and Styles for referencing.
+
+So don't be too surprised. ;-)
 
 IN DATABASE SITES, THE #page CONTENT AREA'S width, THE #page GLOBALS, AND THE content ARE DESIGNATED BY A DYNAMIC ?page=/?pagename= QUERY REFERENCING style, layout, AND content TABLES.
 
@@ -58,29 +70,56 @@ IN TEMPLATE SITES, WITHOUT A DATABASE, THE #page CONTENT IS FETCHED WITH $_GET B
 CONSIDER CHANGING TO em's OR rem's
 http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw
 100% = 1 em ~= 16px ~= 14pt
-*/
+
+css.php contains all CSS links for reference.
+
+Javascript is placed at the end of the document so the pages load faster.
+js.php contains all JavaScript links for reference.
 
 
 ***
 
 
-<h4>Information:</h4>
-
-
-<h5>HTML5 does not require you to wrap your attributes in quotes, and you do not have to close your elements. I, however, prefer the XHTML Structured Semantic approach even though it can seem redundant.</h5>
+INFORMATION:
 
 
 CONFIGURATION:
 
-TIE FIGHTER - Custom DOG PHP Templates
+LAP Stack | Databaseless | DOG Templates | TIE Fighter Style Guide
 
-I do not indent the body, use it as a wrapper, or indent any wrappers.</h5>
+	LAP Stack
+		Linux (CentOS), Apache, and PHP.
+	Databaseless
+		This site is 'Databaseless', and proud of it.
+	DOG Templates
+		Custom 'Don't Overthink Grids' Templates.
+	TIE Fighter Style Guide
+		Hard Tab, Indented Format, Double Spaced, for Readability over everything.
 
 
-<p><strong>LEFTOVERS WILL BE REMOVED!</strong></p>
+CODE:
+
+	HTML5
+		Hypertext Markup Language 5
+	CSS3
+		Cascading Style Sheets 3
+	JavaScript
+		Object Oriented Scripting
+	PHP
+		Hypertext Pre-processor
 
 
-CSS IS ORDERED BY THE BELOW CSS SPECIFICITY, AND THEN BY APPEARANCE.
+FRAMEWORKS:
+
+	HTML5 Boilerplate
+		
+	Bootstrap
+		
+	Font Awesome.
+		
+
+
+CSS IS ORDERED BY THE BELOW CSS SPECIFICITY, AND THEN BY APPEARANCE, EXCEPT CONTENT ELEMENTS, THEY ARE ALWAYS LAST, AND GROUPED.
 
 CSS Specificity:
 
@@ -104,24 +143,36 @@ CSS Definitions:
 	Class = Multiple.
 		e.g. There are many people in a class.
 		
-	Padding = Defines the space inside the element between the content, and the element's border.
+	Padding = Inside.
+		Defines the space inside the element between the content, and the element's border.
 	
-	Margin = Defines the space outside the element between the element's border, and other elements.
+	Margin = Outside.
+		Defines the space outside the element between the element's border, and other elements.
 
 
 ***
 
 
+HAVE MORE FUN!
+
 "It's always the padding..." - Ganginator
+"Added scripts, for added awesomeness." - Ganginator
+"IMHO, if you support IE 6, you are the reason we cannot have nice things." - Ganginator
+"Tactically, it's better to be small than big, but what do I know." - Ganginator
+"Stay cool." - Ganginator
 
+More ideas for your 'head': http://h5bp.com/d/head-Tips
 
-<p>More ideas for your 'head':<br />
-http://h5bp.com/d/head-Tips<br />
-<br />
-
-Have more fun!<br />
 http://en.wikipedia.org/wiki/Musikalisches_W%C3%BCrfelspiel</p>
 http://en.wikipedia.org/wiki/Euler's_identity
 
 
-/ == END
+***
+
+
+LEFTOVERS WILL BE REMOVED!
+
+
+TL;DR
+|-o-|
+/ END

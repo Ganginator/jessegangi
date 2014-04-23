@@ -13,9 +13,9 @@
 		<div id="aih1tb">
 		
 		
-			<!-- <h1>Frameworks</h1> -->
+			<h1>Frameworks</h1>
 			
-			<img src="files/images/words/black/word_Black_Frameworks.png" width="" height="" alt="Frameworks" title="" border="0" />
+			<!-- <img src="files/images/words/black/word_Black_Frameworks.png" width="" height="" alt="Frameworks" title="" border="0" /> -->
 			
 			
 		</div><!-- / aih1tb -->
@@ -24,7 +24,7 @@
 		<div id="blurb">
 		
 		
-			<p>Here you will find some of the frameworks I use.</p>
+			<p>Here you will find some of the frameworks I use. I will continue to add more. Check back soon for updates!</p>
 			
 			
 		</div><!-- / #blurb -->
@@ -75,10 +75,10 @@
 		<div class="col-md-3"><!-- 1.3 -->
 		
 		
-			<div id="boilerplate">
+			<div id="html5-boilerplate">
 			
 			
-				<a href="#" id="co-boilerplate" rel="clickover" class=""><img src="files/images/logos/logo_Boilerplate_144x144px.png" class="" width="" height="" alt="" title="" border="0" /></a>
+				<a href="#" id="co-html5-boilerplate" rel="clickover" class=""><img src="files/images/logos/logo_Boilerplate_144x144px.png" class="" width="" height="" alt="" title="" border="0" /></a>
 				
 				
 			</div><!-- / #boilerplate -->

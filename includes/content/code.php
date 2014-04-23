@@ -13,9 +13,9 @@
 		<div id="aih1tb">
 		
 		
-			<!-- <h1>Code</h1> -->
+			<h1>Code</h1>
 			
-			<img src="files/images/words/black/word_Black_Code.png" width="" height="" alt="Code" title="" border="0" />
+			<!-- <img src="files/images/words/black/word_Black_Code.png" width="" height="" alt="Code" title="" border="0" /> -->
 			
 			
 		</div><!-- / aih1tb -->
@@ -24,7 +24,7 @@
 		<div id="blurb">
 		
 		
-			<p>Here you will find some of the code I use.</p>
+			<p>Here you will find some of the code I use. I will continue to add more. Check back soon for updates!</p>
 			
 			
 		</div><!-- / #blurb -->
