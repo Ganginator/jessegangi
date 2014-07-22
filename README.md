@@ -2,7 +2,7 @@
 
 
 Jesse Gangi's Online Resume
-==========
+======================
 
 
 HELLO WORLD:
@@ -24,24 +24,31 @@ STAMP / HEADER:
 
 
 Title:
+
 Jesse Gangi's Online Resume
 
 Description/Subject:
+
 This is my Online Resume.
 
 Keywords:
+
 Jesse Gangi, Jesse, Gangi, Aerial Applications, Aerial, Applications, Duluth, Minnesota, MN, Superior, Wisconsin, WI, Twin Ports, Twin, Ports, Northland, Upper Mid-west, Upper, Mid-west, Mid, West, HTML5 Boilerplate, HTML5, Boilerplate, Twitter Bootstrap, Twitter, Bootstrap, Font Awesome, Font, Awesome, JQuery, TimelineJS, HTML, CSS, CSS3, Sass, SCSS, JS, JavaScript, PHP
 
 Author/Creator:
+
 Ganginator | Jesse Gangi | jessegangi.com | 2183102447 | jgangi@aerialapps.com | @Ganginator
 
 Copyright:
+
 Copyright 2012 to 2014 Jesse Gangi. All Rights Reserved.
 
 Link:
+
 //jessegangi.com/
 
 Life:
+
 8/11/12 to Current
 
 
@@ -49,6 +56,7 @@ Life:
 
 
 /* ADD - REQUIRES RESEARCH */
+
 TIMES:
 
 
@@ -66,6 +74,7 @@ I cloned this from the master branch.
 I marked other repository as 'CORRUPTED', and saved it for the history.
 
 This is an mix of:
+
 HTML5 Boilerplate: //html5boilerplate.com/,
 Bootstrap: //getbootstrap.com/,
 Font Awesome: //fontawesome.io/,
@@ -90,7 +99,7 @@ HTML5 does not require you to wrap your attributes in quotes, and you do not hav
 
 DON'T FORGET TO CHANGE the lang attribute in '&lt;html class="no-js" lang="en"&gt;' IF YOUR LANGUAGE IS NOT English!
 
-VERIFY profile: '&lt;head profile="http://www.w3.org/2005/10/profile"&gt'
+VERIFY profile: '&lt;head profile='http://www.w3.org/2005/10/profile'&gt'
 
 I do not indent the body, use it as a wrapper, or indent any wrappers.
 
@@ -139,7 +148,8 @@ Also, I added an image preloader.
 ***
 
 
-* INFORMATION *
+INFORMATION
+===========
 
 
 CSS Definitions:
@@ -179,6 +189,7 @@ Word Equations:
 
 
 HAVE MORE FUN!
+==============
 
 
 QUOTES:
@@ -197,19 +208,32 @@ Hey, I just met you, and this is crazy, but here's my number, so call me, maybe?
 LINKS:
 
 
-More ideas for your 'head': http://h5bp.com/d/head-Tips
+More ideas for your 'head':
+
+http://h5bp.com/d/head-Tips
 
 http://en.wikipedia.org/wiki/Musikalisches_W%C3%BCrfelspiel
+
 http://en.wikipedia.org/wiki/Euler's_identity
 
 
 NOTES:
 
 
-Flurry Regions: Aftica, Asia, Central America, Europe, Middle East, North America, Oceania, South America
-Standard Continents: Africa, Antarctica, Asia, Australia, Europe, North America, South America
-Super-class Continents: Afro-Eurasia, America, Eurasia, Oceania
+Flurry Regions:
 
+Aftica, Asia, Central America, Europe, Middle East, North America, Oceania, South America
+
+Standard Continents:
+
+Africa, Antarctica, Asia, Australia, Europe, North America, South America
+
+Super-class Continents:
+
+Afro-Eurasia, America, Eurasia, Oceania
+
+
+Common Tag List:
 
 Refactored, Designed, Redesigned, Developed, Created, Curated, Hosted, HTML5, CSS3, PHP, JavaScript, Font Awesome, Drupal
 
@@ -221,9 +245,13 @@ LEFTOVERS WILL BE REMOVED!
 
 
 &hearts;
+
 TL;DR
+
 |-o-|
+
 EOD
+
 / END
 
 
