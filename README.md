@@ -113,7 +113,6 @@ IN DATABASELESS SITES, THE #page CONTENT IS FETCHED WITH $_GET BASED ON ?page=, 
 
 CONSIDER CHANGING TO em's OR rem's  
 http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw  
-100% = 1 em ~= 16px ~= 14pt
 
 css.php contains all CSS links for reference.
 
@@ -163,6 +162,7 @@ Defines the space outside the element between the element's border, and other el
 
 ### Quick CSS px to em Conversions:
 
+100% = 1 em ~= 16px ~= 14pt
 40px / 16 = 2.5em
 16 * 0.0625em = 1px
 22px = 16 * em
@@ -174,38 +174,6 @@ em = px / 16
 ### Word Equations:
 
 [ ( NEW - OLD ) / OLD ] * 100 = DIFFERENCE%
-
-
-
-***
-
-
-Have more fun!
-
-
-## QUOTES:
-
-
-"It's always the padding..." - Ganginator  
-"Added scripts, for added awesomeness." - Ganginator  
-"IMHO, if you support IE 6, you are the reason we cannot have nice things." - Ganginator  
-"Tactically, it's better to be small than big." - Ganginator  
-"... but what do I know." - Ganginator  
-"Stay cool." - Ganginator  
-
-Hey, I just met you, and this is crazy, but here's my number, so call me, maybe?
-
-
-## LINKS:
-
-
-### More ideas for your 'head':
-http://h5bp.com/d/head-Tips  
-http://en.wikipedia.org/wiki/Musikalisches_W%C3%BCrfelspiel  
-http://en.wikipedia.org/wiki/Euler's_identity  
-
-
-## NOTES:
 
 
 #### Flurry Regions:
@@ -224,7 +192,35 @@ Refactored, Designed, Redesigned, Developed, Created, Curated, Hosted, HTML5, CS
 ***
 
 
-LEFTOVERS WILL BE REMOVED!
+## QUOTES:
+
+
+Have more fun!
+
+
+"It's always the padding..." - Ganginator  
+"Added scripts, for added awesomeness." - Ganginator  
+"IMHO, if you support IE 6, you are the reason we cannot have nice things." - Ganginator  
+"Tactically, it's better to be small than big." - Ganginator  
+"... but what do I know." - Ganginator  
+"Stay cool." - Ganginator  
+
+Hey, I just met you, and this is crazy, but here's my number, so call me, maybe?
+
+
+***
+
+
+## LINKS:
+
+
+### More ideas for your 'head':
+http://h5bp.com/d/head-Tips  
+http://en.wikipedia.org/wiki/Musikalisches_W%C3%BCrfelspiel  
+http://en.wikipedia.org/wiki/Euler's_identity  
+
+
+***
 
 
 &hearts;  
