@@ -48,11 +48,10 @@ Copyright 2012 to 2014 Jesse Gangi. All Rights Reserved.
 ***
 
 
-/* ADD - TESTING - REQUIRES RESEARCH */
-
 ## TIMES:
 
 
+/* ADD - TESTING - REQUIRES RESEARCH */
 EMPTY
 
 
@@ -78,7 +77,7 @@ Contact me if you are interested in hiring me, with any errors, suggestions, or 
 
 ### This is an mix of:
 
-HTML5 Boilerplate: [//html5boilerplate.com/](http://html5boilerplate.com/)
+HTML5 Boilerplate: <a href="http://html5boilerplate.com/" target="_blank">//html5boilerplate.com/</a>
 Bootstrap: http://getbootstrap.com/
 Font Awesome: http://fontawesome.io/
 TimelineJS: http://timeline.knightlab.com/
