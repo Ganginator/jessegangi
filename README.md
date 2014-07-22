@@ -145,16 +145,16 @@ Also, I added an image preloader.
 ### CSS Definitions:
 
 
-#### ID = Singular.
+#### ID = Singular
 e.g. A person's Identification (ID) is unique to one person.
 
-#### Class = Multiple.
+#### Class = Multiple
 e.g. There are many people in a class.
 
-#### Padding = Inside.
+#### Padding = Inside
 Defines the space inside the element between the content, and the element's border.
 
-#### Margin = Outside.
+#### Margin = Outside
 Defines the space outside the element between the element's border, and other elements.
 
 
@@ -176,7 +176,7 @@ em = px / 16
 
 ***
 
-
+  
 #### HAVE MORE FUN!
 
 
@@ -220,7 +220,7 @@ Refactored, Designed, Redesigned, Developed, Created, Curated, Hosted, HTML5, CS
 
 ***
 
-
+  
 LEFTOVERS WILL BE REMOVED!
 
 
