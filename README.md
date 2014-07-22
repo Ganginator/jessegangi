@@ -30,13 +30,13 @@ This is my Online Resume.
 Jesse Gangi, Jesse, Gangi, Aerial Applications, Aerial, Applications, Duluth, Minnesota, MN, Superior, Wisconsin, WI, Twin Ports, Twin, Ports, Northland, Upper Mid-west, Upper, Mid-west, Mid, West, HTML5 Boilerplate, HTML5, Boilerplate, Twitter Bootstrap, Twitter, Bootstrap, Font Awesome, Font, Awesome, JQuery, TimelineJS, HTML, CSS, CSS3, Sass, SCSS, JS, JavaScript, PHP
 
 ### Author/Creator:
-Ganginator | Jesse Gangi | jessegangi.com | 2183102447 | jgangi@aerialapps.com | @Ganginator
+Ganginator | Jesse Gangi | [//jessegangi.com/](http://jessegangi.com) | [&lang;218&rang; 310-2447](2183102447) | jgangi@aerialapps.com | [@Ganginator](@Ganginator)
 
 ### Copyright:
 Copyright 2012 to 2014 Jesse Gangi. All Rights Reserved.
 
 ### Link:
-//jessegangi.com/
+[//jessegangi.com/](http://jessegangi.com)
 
 ### Life:
 8/11/12 to Current
@@ -90,7 +90,7 @@ HTML5 does not require you to wrap your attributes in quotes, and you do not hav
 
 DON'T FORGET TO CHANGE the lang attribute in '&lt;html class="no-js" lang="en"&gt;' IF YOUR LANGUAGE IS NOT English!
 
-VERIFY profile: &lt;head profile="http://www.w3.org/2005/10/profile"&gt;
+VERIFY profile: &lt;head profile="<a href="http://www.w3.org/2005/10/profile/" target="_blank">http://www.w3.org/2005/10/profile/</a>"&gt;
 
 I do not indent the body, use it as a wrapper, or indent any wrappers.
 
@@ -108,8 +108,8 @@ IN DATABASE SITES, THE #page CONTENT AREA'S width, THE #page GLOBALS, AND THE co
 
 IN DATABASELESS SITES, THE #page CONTENT IS FETCHED WITH $_GET BASED ON ?page=, AND THE RESPECTIVE FILES ARE LOCATED IN ~includes/content; WHILE THE LAYOUT IS DETERMINED BY THE RESPECTIVE FILES LOCATED IN ~includes.
 
-CONSIDER CHANGING TO em's OR rem's
-http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw
+CONSIDER CHANGING TO em's OR rem's  
+<a href="http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw" target="_blank">http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw</a>  
 100% = 1 em ~= 16px ~= 14pt
 
 css.php contains all CSS links for reference.
