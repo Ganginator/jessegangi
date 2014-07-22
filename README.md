@@ -162,12 +162,12 @@ Defines the space outside the element between the element's border, and other el
 
 ### Quick CSS px to em Conversions:
 
-100% = 1 em ~= 16px ~= 14pt
-40px / 16 = 2.5em
-16 * 0.0625em = 1px
-22px = 16 * em
-22px / 16 = em
-px / 16 = em
+100% = 1 em ~= 16px ~= 14pt  
+40px / 16 = 2.5em  
+16 * 0.0625em = 1px  
+22px = 16 * em  
+22px / 16 = em  
+px / 16 = em  
 em = px / 16
 
 
