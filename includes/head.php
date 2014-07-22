@@ -1,7 +1,7 @@
 	<!-- META -->
 	
 	
-	<meta charset="utf-8" /><!-- HTML5 Encoding / -->
+	<meta charset="utf-8" />
 	
 	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -23,7 +23,7 @@
 	
 	<!-- Dublin Core Metadata: http://dublincore.org/ -->
 	<!-- Project Name -->
-	<meta name="DC.title" content="Jesse Gangi's Online Resume" /><!-- Project Name -->
+	<meta name="DC.title" content="Jesse Gangi's Online Resume" />
 	<!-- What you're about. -->
 	<meta name="DC.subject" content="This is Jesse Gangi's Online Resume." />
 	<!-- Who made this site. -->
@@ -36,16 +36,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	
 	
-	<!-- / META -->	
-	
-	
-	<!-- DATABASE -->
-	
-	
-	<!-- < ?php include("database.php") ?> -->
-	
-	
-	<!-- / DATABASE -->
+	<!-- / META -->
 	
 	
 	<!-- CSS -->
@@ -61,22 +52,19 @@
 	<!-- JAVASCRIPT -->
 	
 	
-	<!-- All JavaScript at the bottom so the pages load faster, except Modernizr for HTML5/CSS3 feature detection, and HTML5 Shiv for enabling HTML5 in IE. Technically Modernizer 1.5+ includes HTML5 Shiv. -->
-	<!-- Modernizr 2 (re)introduced modular builds. After testing create a customized build (using only the tests you need) for a production-ready, minified, and compressed version. -->
-	<!-- It is no longer necessary to use the type attribute in scripts, it is implied in HTML5! -->
-	
 	<script src="http://modernizr.com/downloads/modernizr-latest.js"></script>
 	
 	<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<!-- IS THIS REALLY DIFFERENT? ...shiv VS ...shim -->
+	
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
@@ -88,9 +76,6 @@
 	
 	<!-- ICONS -->
 	
-	
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory
-	mathiasbynens.be/notes/touch-icons -->
 	
 	<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144-precomposed.png" sizes="144x144" />
 	<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114-precomposed.png" sizes="114x114" />
@@ -105,4 +90,6 @@
 	
 	
 	<!-- / ICONS -->
+	
+	
 	
