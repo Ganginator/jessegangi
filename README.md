@@ -8,13 +8,10 @@ Jesse Gangi's Online Resume
 ## HELLO WORLD:
 
 
-This is my Online Resume.
-
-I am continuously developing this live.
-
-Check back easily by bookmarking this in your favorite browser!
-
-Use a shortcut: Ctrl+D, Cmd+D
+This is my Online Resume.  
+I am continuously developing this live.  
+Check back easily by bookmarking this in your favorite browser!  
+Use a shortcut: Ctrl+D, Cmd+D  
 
 
 ***
@@ -51,7 +48,7 @@ Copyright 2012 to 2014 Jesse Gangi. All Rights Reserved.
 ## TIMES:
 
 
-/* ADD - TESTING - REQUIRES RESEARCH */
+/* ADD - TESTING - REQUIRES RESEARCH */  
 EMPTY
 
 
@@ -61,9 +58,9 @@ EMPTY
 ## NOTES:
 
 
-The old repository became corrupted on 6/18/13.
-I cloned this from the master branch.
-I marked other repository as 'CORRUPTED', and saved it for the history.
+The old repository became corrupted on 6/18/13.  
+I cloned this from the master branch.  
+I marked other repository as 'CORRUPTED', and saved it for the history.  
 
 I'm using it for my Online Resume, my business Aerial Applications, Templating, and Examples.
 
@@ -78,10 +75,10 @@ Contact me if you are interested in hiring me, with any errors, suggestions, or 
 ### This is an mix of:
 
 HTML5 Boilerplate: <a href="http://html5boilerplate.com/" target="_blank">//html5boilerplate.com/</a>  
-Bootstrap: http://getbootstrap.com/
-Font Awesome: http://fontawesome.io/
-TimelineJS: http://timeline.knightlab.com/
-Bootstrapx Clickover: https://github.com/lecar-red/bootstrapx-clickover/
+Bootstrap: <a href="http://getbootstrap.com/" target="_blank">//getbootstrap.com/</a>  
+Font Awesome: <a href="http://fontawesome.io/" target="_blank">//fontawesome.io/</a>  
+TimelineJS: <a href="http://timeline.knightlab.com/" target="_blank">//timeline.knightlab.com/</a>  
+Bootstrapx Clickover: <a href="https://github.com/lecar-red/bootstrapx-clickover/" target="_blank">//github.com/lecar-red/bootstrapx-clickover/</a>  
 
 And my own code, including many references.
 
@@ -93,7 +90,7 @@ HTML5 does not require you to wrap your attributes in quotes, and you do not hav
 
 DON'T FORGET TO CHANGE the lang attribute in '&lt;html class="no-js" lang="en"&gt;' IF YOUR LANGUAGE IS NOT English!
 
-VERIFY profile: '&lt;head profile="http://www.w3.org/2005/10/profile"&gt;'
+VERIFY profile: &lt;head profile="http://www.w3.org/2005/10/profile"&gt;
 
 I do not indent the body, use it as a wrapper, or indent any wrappers.
 
@@ -117,20 +114,20 @@ http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw
 
 css.php contains all CSS links for reference.
 
-All JavaScript is inserted at the bottom, in #feet, so the pages load faster, except Modernizr for HTML5/CSS3 feature detection, and HTML5 Shiv for enabling HTML5 in IE. Technically Modernizer 1.5+ includes HTML5 Shiv.
+All JavaScript is inserted at the bottom, in #feet, so the pages load faster, except Modernizr for HTML5/CSS3 feature detection, and HTML5 Shiv for enabling HTML5 in IE. Technically Modernizer 1.5+ includes HTML5 Shiv.  
 Modernizr 2 (re)introduced modular builds. After testing create a customized build (using only the tests you need) for a production-ready, minified, and compressed version.
 
-HTML5 Shiv, and Respond.js for IE8 support of HTML5 elements, and media queries.
+HTML5 Shiv, and Respond.js for IE8 support of HTML5 elements, and media queries.  
 WARNING: Respond.js doesn't work if you view the page via file://
 
 VERIFY NECESSITY OF ALL SHIMS!
 
-Apple Touch Icons have relative support for Android.
+Apple Touch Icons have relative support for Android.  
 Precomposed = No Gloss
 
-DO I HAVE TO Place Apple Touch Icons in the ROOT directory?
-DO I HAVE TO Place Favicons in the ROOT directory?
-SHOULD I have one favicon.ico in the ROOT directory?
+DO I HAVE TO Place Apple Touch Icons in the ROOT directory?  
+DO I HAVE TO Place Favicons in the ROOT directory?  
+SHOULD I have one favicon.ico in the ROOT directory?  
 
 It is no longer necessary to use the type attribute in scripts, it is implied in HTML5!
 
@@ -186,12 +183,12 @@ em = px / 16
 ## QUOTES:
 
 
-"It's always the padding..." - Ganginator
-"Added scripts, for added awesomeness." - Ganginator
-"IMHO, if you support IE 6, you are the reason we cannot have nice things." - Ganginator
-"Tactically, it's better to be small than big." - Ganginator
-"... but what do I know." - Ganginator
-"Stay cool." - Ganginator
+"It's always the padding..." - Ganginator  
+"Added scripts, for added awesomeness." - Ganginator  
+"IMHO, if you support IE 6, you are the reason we cannot have nice things." - Ganginator  
+"Tactically, it's better to be small than big." - Ganginator  
+"... but what do I know." - Ganginator  
+"Stay cool." - Ganginator  
 
 Hey, I just met you, and this is crazy, but here's my number, so call me, maybe?
 
@@ -200,9 +197,9 @@ Hey, I just met you, and this is crazy, but here's my number, so call me, maybe?
 
 
 ### More ideas for your 'head':
-http://h5bp.com/d/head-Tips
-http://en.wikipedia.org/wiki/Musikalisches_W%C3%BCrfelspiel
-http://en.wikipedia.org/wiki/Euler's_identity
+http://h5bp.com/d/head-Tips  
+http://en.wikipedia.org/wiki/Musikalisches_W%C3%BCrfelspiel  
+http://en.wikipedia.org/wiki/Euler's_identity  
 
 
 ## NOTES:
@@ -227,10 +224,10 @@ Refactored, Designed, Redesigned, Developed, Created, Curated, Hosted, HTML5, CS
 LEFTOVERS WILL BE REMOVED!
 
 
-&hearts;
-TL;DR
-|-o-|
-EOD
-/ END
+&hearts;  
+TL;DR  
+|-o-|  
+EOD  
+/ END  
 
 
