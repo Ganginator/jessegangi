@@ -89,10 +89,10 @@ And my own code, including many references.
 HTML5 does not require you to wrap your attributes in quotes, and you do not have to close your elements. However, I prefer the XHTML structured semantic approach, even though it can seem redundant.
 
 DON'T FORGET TO CHANGE the lang attribute in '&lt;html class="no-js" lang="en"&gt;' IF YOUR LANGUAGE IS NOT English!
-	<html class="no-js" lang="en">
+	&lt;html class="no-js" lang="en"&gt;'
 
 VERIFY profile: &lt;head profile="http://w3.org/2005/10/profile"&gt;
-	<head profile="http://w3.org/2005/10/profile">
+	&lt;head profile="http://w3.org/2005/10/profile"&gt;
 
 I do not indent the body, use it as a wrapper, or indent any wrappers.
 
