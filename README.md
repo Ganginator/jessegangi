@@ -90,7 +90,7 @@ HTML5 does not require you to wrap your attributes in quotes, and you do not hav
 
 DON'T FORGET TO CHANGE the lang attribute in '&lt;html class="no-js" lang="en"&gt;' IF YOUR LANGUAGE IS NOT English!
 
-VERIFY profile: &lt;head profile="<a href="http://www.w3.org/2005/10/profile" target="_blank">http://www.w3.org/2005/10/profile</a>"&gt;
+VERIFY profile: &lt;head profile='<a href="http://w3.org/2005/10/profile" target="_blank">http://w3.org/2005/10/profile</a>'&gt;
 
 I do not indent the body, use it as a wrapper, or indent any wrappers.
 
