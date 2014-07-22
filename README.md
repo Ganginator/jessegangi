@@ -176,8 +176,9 @@ em = px / 16
 
 ***
 
-  
-#### HAVE MORE FUN!
+
+<br />
+Have more fun!
 
 
 ## QUOTES:
@@ -220,7 +221,8 @@ Refactored, Designed, Redesigned, Developed, Created, Curated, Hosted, HTML5, CS
 
 ***
 
-  
+
+<br />
 LEFTOVERS WILL BE REMOVED!
 
 
