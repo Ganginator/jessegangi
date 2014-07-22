@@ -89,7 +89,7 @@ And my own code, including many references.
 HTML5 does not require you to wrap your attributes in quotes, and you do not have to close your elements. However, I prefer the XHTML structured semantic approach, even though it can seem redundant.
 
 DON'T FORGET TO CHANGE the 'lang' attribute in  
-    &lt;html class="no-js" lang="en"&gt;  
+`<html class="no-js" lang="en">`
 IF YOUR LANGUAGE IS NOT English!
 
 VERIFY profile:  
