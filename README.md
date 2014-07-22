@@ -30,7 +30,7 @@ This is my Online Resume.
 Jesse Gangi, Jesse, Gangi, Aerial Applications, Aerial, Applications, Duluth, Minnesota, MN, Superior, Wisconsin, WI, Twin Ports, Twin, Ports, Northland, Upper Mid-west, Upper, Mid-west, Mid, West, HTML5 Boilerplate, HTML5, Boilerplate, Twitter Bootstrap, Twitter, Bootstrap, Font Awesome, Font, Awesome, JQuery, TimelineJS, HTML, CSS, CSS3, Sass, SCSS, JS, JavaScript, PHP
 
 ### Author/Creator:
-Ganginator | Jesse Gangi | [//jessegangi.com/](http://jessegangi.com) | <a href="tel:2183102447">(218) 310-2447</a> | jgangi@aerialapps.com | <a href="@Ganginator" target="_blank">@Ganginator</a>
+Ganginator | Jesse Gangi | [//jessegangi.com/](http://jessegangi.com) | <a href="tel:2183102447">(218) 310-2447</a> | jgangi@aerialapps.com | <a href="twitter.com/Ganginator" target="_blank">@Ganginator</a>
 
 ### Copyright:
 Copyright 2012 to 2014 Jesse Gangi. All Rights Reserved.
