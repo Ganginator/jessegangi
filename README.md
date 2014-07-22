@@ -26,28 +26,22 @@ Use a shortcut: Ctrl+D, Cmd+D
 ### Title:
 Jesse Gangi's Online Resume
 
-Description/Subject:
-
+### Description/Subject:
 This is my Online Resume.
 
-Keywords:
-
+### Keywords:
 Jesse Gangi, Jesse, Gangi, Aerial Applications, Aerial, Applications, Duluth, Minnesota, MN, Superior, Wisconsin, WI, Twin Ports, Twin, Ports, Northland, Upper Mid-west, Upper, Mid-west, Mid, West, HTML5 Boilerplate, HTML5, Boilerplate, Twitter Bootstrap, Twitter, Bootstrap, Font Awesome, Font, Awesome, JQuery, TimelineJS, HTML, CSS, CSS3, Sass, SCSS, JS, JavaScript, PHP
 
-Author/Creator:
-
+### Author/Creator:
 Ganginator | Jesse Gangi | jessegangi.com | 2183102447 | jgangi@aerialapps.com | @Ganginator
 
-Copyright:
-
+### Copyright:
 Copyright 2012 to 2014 Jesse Gangi. All Rights Reserved.
 
-Link:
-
+### Link:
 //jessegangi.com/
 
-Life:
-
+### Life:
 8/11/12 to Current
 
 
@@ -72,12 +66,12 @@ The old repository became corrupted on 6/18/13.
 I cloned this from the master branch.
 I marked other repository as 'CORRUPTED', and saved it for the history.
 
-This is an mix of:
+### This is an mix of:
 
-HTML5 Boilerplate: //html5boilerplate.com/,
-Bootstrap: //getbootstrap.com/,
-Font Awesome: //fontawesome.io/,
-TimelineJS: //timeline.knightlab.com/,
+HTML5 Boilerplate: http://html5boilerplate.com/,
+Bootstrap: http://getbootstrap.com/,
+Font Awesome: http://fontawesome.io/,
+TimelineJS: http://timeline.knightlab.com/,
 Bootstrapx Clickover: https://github.com/lecar-red/bootstrapx-clickover,
 and my own code, including many references.
 
@@ -150,24 +144,23 @@ Also, I added an image preloader.
 ## INFORMATION
 
 
-CSS Definitions:
+### CSS Definitions:
 
 
-ID = Singular.
+#### ID = Singular.
 e.g. A person's Identification (ID) is unique to one person.
 
-Class = Multiple.
+#### Class = Multiple.
 e.g. There are many people in a class.
 
-Padding = Inside.
+#### Padding = Inside.
 Defines the space inside the element between the content, and the element's border.
 
-Margin = Outside.
+#### Margin = Outside.
 Defines the space outside the element between the element's border, and other elements.
 
 
-Quick CSS px to em Conversions:
-
+### Quick CSS px to em Conversions:
 
 40px / 16 = 2.5em
 16 * 0.0625em = 1px
@@ -177,7 +170,7 @@ px / 16 = em
 em = px / 16
 
 
-Word Equations:
+### Word Equations:
 
 [ ( NEW - OLD ) / OLD ] * 100 = DIFFERENCE%
 
@@ -186,7 +179,7 @@ Word Equations:
 ***
 
 
-HAVE MORE FUN!
+#### HAVE MORE FUN!
 
 
 ## QUOTES:
@@ -205,33 +198,25 @@ Hey, I just met you, and this is crazy, but here's my number, so call me, maybe?
 ## LINKS:
 
 
-More ideas for your 'head':
-
+### More ideas for your 'head':
 http://h5bp.com/d/head-Tips
-
 http://en.wikipedia.org/wiki/Musikalisches_W%C3%BCrfelspiel
-
 http://en.wikipedia.org/wiki/Euler's_identity
 
 
 ## NOTES:
 
 
-Flurry Regions:
-
+### Flurry Regions:
 Aftica, Asia, Central America, Europe, Middle East, North America, Oceania, South America
 
-Standard Continents:
-
+### Standard Continents:
 Africa, Antarctica, Asia, Australia, Europe, North America, South America
 
-Super-class Continents:
-
+### Super-class Continents:
 Afro-Eurasia, America, Eurasia, Oceania
 
-
-Common Tag List:
-
+### Common Tag List:
 Refactored, Designed, Redesigned, Developed, Created, Curated, Hosted, HTML5, CSS3, PHP, JavaScript, Font Awesome, Drupal
 
 
