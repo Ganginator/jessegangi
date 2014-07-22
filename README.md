@@ -92,6 +92,9 @@ DON'T FORGET TO CHANGE the 'lang' attribute in
 `<html class="no-js" lang="en">`  
 IF YOUR LANGUAGE IS NOT English!
 
+Place favicon.ico and apple-touch-icon.png in the root directory  
+http://mathiasbynens.be/notes/touch-icons
+
 I do not indent the body, use it as a wrapper, or indent any wrappers.
 
 It is no longer necessary to use the type attribute in stylesheets, it is implied in HTML5!
