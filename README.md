@@ -11,7 +11,7 @@ Jesse Gangi's Online Resume
 This is my Online Resume.  
 I am continuously developing this live.  
 Check back easily by bookmarking this in your favorite browser!  
-Use a shortcut: Ctrl+D, Cmd+D  
+Use a shortcut: Ctrl+D, Cmd+D
 
 
 ***
@@ -60,13 +60,13 @@ EMPTY
 
 The old repository became corrupted on 6/18/13.  
 I cloned this from the master branch.  
-I marked other repository as 'CORRUPTED', and saved it for the history.  
+I marked other repository as 'CORRUPTED', and saved it for the history.
 
 I'm using it for my Online Resume, my business Aerial Applications, Templating, and Examples.
 
 I'm still modifying for personal use, and will remove unnecessary stuff as I go.
 
-I'm still considering minifying everything when finished.
+I'm still considering minifying everything when finished.  
 However, I am having issues with getting Grunt to work on my server.
 
 Contact me if you are interested in hiring me, with any errors, suggestions, or help.
@@ -75,13 +75,13 @@ Contact me if you are interested in hiring me, with any errors, suggestions, or 
 ## SPEC SPECIFIC NOTES:
 
 
-### This is an mix of:
+#### This is an mix of:
 
 HTML5 Boilerplate: http://html5boilerplate.com/  
 Bootstrap: http://getbootstrap.com/  
 Font Awesome: http://fontawesome.io/  
 TimelineJS: http://timeline.knightlab.com/  
-Bootstrapx Clickover: https://github.com/lecar-red/bootstrapx-clickover/  
+Bootstrapx Clickover: https://github.com/lecar-red/bootstrapx-clickover/
 
 And my own code, including many references.
 
@@ -91,9 +91,6 @@ HTML5 does not require you to wrap your attributes in quotes, and you do not hav
 DON'T FORGET TO CHANGE the 'lang' attribute in  
 `<html class="no-js" lang="en">`  
 IF YOUR LANGUAGE IS NOT English!
-
-VERIFY profile:  
-`<head profile="http://w3.org/2005/10/profile">`
 
 I do not indent the body, use it as a wrapper, or indent any wrappers.
 
@@ -111,10 +108,7 @@ IN DATABASE SITES, THE #page CONTENT AREA'S width, THE #page GLOBALS, AND THE co
 
 IN DATABASELESS SITES, THE #page CONTENT IS FETCHED WITH $_GET BASED ON ?page=, AND THE RESPECTIVE FILES ARE LOCATED IN ~includes/content; WHILE THE LAYOUT IS DETERMINED BY THE RESPECTIVE FILES LOCATED IN ~includes.
 
-CONSIDER CHANGING TO em's OR rem's  
-http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw  
-
-css.php contains all CSS links for reference.
+includes/css.php contains all CSS links for reference.
 
 All JavaScript is inserted at the bottom, in #feet, so the pages load faster, except Modernizr for HTML5/CSS3 feature detection, and HTML5 Shiv for enabling HTML5 in IE. Technically Modernizer 1.5+ includes HTML5 Shiv.  
 Modernizr 2 (re)introduced modular builds. After testing create a customized build (using only the tests you need) for a production-ready, minified, and compressed version.
@@ -122,18 +116,12 @@ Modernizr 2 (re)introduced modular builds. After testing create a customized bui
 HTML5 Shiv, and Respond.js for IE8 support of HTML5 elements, and media queries.  
 WARNING: Respond.js doesn't work if you view the page via file://
 
-VERIFY NECESSITY OF ALL SHIMS!
-
 Apple Touch Icons have relative support for Android.  
 Precomposed = No Gloss
 
-DO I HAVE TO Place Apple Touch Icons in the ROOT directory?  
-DO I HAVE TO Place Favicons in the ROOT directory?  
-SHOULD I have one favicon.ico in the ROOT directory?  
-
 It is no longer necessary to use the type attribute in scripts, it is implied in HTML5!
 
-js.php contains all JavaScript links for reference.
+includes/js.php contains all JavaScript links for reference.
 
 Also, I added an image preloader.
 
@@ -144,23 +132,23 @@ Also, I added an image preloader.
 ## INFORMATION
 
 
-### CSS Definitions:
+#### CSS Definitions:
 
 
-##### ID = Singular
+###### ID = Singular
 e.g. A person's Identification (ID) is unique to one person.
 
-##### Class = Multiple
+###### Class = Multiple
 e.g. There are many people in a class.
 
-##### Padding = Inside
+###### Padding = Inside
 Defines the space inside the element between the content, and the element's border.
 
-##### Margin = Outside
+###### Margin = Outside
 Defines the space outside the element between the element's border, and other elements.
 
 
-### Quick CSS px to em Conversions:
+#### Quick CSS px to em Conversions:
 
 100% = 1 em ~= 16px ~= 14pt  
 40px / 16 = 2.5em  
@@ -171,7 +159,7 @@ px / 16 = em
 em = px / 16
 
 
-### Word Equations:
+#### Word Equations:
 
 [ ( NEW - OLD ) / OLD ] * 100 = DIFFERENCE%
 
@@ -197,13 +185,12 @@ Refactored, Designed, Redesigned, Developed, Created, Curated, Hosted, HTML5, CS
 
 Have more fun!
 
-
 "It's always the padding..." - Ganginator  
 "Added scripts, for added awesomeness." - Ganginator  
 "IMHO, if you support IE 6, you are the reason we cannot have nice things." - Ganginator  
 "Tactically, it's better to be small than big." - Ganginator  
 "... but what do I know." - Ganginator  
-"Stay cool." - Ganginator  
+"Stay cool." - Ganginator
 
 Hey, I just met you, and this is crazy, but here's my number, so call me, maybe?
 
@@ -217,7 +204,26 @@ Hey, I just met you, and this is crazy, but here's my number, so call me, maybe?
 ### More ideas for your 'head':
 http://h5bp.com/d/head-Tips  
 http://en.wikipedia.org/wiki/Musikalisches_W%C3%BCrfelspiel  
-http://en.wikipedia.org/wiki/Euler's_identity  
+http://en.wikipedia.org/wiki/Euler's_identity
+
+
+***
+
+
+## TO DO:
+
+
+VERIFY profile:  
+`<head profile="http://w3.org/2005/10/profile">`
+
+CONSIDER CHANGING TO em's OR rem's  
+http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw
+
+VERIFY NECESSITY OF ALL SHIMS!
+
+DO I HAVE TO Place Apple Touch Icons in the ROOT directory?  
+DO I HAVE TO Place Favicons in the ROOT directory?  
+SHOULD I have one favicon.ico in the ROOT directory?
 
 
 ***
@@ -227,6 +233,6 @@ http://en.wikipedia.org/wiki/Euler's_identity
 TL;DR  
 |-o-|  
 EOD  
-/ END  
+/ END
 
 
