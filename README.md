@@ -5,7 +5,7 @@ Jesse Gangi's Online Resume
 ======================
 
 
-HELLO WORLD:
+## HELLO WORLD:
 
 
 This is my Online Resume.
@@ -20,11 +20,10 @@ Use a shortcut: Ctrl+D, Cmd+D
 ***
 
 
-STAMP / HEADER:
+## STAMP / HEADER:
 
 
-Title:
-
+### Title:
 Jesse Gangi's Online Resume
 
 Description/Subject:
@@ -55,9 +54,9 @@ Life:
 ***
 
 
-/* ADD - REQUIRES RESEARCH */
+/* ADD - TESTING - REQUIRES RESEARCH */
 
-TIMES:
+## TIMES:
 
 
 EMPTY
@@ -66,7 +65,7 @@ EMPTY
 ***
 
 
-NOTES:
+## NOTES:
 
 
 The old repository became corrupted on 6/18/13.
@@ -92,14 +91,14 @@ However, I am having issues with getting Grunt to work on my server.
 Contact me if you are interested in hiring me, with any errors, suggestions, or help.
 
 
-SPEC SPECIFIC NOTES:
+## SPEC SPECIFIC NOTES:
 
 
 HTML5 does not require you to wrap your attributes in quotes, and you do not have to close your elements. However, I prefer the XHTML structured semantic approach, even though it can seem redundant.
 
 DON'T FORGET TO CHANGE the lang attribute in '&lt;html class="no-js" lang="en"&gt;' IF YOUR LANGUAGE IS NOT English!
 
-VERIFY profile: '&lt;head profile='http://www.w3.org/2005/10/profile'&gt'
+VERIFY profile: '&lt;head profile="http://www.w3.org/2005/10/profile"&gt;'
 
 I do not indent the body, use it as a wrapper, or indent any wrappers.
 
@@ -148,8 +147,7 @@ Also, I added an image preloader.
 ***
 
 
-INFORMATION
-===========
+## INFORMATION
 
 
 CSS Definitions:
@@ -189,10 +187,9 @@ Word Equations:
 
 
 HAVE MORE FUN!
-==============
 
 
-QUOTES:
+## QUOTES:
 
 
 "It's always the padding..." - Ganginator
@@ -205,7 +202,7 @@ QUOTES:
 Hey, I just met you, and this is crazy, but here's my number, so call me, maybe?
 
 
-LINKS:
+## LINKS:
 
 
 More ideas for your 'head':
@@ -217,7 +214,7 @@ http://en.wikipedia.org/wiki/Musikalisches_W%C3%BCrfelspiel
 http://en.wikipedia.org/wiki/Euler's_identity
 
 
-NOTES:
+## NOTES:
 
 
 Flurry Regions:
@@ -245,13 +242,9 @@ LEFTOVERS WILL BE REMOVED!
 
 
 &hearts;
-
 TL;DR
-
 |-o-|
-
 EOD
-
 / END
 
 
