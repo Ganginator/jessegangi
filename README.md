@@ -148,16 +148,16 @@ Also, I added an image preloader.
 ### CSS Definitions:
 
 
-#### ID = Singular
+##### ID = Singular
 e.g. A person's Identification (ID) is unique to one person.
 
-#### Class = Multiple
+##### Class = Multiple
 e.g. There are many people in a class.
 
-#### Padding = Inside
+##### Padding = Inside
 Defines the space inside the element between the content, and the element's border.
 
-#### Margin = Outside
+##### Margin = Outside
 Defines the space outside the element between the element's border, and other elements.
 
 
@@ -208,16 +208,16 @@ http://en.wikipedia.org/wiki/Euler's_identity
 ## NOTES:
 
 
-### Flurry Regions:
+#### Flurry Regions:
 Aftica, Asia, Central America, Europe, Middle East, North America, Oceania, South America
 
-### Standard Continents:
+#### Standard Continents:
 Africa, Antarctica, Asia, Australia, Europe, North America, South America
 
-### Super-class Continents:
+#### Super-class Continents:
 Afro-Eurasia, America, Eurasia, Oceania
 
-### Common Tag List:
+#### Common Tag List:
 Refactored, Designed, Redesigned, Developed, Created, Curated, Hosted, HTML5, CSS3, PHP, JavaScript, Font Awesome, Drupal
 
 
