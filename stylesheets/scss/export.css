@@ -1,0 +1,1552 @@
+/*! ROOT/stylesheets/scss/import.scss */
+/*! ROOT/stylesheets/scss/_dog.scss */
+EMPTY {
+  /* EMPTY */ }
+
+/*! ROOT/stylesheets/scss/partials/_important-content-elements.scss */
+/*** ! IMPORTANT CONTENT ELEMENTS +10000 ***/
+/* EMPTY */
+/*** / ! IMPORTANT CONTENT ELEMENTS ***/
+/*! ROOT/stylesheets/scss/partials/_media.scss */
+/* Small devices (tablets, 768px and up) @screen-sm-min */
+                                                          /*
+@media all and (min-width: 768px) {
+	.fit {
+		width: 90%;
+		margin: 0 auto;
+		border: 1px dashed red;
+	}
+}
+*/
+/* Medium devices (desktops, 992px and up) @screen-md-min */
+                                                            /*
+@media all and (min-width: 992px) {
+	.fit {
+		width: 70%;
+		margin: 0 auto;
+		border: 1px dashed red;
+	}
+}
+*/
+/* Large devices (large desktops, 1200px and up) @screen-lg-min */
+                                                                  /*
+@media all and (min-width: 1200px) {
+	.fit {
+		width: 50%;
+		margin: 0 auto;
+		border: 1px dashed red;
+	}
+}
+*/
+/*! ROOT/stylesheets/scss/partials/_ids.scss */
+/*** IDs +100 blue ***/
+/** ALL THE THINGS **/
+#aih1tb {
+  /* margin: 20px;*/
+  /* border: 1px dashed blue; */ }
+
+#blurb {
+  /* margin-bottom: 30px; */
+  /* border: 1px dashed blue; */ }
+
+#content {
+  /* text-align: center; */
+  /* margin: 30px 0 20px 0; */
+  /* border: 1px dashed blue; */ }
+
+#headshot {
+  /* float: left; */
+  /* border: 1px dashed red; */ }
+
+#portfolio img {
+  margin: 10px;
+  /* border: 1px dashed blue; */ }
+
+#activities img {
+  margin: 10px;
+  /* border: 1px dashed blue; */ }
+
+#blurb-footer {
+  /* text-align: center; */
+  /* margin-top: 30px; */
+  /* font-weight: bold; */
+  /* border: 1px dashed blue; */ }
+
+#credit {
+  margin: 0 0 20px 0;
+  /* text-align: center; */
+  /* border: 1px dashed blue; */ }
+
+#credit a:link {
+  /* color: blue; */
+  /* color: #FF0000; */
+  /* border: 1px dashed blue; */ }
+
+#credit a:visited {
+  /* color: black; */
+  /* color: #00FF00; */
+  /* border: 1px dashed blue; */ }
+
+#credit a:hover {
+  /* color: blue; */
+  /* color: #FF00FF; */
+  /* border: 1px dashed blue; */
+  /* border-bottom: 1px solid black; */ }
+
+#credit a:active {
+  /* color: white; */
+  /* color: #0000FF; */
+  /* border: 1px dashed blue; */ }
+
+#timeline-js {
+  /* border: 1px dashed blue; */ }
+
+/** / ALL THE THINGS **/
+/*** / IDs ***/
+/*! ROOT/stylesheets/scss/partials/_breadcrumbs.scss */
+/** BREADCRUMB **/
+#information {
+  /* border: 1px dashed blue; */ }
+
+#bookmarker {
+  /* color: blue; */
+  /* color: red; */
+  /* color: #0000FF; */
+  /* border: 1px dashed blue; */ }
+
+/** / BREADCRUMB **/
+/*! ROOT/stylesheets/scss/partials/_verticle-centering.scss */
+/** / VERTICLE CENTERING +100 white **/
+/* These are for the testing vertically centered images. */
+/* Also need to figure out general verticle centering. */
+/* THEY DON'T SEEM TO WORK */
+#verticaltable {
+  /* display: table; */
+  /* height: 100%; */
+  /* background-color: blue; */
+  /* border: 1px dashed white; */ }
+
+#verticalcell {
+  /* display: table-cell; */
+  /* vertical-align: middle; */
+  /* text-align: center; */
+  /* background-color: silver; */
+  /* border: 1px dashed white; */ }
+
+/** / VERTICLE CENTERING **/
+/*! ROOT/stylesheets/scss/partials/_classes.scss */
+/*** CLASSes +10 red ***/
+/** THEIR TYPES **/
+.title-page {
+  /* text-align: center; */
+  margin-bottom: 20px;
+  /* margin: 30px 0 20px 0; */
+  /* border: 1px dashed red; */ }
+
+.page {
+  /* margin: 70px, 0, 70px, 0; */
+  /* text-align: center; */
+  /* border: 1px dashed red; */ }
+
+.wrapper {
+  /* text-align: center; */
+  /* border: 1px dashed red; */ }
+
+/* WTF? */
+.box {
+  /* border: 1px dashed red; */ }
+
+.title {
+  /* margin-bottom: 40px; */
+  /* border: 1px dashed red; */ }
+
+.breadcrumb:a:active {
+  /* color: blue; */
+  color: red;
+  /* color: #0000FF; */
+  /* border: 1px dashed yellow; */ }
+
+.bubbles {
+  text-align: center;
+  /* font-weight: bold; */
+  /* NOT WORKING FOR h#'s? */
+  /* border: 1px dashed red; */ }
+
+.bubbles a:hover {
+  text-align: center;
+  color: black;
+  /* background-color: red; */
+  /* font-weight: bold; */
+  /* border: 1px dashed red; */ }
+
+.bubbles h1, h2, h3, h4, h5 {
+  /* font-weight: bold; */
+  /* border: 1px dashed red; */ }
+
+.bubbles h3 {
+  color: red;
+  /* font-weight: bold; */
+  /* border: 1px dashed red; */ }
+
+.bubbles h4 {
+  color: black;
+  /* font-weight: bold; */
+  /* border: 1px dashed red; */ }
+
+.fit {
+  width: 90%;
+  margin: 0 auto;
+  /* border: 1px dashed red; */ }
+
+/** / THEIR TYPES **/
+/*** / CLASSes ***/
+/*! ROOT/stylesheets/scss/partials/_helper-classes.scss */
+/** HELPER CLASSES +10 orange **/
+.x100-center {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  /* border: 1px dashed orange; */ }
+
+.bump-right {
+  margin-left: 40px;
+  /* border: 1px dashed orange; */ }
+
+.bump-left {
+  margin-right: 40px;
+  /* border: 1px dashed orange; */ }
+
+.margin-top {
+  margin-top: 10px;
+  /* border: 1px dashed orange; */ }
+
+.green {
+  color: green;
+  border: 1px dashed orange; }
+
+/** / HELPER CLASSES **/
+/*! ROOT/stylesheets/scss/partials/_grids.scss */
+EMPTY {
+  /* EMPTY */ }
+
+/*! ROOT/stylesheets/scss/partials/_icons.scss */
+EMPTY {
+  /* EMPTY */ }
+
+/*! ROOT/stylesheets/scss/partials/_elements.scss */
+/*** ELEMENTS +1 green ***/
+/** GLOBALS **/
+html {
+  text-align: center;
+  /* overflow: hidden; */
+  overflow-x: hidden;
+  /* border: 1px dashed green; */ }
+
+/* YOU REALLY SHOULDN'T STYLE THIS, AS WELL AS THE head ABOVE */
+/*
+head {
+	DO: NOT STYLE;
+}
+*/
+body {
+  /* margin: 0; */
+  /* padding-bottom: 20px; */
+  font-family: Georgia, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  /* font-size: 14px; */
+  /* line-height: 20px; */
+  /* color: #333333; ORIGINAL */
+  /* color: #5a5a5a; */
+  /* background-color: #000000; */
+  /* border: 1px dashed green; */ }
+
+header {
+  padding-bottom: 50px;
+  /* border: 1px dashed green; */ }
+
+nav {
+  /* display: inline; */
+  /* border: 1px dashed green; */ }
+
+nav ul {
+  /* display: inline; */
+  /* border: 1px dashed green; */ }
+
+nav li {
+  /* display: inline; */
+  /* border: 1px dashed green; */ }
+
+article {
+  /* border: 1px dashed green; */ }
+
+aside {
+  /* border: 1px dashed green; */ }
+
+iframe {
+  /* color: silver; */
+  /* text-align: center; */
+  /* width: 100%; */
+  /* height: 400px; */
+  /* background-color: black; */
+  /* border: 0; */
+  /* border: 1px dashed green; */ }
+
+iframe div {
+  /* color: silver; */
+  /* text-align: center; */
+  /* width: 100%; */
+  /* height: 400px; */
+  /* background-color: black; */
+  /* border: 0; */
+  /* border: 1px dashed green; */ }
+
+/* CANNOT STYLE? */
+/*
+pre {
+	border: 1px dashed green;
+}
+*/
+footer {
+  /* padding-top: 50px; */
+  /* margin-top: 30px; */
+  /* border: 1px dashed green; */ }
+
+/* YOU REALLY SHOULDN'T STYLE THIS, AS WELL AS THE head ABOVE */
+/*
+#feet {
+	DO: NOT STYLE;
+}
+*/
+/*! ROOT/stylesheets/scss/partials/_content-elements.scss */
+/** CONTENT ELEMENTS +1 yellow **/
+h1, h2, h3, h4, h5 {
+  /* border: 1px dashed yellow; */ }
+
+h1 {
+  /* border: 1px dashed yellow; */ }
+
+h2 {
+  /* border: 1px dashed yellow; */ }
+
+h3 {
+  /* border: 1px dashed yellow; */ }
+
+h4 {
+  /* border: 1px dashed yellow; */ }
+
+h5 {
+  /* border: 1px dashed yellow; */ }
+
+p {
+  /* border: 1px dashed yellow; */ }
+
+a {
+  /* border: 1px dashed yellow; */ }
+
+a:link {
+  color: blue;
+  /* color: red; */
+  /* color: #FF0000; */
+  /* border: 1px dashed yellow; */ }
+
+a:visited {
+  color: black;
+  /* color: #00FF00; */
+  /* border: 1px dashed yellow; */ }
+
+a:hover {
+  color: blue;
+  /* color: #FF00FF; */
+  /* border: 1px dashed yellow; */
+  /* border-bottom: 1px solid black; */ }
+
+a:active {
+  /* color: blue; */
+  color: red;
+  /* color: #0000FF; */
+  /* border: 1px dashed yellow; */ }
+
+/** / CONTENT ELEMENTS **/
+/*! ROOT/stylesheets/scss/partials/_pages.scss */
+/** PAGES **/
+#home {
+  /* border: 1px dashed blue; */ }
+
+#about {
+  /* border: 1px dashed blue; */ }
+
+/** ABOUT **/
+#experience {
+  /* border: 1px dashed blue; */ }
+
+#portfolio {
+  /* border: 1px dashed blue; */ }
+
+#activities {
+  /* border: 1px dashed blue; */ }
+
+#education {
+  /* border: 1px dashed blue; */ }
+
+/** / ABOUT **/
+#tools {
+  /* border: 1px dashed blue; */ }
+
+/** TOOLS **/
+#software {
+  /* border: 1px dashed blue; */ }
+
+#code {
+  /* border: 1px dashed blue; */ }
+
+#frameworks {
+  /* border: 1px dashed blue; */ }
+
+/** / TOOLS **/
+#links {
+  /* border: 1px dashed blue; */ }
+
+#contact {
+  /* border: 1px dashed blue; */ }
+
+/** / PAGES **/
+/*! ROOT/stylesheets/scss/partials/_content.scss */
+/** PORTFOLIO **/
+#fox-21-news {
+  /* border: 1px dashed blue; */ }
+
+#game-galaxy {
+  /* border: 1px dashed blue; */ }
+
+#homegrown-music-festival-radio {
+  /* border: 1px dashed blue; */ }
+
+#pineapple-arts-center-and-supply {
+  /* border: 1px dashed blue; */ }
+
+#bella-star-studio-and-design {
+  /* border: 1px dashed blue; */ }
+
+#moving-forward-afc {
+  /* border: 1px dashed blue; */ }
+
+#pack-and-mail-plus {
+  /* border: 1px dashed blue; */ }
+
+#carmody-irish-pub-and-brewery {
+  /* border: 1px dashed blue; */ }
+
+/** / PORTFOLIO **/
+/** SOFTWARE **/
+#notepad-plus-plus {
+  /* border: 1px dashed blue; */ }
+
+#filezilla {
+  /* border: 1px dashed blue; */ }
+
+#putty {
+  /* border: 1px dashed blue; */ }
+
+#photoshop {
+  /* border: 1px dashed blue; */ }
+
+#handbreak {
+  /* border: 1px dashed blue; */ }
+
+#git {
+  /* border: 1px dashed blue; */ }
+
+#chrome {
+  /* border: 1px dashed blue; */ }
+
+#firefox {
+  /* border: 1px dashed blue; */ }
+
+#safari {
+  /* border: 1px dashed blue; */ }
+
+#ie {
+  /* border: 1px dashed blue; */ }
+
+/** / SOFTWARE **/
+/** CODE **/
+#html5 {
+  /* border: 1px dashed blue; */ }
+
+#css3 {
+  /* border: 1px dashed blue; */ }
+
+#javascript {
+  /* border: 1px dashed blue; */ }
+
+#php {
+  /* border: 1px dashed blue; */ }
+
+/** / CODE **/
+/** FRAMEWORKS **/
+#drupal {
+  /* border: 1px dashed blue; */ }
+
+#bootstrap {
+  /* border: 1px dashed blue; */ }
+
+#boilerplate {
+  /* border: 1px dashed blue; */ }
+
+#wordpress {
+  /* border: 1px dashed blue; */ }
+
+/** / FRAMEWORKS **/
+/** LINKS **/
+#linkedin {
+  /* border: 1px dashed blue; */ }
+
+#github {
+  /* border: 1px dashed blue; */ }
+
+#drupal-org {
+  /* border: 1px dashed blue; */ }
+
+/** / LINKS **/
+/** CONTACT **/
+#email {
+  /* border: 1px dashed blue; */ }
+
+#sms-phone {
+  /* border: 1px dashed blue; */ }
+
+#snail-mail {
+  /* border: 1px dashed blue; */ }
+
+/** / CONTACT **/
+/*! ROOT/stylesheets/scss/partials/customs/custom.css */
+.red.i {
+  color: red; }
+
+/* CHECK THESE BEFORE USING THEM!!!
+
+
+		
+		
+		< style>
+		
+			#math-is-fun {
+				width: 96%;
+				text-align: left;
+				margin: 0 auto;
+				font-weight: bold;
+			}
+			
+			xmp {
+				width: 400px;
+				text-align: left;
+				margin: 0 auto;
+				color: red;
+			}
+			
+			h1 {
+				color: darkblue;
+			}
+			
+			h2 {
+				color: silver;
+			}
+			
+			h3 {
+				color: green;
+			}
+			
+			h4 {
+				color: purple;
+				text-decoration: underline;
+			}
+			
+		</ style>
+		
+*/
+/*** ! IMPORTANT CONTENT ELEMENTS +10000 ***/
+/* EMPTY */
+/*** / ! IMPORTANT CONTENT ELEMENTS ***/
+/*** IDs +100 blue ***/
+/** ALL THE THINGS **/
+#aih1tb {
+  /* margin: 20px;*/
+  /* border: 1px dashed blue; */ }
+
+#blurb {
+  /* margin-bottom: 30px; */
+  /* border: 1px dashed blue; */ }
+
+/** CONTENT **/
+#content {
+  /* text-align: center; */
+  /* margin: 30px 0 20px 0; */
+  /* border: 1px dashed blue; */ }
+
+#home {
+  /* border: 1px dashed blue; */ }
+
+#about {
+  /* border: 1px dashed blue; */ }
+
+#headshot {
+  /* float: left; */
+  /* border: 1px dashed red; */ }
+
+/** ABOUT **/
+#experience {
+  /* border: 1px dashed blue; */ }
+
+#portfolio {
+  /* border: 1px dashed blue; */ }
+
+/** PORTFOLIO **/
+#fox-21-news {
+  /* border: 1px dashed blue; */ }
+
+#co-fox-21-news {
+  /* border: 1px dashed blue; */ }
+
+#game-galaxy {
+  /* border: 1px dashed blue; */ }
+
+#homegrown-music-festival-radio {
+  /* border: 1px dashed blue; */ }
+
+#pineapple-arts-center-and-supply {
+  /* border: 1px dashed blue; */ }
+
+#bella-star-studio-and-design {
+  /* border: 1px dashed blue; */ }
+
+#moving-forward-afc {
+  /* border: 1px dashed blue; */ }
+
+#pack-and-mail-plus {
+  /* border: 1px dashed blue; */ }
+
+#carmody-irish-pub-and-brewery {
+  /* border: 1px dashed blue; */ }
+
+/** / PORTFOLIO **/
+#activities {
+  /* border: 1px dashed blue; */ }
+
+#education {
+  /* border: 1px dashed blue; */ }
+
+/** / ABOUT **/
+#tools {
+  /* border: 1px dashed blue; */ }
+
+#software {
+  /* border: 1px dashed blue; */ }
+
+/** SOFTWARE **/
+#notepad-plus-plus {
+  /* border: 1px dashed blue; */ }
+
+#filezilla {
+  /* border: 1px dashed blue; */ }
+
+#putty {
+  /* border: 1px dashed blue; */ }
+
+#photoshop {
+  /* border: 1px dashed blue; */ }
+
+#handbreak {
+  /* border: 1px dashed blue; */ }
+
+#git {
+  /* border: 1px dashed blue; */ }
+
+#chrome {
+  /* border: 1px dashed blue; */ }
+
+#firefox {
+  /* border: 1px dashed blue; */ }
+
+#safari {
+  /* border: 1px dashed blue; */ }
+
+#ie {
+  /* border: 1px dashed blue; */ }
+
+/** / SOFTWARE **/
+#code {
+  /* border: 1px dashed blue; */ }
+
+/** / CODE **/
+#html5 {
+  /* border: 1px dashed blue; */ }
+
+#css3 {
+  /* border: 1px dashed blue; */ }
+
+#javascript {
+  /* border: 1px dashed blue; */ }
+
+#php {
+  /* border: 1px dashed blue; */ }
+
+/** / CODE **/
+#frameworks {
+  /* border: 1px dashed blue; */ }
+
+/** / FRAMEWORKS **/
+#drupal {
+  /* border: 1px dashed blue; */ }
+
+#bootstrap {
+  /* border: 1px dashed blue; */ }
+
+#boilerplate {
+  /* border: 1px dashed blue; */ }
+
+#wordpress {
+  /* border: 1px dashed blue; */ }
+
+/** / FRAMEWORKS **/
+#links {
+  /* border: 1px dashed blue; */ }
+
+/** LINKS **/
+#linkedin {
+  /* border: 1px dashed blue; */ }
+
+#github {
+  /* border: 1px dashed blue; */ }
+
+#drupal-org {
+  /* border: 1px dashed blue; */ }
+
+/** / LINKS **/
+#contact {
+  /* border: 1px dashed blue; */ }
+
+/** CONTACT **/
+#email {
+  /* border: 1px dashed blue; */ }
+
+#sms-phone {
+  /* border: 1px dashed blue; */ }
+
+#snail-mail {
+  /* border: 1px dashed blue; */ }
+
+/** / CONTACT **/
+/** / CONTENT **/
+/** BREADCRUMB **/
+.breadcrumb:a:active {
+  /* color: blue; */
+  color: red;
+  /* color: #0000FF; */
+  /* border: 1px dashed yellow; */ }
+
+#information {
+  /* border: 1px dashed blue; */ }
+
+#bookmarker {
+  /* border: 1px dashed blue; */ }
+
+/** / BREADCRUMB **/
+#portfolio img {
+  margin: 10px;
+  /* border: 1px dashed blue; */ }
+
+#activities img {
+  margin: 10px;
+  /* border: 1px dashed blue; */ }
+
+#blurb-footer {
+  /* text-align: center; */
+  /* margin-top: 30px; */
+  /* font-weight: bold; */
+  /* border: 1px dashed blue; */ }
+
+#credit {
+  margin: 0 0 20px 0;
+  /* text-align: center; */
+  /* border: 1px dashed blue; */ }
+
+#credit a:link {
+  /* color: blue; */
+  /* color: #FF0000; */
+  /* border: 1px dashed blue; */ }
+
+#credit a:visited {
+  /* color: black; */
+  /* color: #00FF00; */
+  /* border: 1px dashed blue; */ }
+
+#credit a:hover {
+  /* color: blue; */
+  /* color: #FF00FF; */
+  /* border: 1px dashed blue; */
+  /* border-bottom: 1px solid black; */ }
+
+#credit a:active {
+  /* color: white; */
+  /* color: #0000FF; */
+  /* border: 1px dashed blue; */ }
+
+#timeline-js {
+  /* border: 1px dashed blue; */ }
+
+/* VERIFIED ABOVE */
+/** / VERTICLE CENTERING +100 white **/
+/* These are for the testing vertically centered images. */
+/* Also need to figure out general verticle centering. */
+/* THEY DON'T SEEM TO WORK */
+#verticaltable {
+  /* display: table; */
+  /* height: 100%; */
+  /* background-color: blue; */
+  /* border: 1px dashed white; */ }
+
+#verticalcell {
+  /* display: table-cell; */
+  /* vertical-align: middle; */
+  /* text-align: center; */
+  /* background-color: silver; */
+  /* border: 1px dashed white; */ }
+
+/** / VERTICLE CENTERING **/
+/** / ALL THE THINGS **/
+/*** / IDs ***/
+/*** CLASSes +10 red ***/
+/** THEIR TYPES **/
+.title-page {
+  /* text-align: center; */
+  margin-bottom: 20px;
+  /* margin: 30px 0 20px 0; */
+  /* border: 1px dashed red; */ }
+
+.page {
+  /* margin: 70px, 0, 70px, 0; */
+  /* text-align: center; */
+  /* border: 1px dashed red; */ }
+
+.wrapper {
+  /* text-align: center; */
+  /* border: 1px dashed red; */ }
+
+/* WTF? */
+.box {
+  /* border: 1px dashed red; */ }
+
+.title {
+  /* margin-bottom: 40px; */
+  /* border: 1px dashed red; */ }
+
+.bubbles {
+  text-align: center;
+  /* font-weight: bold; */
+  /* NOT WORKING FOR h#'s? */
+  /* border: 1px dashed red; */ }
+
+.bubbles a:hover {
+  text-align: center;
+  color: black;
+  /* background-color: red; */
+  /* font-weight: bold; */
+  /* border: 1px dashed red; */ }
+
+.bubbles h1, h2, h3, h4, h5 {
+  /* font-weight: bold; */
+  /* border: 1px dashed red; */ }
+
+.bubbles h3 {
+  color: red;
+  /* font-weight: bold; */
+  /* border: 1px dashed red; */ }
+
+.bubbles h4 {
+  color: black;
+  /* font-weight: bold; */
+  /* border: 1px dashed red; */ }
+
+.fit {
+  width: 90%;
+  margin: 0 auto;
+  /* border: 1px dashed red; */ }
+
+/* Small devices (tablets, 768px and up) @screen-sm-min */
+                                                          /*
+@media all and (min-width: 768px) {
+	.fit {
+		width: 90%;
+		margin: 0 auto;
+		border: 1px dashed red;
+	}
+}
+*/
+/* Medium devices (desktops, 992px and up) @screen-md-min */
+                                                            /*
+@media all and (min-width: 992px) {
+	.fit {
+		width: 70%;
+		margin: 0 auto;
+		border: 1px dashed red;
+	}
+}
+*/
+/* Large devices (large desktops, 1200px and up) @screen-lg-min */
+                                                                  /*
+@media all and (min-width: 1200px) {
+	.fit {
+		width: 50%;
+		margin: 0 auto;
+		border: 1px dashed red;
+	}
+}
+*/
+/* VERIFIED ABOVE */
+/** COLUMN CLASSES +10 indigo **/
+/* EMPTY */
+/** / COLUMN CLASSES **/
+/** HELPER CLASSES +10 orange **/
+.x100-center {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  /* border: 1px dashed orange; */ }
+
+.bump-right {
+  margin-left: 40px;
+  /* border: 1px dashed orange; */ }
+
+.bump-left {
+  margin-right: 40px;
+  /* border: 1px dashed orange; */ }
+
+.margin-top {
+  margin-top: 10px;
+  /* border: 1px dashed orange; */ }
+
+.green {
+  color: green;
+  border: 1px dashed orange; }
+
+/** / HELPER CLASSES **/
+/** ICONS +10 violet **/
+/* EMPTY */
+/** / ICONS **/
+/** / THEIR TYPES **/
+/*** / CLASSes ***/
+/*** ELEMENTS +1 green ***/
+/** GLOBALS **/
+html {
+  text-align: center;
+  /* overflow: hidden; */
+  overflow-x: hidden;
+  /* border: 1px dashed green; */ }
+
+/*
+head {
+	DO NOT STYLE!
+}
+*/
+body {
+  /* margin: 0; */
+  /* padding-bottom: 20px; */
+  font-family: Georgia, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  /* font-size: 14px; */
+  /* line-height: 20px; */
+  /* color: #333333; ORIGINAL */
+  /* color: #5a5a5a; */
+  /* background-color: #000000; */
+  /* border: 1px dashed green; */ }
+
+header {
+  padding-bottom: 50px;
+  /* border: 1px dashed green; */ }
+
+nav {
+  /* display: inline; */
+  /* border: 1px dashed green; */ }
+
+nav ul {
+  /* display: inline; */
+  /* border: 1px dashed green; */ }
+
+nav li {
+  /* display: inline; */
+  /* border: 1px dashed green; */ }
+
+article {
+  /* border: 1px dashed green; */ }
+
+aside {
+  /* border: 1px dashed green; */ }
+
+iframe {
+  /* color: silver; */
+  /* text-align: center; */
+  /* width: 100%; */
+  /* height: 400px; */
+  /* background-color: black; */
+  /* border: 0; */
+  /* border: 1px dashed green; */ }
+
+iframe div {
+  /* color: silver; */
+  /* text-align: center; */
+  /* width: 100%; */
+  /* height: 400px; */
+  /* background-color: black; */
+  /* border: 0; */
+  /* border: 1px dashed green; */ }
+
+/* CANNOT STYLE?
+pre {
+	
+	border: 1px dashed green;
+}
+*/
+footer {
+  /* padding-top: 50px; */
+  /* margin-top: 30px; */
+  /* border: 1px dashed green; */ }
+
+/* YOU REALLY SHOULDN'T STYLE THIS, AS WELL AS THE head ABOVE */
+/*
+#feet {
+	/* border: 1px dashed blue; */
+	                              /*
+}
+*/
+/* VERIFIED ABOVE */
+/** CONTENT ELEMENTS +1 yellow **/
+h1, h2, h3, h4, h5 {
+  /* border: 1px dashed yellow; */ }
+
+h1 {
+  /* border: 1px dashed yellow; */ }
+
+h2 {
+  /* border: 1px dashed yellow; */ }
+
+h3 {
+  /* border: 1px dashed yellow; */ }
+
+h4 {
+  /* border: 1px dashed yellow; */ }
+
+h5 {
+  /* border: 1px dashed yellow; */ }
+
+p {
+  /* border: 1px dashed yellow; */ }
+
+a {
+  /* border: 1px dashed yellow; */ }
+
+a:link {
+  color: blue;
+  /* color: red; */
+  /* color: #FF0000; */
+  /* border: 1px dashed yellow; */ }
+
+a:visited {
+  color: black;
+  /* color: #00FF00; */
+  /* border: 1px dashed yellow; */ }
+
+a:hover {
+  color: blue;
+  /* color: #FF00FF; */
+  /* border: 1px dashed yellow; */
+  /* border-bottom: 1px solid black; */ }
+
+a:active {
+  /* color: blue; */
+  color: red;
+  /* color: #0000FF; */
+  /* border: 1px dashed yellow; */ }
+
+/** / CONTENT ELEMENTS **/
+/** / GLOBALS **/
+/*** / ELEMENTS ***/
+/*! jessegangi.com/stylesheets/scss/partials/customs/custom-bootstrap.css */
+/*** @Media ***/
+@media (max-width: 991px) {
+  .navbar-header {
+    float: none; }
+
+  .navbar-toggle {
+    display: block; }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+
+  .navbar-collapse.collapse {
+    display: none !important; }
+
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px; }
+
+  .navbar-nav > li {
+    float: none; }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px; } }
+/*** / @Media ***/
+/*** IDs +100 blue ***/
+#navbar-header-collapse {
+  /* border: 1px dashed blue; */ }
+
+/** / VERTICLE CENTERING +100 white **/
+/* EMPTY */
+/** / VERTICLE CENTERING **/
+/*** / IDs ***/
+/*** CLASSes +10 red ***/
+.navbar {
+  /* border: 1px dashed red; */ }
+
+.navbar-inverse {
+  /* border: 1px dashed red; */ }
+
+.navbar-static-top {
+  /* border: 1px dashed red; */ }
+
+.navbar-header {
+  /* border: 1px dashed red; */ }
+
+.navbar-toggle {
+  /* border: 1px dashed red; */ }
+
+.sr-only {
+  /* border: 1px dashed red; */ }
+
+.icon-bar {
+  /* border: 1px dashed red; */ }
+
+.navbar-brand {
+  /* border: 1px dashed red; */ }
+
+.navbar-collapse {
+  /* border: 1px dashed red; */ }
+
+.collapse {
+  /* border: 1px dashed red; */ }
+
+.nav {
+  /* border: 1px dashed red; */ }
+
+.navbar-nav {
+  /* border: 1px dashed red; */ }
+
+.active {
+  /* border: 1px dashed red; */ }
+
+.dropdown {
+  /* border: 1px dashed red; */ }
+
+.dropdown-toggle {
+  /* border: 1px dashed red; */ }
+
+.caret {
+  /* border: 1px dashed red; */ }
+
+.dropdown-menu {
+  /* border: 1px dashed red; */ }
+
+/* Dropdown Sub-menu */
+/*
+.dropdown-submenu {
+	position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: -6px;
+	margin-left: -1px;
+	-webkit-border-radius: 0 6px 6px 6px;
+	-moz-border-radius: 0 6px 6px 6px;
+	border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+	display: block;
+}
+
+.dropdown-submenu>a:after {
+	display: block;
+	content: " ";
+	float: right;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 5px 0 5px 5px;
+	border-left-color: #cccccc;
+	margin-top: 5px;
+	margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+	border-left-color: #ffffff;
+}
+
+.dropdown-submenu.pull-left {
+	float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+	left: -100%;
+	margin-left: 10px;
+	-webkit-border-radius: 6px 0 6px 6px;
+	-moz-border-radius: 6px 0 6px 6px;
+	border-radius: 6px 0 6px 6px;
+}
+*/
+/* / Dropdown Sub-menu */
+.navbar-right {
+  /* border: 1px dashed red; */ }
+
+/* IS THIS REALLY Bootstrap? */
+.container {
+  /* text-align: center; */
+  /* min-height: 270px; */
+  /* margin: 30px 0 30px 0; */
+  /* margin: 30px 0 0 0; */
+  /* margin-bottom: 26px; */
+  /* border: 1px dashed red; */ }
+
+.row {
+  /* text-align: center; */
+  /* margin: 20px 0 20px 0; */
+  /* THIS */
+  /* margin: 20px 0 0 0; */
+  /* margin-top: 30px; */
+  /* margin-bottom: 36px; */
+  /* margin-bottom: 20px;" */
+  /* margin-bottom: 8px; */
+  /* margin-bottom: 10px; */
+  /* margin-bottom: 26px; */
+  /* border: 1px dashed red; */ }
+
+/* DOESN'T WORK? */
+.col-* {
+  /* margin: 70px; */
+  /* border: 1px dashed red; */ }
+
+.btn-xs {
+  /* width: 80%; */
+  /* border: 1px dashed red; */ }
+
+.btn:link {
+  /* color: black; */
+  /* color: blue; */
+  /* color: red; */
+  /* color: #FF0000; */
+  /* border: 1px dashed yellow; */
+  /* border: 1px dashed red; */ }
+
+.btn:hover {
+  /* color: white; */
+  /* color: blue; */
+  /* color: #FF00FF; */
+  /* border: 1px dashed yellow; */
+  /* border-bottom: 1px solid black; */
+  /* border: 1px dashed red; */ }
+
+.btn:hover:a {
+  /* margin-top: +20px; */
+  /* border: 1px dashed red; */ }
+
+/* white DOES NOT WORK HERE - LEAVE EMPTY */
+.btn:active {
+  /* color: white; */
+  /* color: #0000FF; */
+  /* border: 1px dashed yellow; */ }
+
+.btn:visited {
+  /* color: black; */
+  /* color: #00FF00; */
+  /* border: 1px dashed yellow; */ }
+
+.btn-large {
+  /* border: 1px dashed red; */ }
+
+.btn-primary {
+  /* border: 1px dashed red; */ }
+
+.lead {
+  /* text-align: center; */
+  /* border: 1px dashed red; */ }
+
+.featurette-divider {
+  /* margin: 40px 0; */
+  /* border: 1px dashed red; */ }
+
+.featurette {
+  /* border: 1px dashed red; */ }
+
+.featurette-heading {
+  /* text-align: center; */
+  /* border: 1px dashed red; */ }
+
+.muted {
+  /* border: 1px dashed red; */ }
+
+.featurette-image {
+  /* border: 1px dashed red; */ }
+
+.img-responsive {
+  /* border: 1px dashed red; */ }
+
+.jumbotron {
+  /* padding: 0 0 20px 0; */
+  /* border: 1px dashed red; */ }
+
+.btn-info {
+  /* border: 1px dashed red; */ }
+
+.btn-default {
+  /* border: 1px dashed red; */ }
+
+.btn-xs {
+  /* border: 1px dashed red; */ }
+
+/* IS THIS REALLY Bootstrap */
+.breadcrumb {
+  /* text-align: center; */
+  /* text-decoration: none; */
+  /* border: 1px dashed red; */ }
+
+/* IS THIS REALLY Bootstrap
+.breadcrumb.active {
+	color: red;
+	border: 1px dashed red;
+}
+*/
+/* IS THIS REALLY Bootstrap */
+.breadcrumb a:hover {
+  /* text-decoration: none; */
+  /* border: 1px dashed red; */ }
+
+.divider {
+  /* color: black; */
+  /* border: 1px dashed red; */ }
+
+/* IS THIS REALLY Bootstrap */
+.credit {
+  /* border: 1px dashed red; */ }
+
+/** COLUMN CLASSES +10 indigo **/
+.col-* {
+  /* border: 1px dashed indigo; */ }
+
+.col-md-* {
+  /* border: 1px dashed indigo; */ }
+
+.col-md-3 {
+  /* margin-bottom: 20px; */
+  /* border: 1px dashed indigo; */ }
+
+.col-md-4 {
+  /* margin-bottom: 20px; */
+  /* border: 1px dashed indigo; */ }
+
+.col-md-5 {
+  /* border: 1px dashed indigo; */ }
+
+.col-md-6 {
+  /* border: 1px dashed indigo; */ }
+
+.col-md-7 {
+  /* border: 1px dashed indigo; */ }
+
+.col-md-12 {
+  /* margin-top: 10px; */
+  /* border: 1px dashed indigo; */ }
+
+/** / COLUMN CLASSES **/
+/* VERIFIED ABOVE */
+/* VERIFY .marketing USEFULNESS? */
+.marketing .span4 {
+  /* text-align: center; */
+  /* margin-top: 40px; */
+  /* border: 1px dashed red; */ }
+
+.marketing h2 {
+  /* font-weight: normal; ORIGINAL */
+  /* font-weight: bold; */
+  /* border: 1px dashed red; */ }
+
+.marketing .span4 p {
+  /* margin-left: 10px; */
+  /* margin-right: 10px; */
+  /* font-weight: bold; */
+  /* border: 1px dashed red; */ }
+
+/** HELPER CLASSES +10 orange **/
+/* EMPTY */
+/** / HELPER CLASSES **/
+/*** / CLASSes ***/
+/*** ELEMENTS +1 green ***/
+/* IS THIS REALLY Bootstrap? */
+button {
+  /* border: 1px dashed green; */ }
+
+/** CONTENT ELEMENTS +1 yellow **/
+/* EMPTY */
+/** / CONTENT ELEMENTS **/
+/*** / ELEMENTS ***/
+/*! jessegangi.com/stylesheets/scss/partials/customs/custom-font-awesome.css */
+/*** CLASSes +10 red ***/
+/** THEIR TYPES **/
+.fa {
+  /* border: 1px dashed red; */ }
+
+.fa-inverse {
+  /* border: 1px dashed red; */ }
+
+/* ICONS +10 violet */
+/* Home */
+.fa-home {
+  /* border: 1px dashed violet; */ }
+
+/* About */
+.fa-question-circle {
+  /* border: 1px dashed violet; */ }
+
+/* Experience */
+.fa-road {
+  /* border: 1px dashed violet; */ }
+
+/* Portfolio */
+.fa-briefcase {
+  /* border: 1px dashed violet; */ }
+
+/* Activities */
+.fa-music {
+  /* border: 1px dashed violet; */ }
+
+/* Education */
+.fa-book {
+  /* border: 1px dashed violet; */ }
+
+/* Tools */
+.fa-wrench {
+  /* border: 1px dashed violet; */ }
+
+/* Software */
+.fa-laptop {
+  /* border: 1px dashed violet; */ }
+
+/* Code */
+.fa-code {
+  /* border: 1px dashed violet; */ }
+
+/* Frameworks */
+.fa-building-o {
+  /* border: 1px dashed violet; */ }
+
+/* Links */
+.fa-link {
+  /* border: 1px dashed violet; */ }
+
+/* LinkedIn */
+.fa-linkedin {
+  /* border: 1px dashed violet; */ }
+
+/* GitHub */
+.fa-github-alt {
+  /* border: 1px dashed violet; */ }
+
+/* Drupal */
+.fa-link {
+  /* border: 1px dashed violet; */ }
+
+/* Contact */
+.fa-envelope {
+  /* border: 1px dashed violet; */ }
+
+/* One Sheet PDF */
+.fa-download {
+  /* border: 1px dashed violet; */ }
+
+/* / ICONS */
+/* VERIFIED ABOVE */
+/** / THEIR TYPES **/
+/*** / CLASSes ***/
+/*** ELEMENTS +1 green ***/
+/** GLOBALS **/
+/* EMPTY */
+/** CONTENT ELEMENTS +1 yellow **/
+.fa:hover {
+  /* color: white; */
+  /* color: #FF00FF; */
+  /* border: 1px dashed black; */
+  /* border: 1px dashed yellow; */
+  /* border-bottom: 1px solid black; */ }
+
+/** / CONTENT ELEMENTS **/
+/** / GLOBALS **/
+/*** / ELEMENTS ***/
+/*! ROOT/stylesheets/scss/partials/customs/custom-clickovers.css */
+/*** IDs +100 blue ***/
+/* EMPTY */
+/** / VERTICLE CENTERING +100 white **/
+/* EMPTY */
+/** / VERTICLE CENTERING **/
+/*** / IDs ***/
+/*** CLASSes +10 red ***/
+.clickover-header {
+  text-align: center;
+  /* font-weight: bold; */
+  /* DOES NOT WORK? */
+  /* border: 1px dashed red; */ }
+
+.clickover-footer {
+  text-align: center;
+  /* font-weight: bold; */
+  /* DOES NOT WORK? */
+  /* border: 1px dashed red; */ }
+
+.clickover-footer .btn {
+  font-size: 11px;
+  /* border: 1px dashed red; */ }
+
+/* px / 16 = em */
+/* 24px / 16 = 1.5em */
+.clickover-header h3 {
+  font-weight: bold;
+  font-size: 1.5em;
+  /* border: 1px dashed red; */ }
+
+.clickover-footer h4 {
+  /* font-weight: bold; */
+  /* border: 1px dashed red; */ }
+
+.clickover-footer p {
+  /* font-weight: bold; */
+  /* UNNEEDED */
+  /* border: 1px dashed red; */ }
+
+/** COLUMN CLASSES +10 indigo **/
+/* EMPTY */
+/** / COLUMN CLASSES **/
+/** HELPER CLASSES +10 orange **/
+/* EMPTY */
+/** / HELPER CLASSES **/
+/* ICONS +10 violet */
+/* EMPTY */
+/* / ICONS */
+/* VERIFIED ABOVE */
+/*** / CLASSes ***/
+/*** ELEMENTS +1 green ***/
+/* EMPTY */
+/** CONTENT ELEMENTS +1 yellow **/
+/* EMPTY */
+/** / CONTENT ELEMENTS **/
+/*** / ELEMENTS ***/

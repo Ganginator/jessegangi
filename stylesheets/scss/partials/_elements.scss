@@ -1,0 +1,105 @@
+/*! ROOT/stylesheets/scss/partials/_elements.scss */
+
+
+/*** ELEMENTS +1 green ***/
+
+
+/** GLOBALS **/
+
+
+html {
+	text-align: center;
+	/* overflow: hidden; */
+	overflow-x: hidden;
+	/* border: 1px dashed green; */
+}
+
+/* YOU REALLY SHOULDN'T STYLE THIS, AS WELL AS THE head ABOVE */
+/*
+head {
+	DO: NOT STYLE;
+}
+*/
+
+body {
+	/* margin: 0; */
+	/* padding-bottom: 20px; */
+	font-family: Georgia, Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	/* font-size: 14px; */
+	/* line-height: 20px; */
+	/* color: #333333; ORIGINAL */
+	/* color: #5a5a5a; */
+	/* background-color: #000000; */
+	/* border: 1px dashed green; */
+}
+
+header {
+	padding-bottom: 50px;
+	/* border: 1px dashed green; */
+}
+
+nav {
+	/* display: inline; */
+	/* border: 1px dashed green; */
+}
+
+nav ul {
+	/* display: inline; */
+	/* border: 1px dashed green; */
+}
+
+nav li {
+	/* display: inline; */
+	/* border: 1px dashed green; */
+}
+
+article{
+	/* border: 1px dashed green; */
+}
+
+aside {
+	/* border: 1px dashed green; */
+}
+
+iframe {
+	/* color: silver; */
+	/* text-align: center; */
+	/* width: 100%; */
+	/* height: 400px; */
+	/* background-color: black; */
+	/* border: 0; */
+	/* border: 1px dashed green; */
+}
+
+iframe div {
+	/* color: silver; */
+	/* text-align: center; */
+	/* width: 100%; */
+	/* height: 400px; */
+	/* background-color: black; */
+	/* border: 0; */
+	/* border: 1px dashed green; */
+}
+
+/* CANNOT STYLE? */
+/*
+pre {
+	border: 1px dashed green;
+}
+*/
+
+footer {
+	/* padding-top: 50px; */
+	/* margin-top: 30px; */
+	/* border: 1px dashed green; */
+}
+
+/* YOU REALLY SHOULDN'T STYLE THIS, AS WELL AS THE head ABOVE */
+/*
+#feet {
+	DO: NOT STYLE;
+}
+*/
+
+

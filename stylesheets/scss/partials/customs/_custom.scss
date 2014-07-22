@@ -1,0 +1,779 @@
+/*! ROOT/stylesheets/scss/partials/customs/custom.css */
+
+
+.red.i { 
+	color: red; 
+} 
+
+
+/* CHECK THESE BEFORE USING THEM!!!
+
+
+		
+		
+		< style>
+		
+			#math-is-fun {
+				width: 96%;
+				text-align: left;
+				margin: 0 auto;
+				font-weight: bold;
+			}
+			
+			xmp {
+				width: 400px;
+				text-align: left;
+				margin: 0 auto;
+				color: red;
+			}
+			
+			h1 {
+				color: darkblue;
+			}
+			
+			h2 {
+				color: silver;
+			}
+			
+			h3 {
+				color: green;
+			}
+			
+			h4 {
+				color: purple;
+				text-decoration: underline;
+			}
+			
+		</ style>
+		
+*/
+
+
+/*** ! IMPORTANT CONTENT ELEMENTS +10000 ***/
+
+
+/* EMPTY */
+
+
+/*** / ! IMPORTANT CONTENT ELEMENTS ***/
+
+
+/*** IDs +100 blue ***/
+
+
+/** ALL THE THINGS **/
+
+
+#aih1tb {
+	/* margin: 20px;*/
+	/* border: 1px dashed blue; */
+}
+
+#blurb {
+	/* margin-bottom: 30px; */
+	/* border: 1px dashed blue; */
+}
+
+
+/** CONTENT **/
+
+
+#content {
+	/* text-align: center; */
+	/* margin: 30px 0 20px 0; */
+	/* border: 1px dashed blue; */
+}
+
+	#home {
+		/* border: 1px dashed blue; */
+	}
+	
+	#about {
+		/* border: 1px dashed blue; */
+	}
+	
+		#headshot {
+			/* float: left; */
+			/* border: 1px dashed red; */
+		}
+		
+		
+		/** ABOUT **/
+		
+		
+		#experience {
+			/* border: 1px dashed blue; */
+		}
+		
+		#portfolio {
+			/* border: 1px dashed blue; */
+		}
+		
+		
+			/** PORTFOLIO **/
+			
+			
+			#fox-21-news {
+				/* border: 1px dashed blue; */
+			}
+			
+			#co-fox-21-news {
+				/* border: 1px dashed blue; */
+			}
+			
+			#game-galaxy {
+			/* border: 1px dashed blue; */
+			}
+			
+			#homegrown-music-festival-radio {
+			/* border: 1px dashed blue; */
+			}
+			
+			#pineapple-arts-center-and-supply {
+				/* border: 1px dashed blue; */
+			}
+			
+			#bella-star-studio-and-design {
+				/* border: 1px dashed blue; */
+			}
+			
+			#moving-forward-afc {
+				/* border: 1px dashed blue; */
+			}
+			
+			#pack-and-mail-plus {
+				/* border: 1px dashed blue; */
+			}
+			
+			#carmody-irish-pub-and-brewery {
+				/* border: 1px dashed blue; */
+			}
+			
+			
+			/** / PORTFOLIO **/
+		
+		
+		#activities {
+			/* border: 1px dashed blue; */
+		}
+		
+		#education {
+			/* border: 1px dashed blue; */
+		}
+		
+		
+		/** / ABOUT **/
+	
+	
+	#tools {
+		/* border: 1px dashed blue; */
+	}
+	
+		#software {
+			/* border: 1px dashed blue; */
+		}
+		
+		
+			/** SOFTWARE **/
+			
+			
+			#notepad-plus-plus {
+				/* border: 1px dashed blue; */
+			}
+			
+			#filezilla {
+				/* border: 1px dashed blue; */
+			}
+			
+			#putty {
+				/* border: 1px dashed blue; */
+			}
+			
+			#photoshop {
+				/* border: 1px dashed blue; */
+			}
+			
+			#handbreak {
+				/* border: 1px dashed blue; */
+			}
+			
+			#git {
+				/* border: 1px dashed blue; */
+			}
+			
+			#chrome {
+				/* border: 1px dashed blue; */
+			}
+			
+			#firefox {
+				/* border: 1px dashed blue; */
+			}
+			
+			#safari {
+				/* border: 1px dashed blue; */
+			}
+			
+			#ie {
+				/* border: 1px dashed blue; */
+			}
+			
+			
+			/** / SOFTWARE **/
+		
+		
+		#code {
+			/* border: 1px dashed blue; */
+		}
+		
+		
+			/** / CODE **/
+			
+			
+			#html5 {
+				/* border: 1px dashed blue; */
+			}
+			
+			#css3 {
+				/* border: 1px dashed blue; */
+			}
+			
+			#javascript {
+				/* border: 1px dashed blue; */
+			}
+			
+			#php {
+				/* border: 1px dashed blue; */
+			}
+			
+			
+			/** / CODE **/
+		
+		
+		#frameworks{
+			/* border: 1px dashed blue; */
+		}
+		
+		
+			/** / FRAMEWORKS **/
+			
+			
+			#drupal {
+				/* border: 1px dashed blue; */
+			}
+			
+			#bootstrap {
+				/* border: 1px dashed blue; */
+			}
+			
+			#boilerplate {
+				/* border: 1px dashed blue; */
+			}
+			
+			#wordpress {
+				/* border: 1px dashed blue; */
+			}
+			
+			
+			/** / FRAMEWORKS **/
+		
+		
+	#links {
+		/* border: 1px dashed blue; */
+	}
+	
+	
+		/** LINKS **/
+		
+		
+		#linkedin {
+			/* border: 1px dashed blue; */
+		}
+		
+		#github {
+			/* border: 1px dashed blue; */
+		}
+		
+		#drupal-org {
+			/* border: 1px dashed blue; */
+		}
+		
+		
+		/** / LINKS **/
+		
+		
+	#contact {
+		/* border: 1px dashed blue; */
+	}
+	
+	
+		/** CONTACT **/
+		
+		
+		#email {
+			/* border: 1px dashed blue; */
+		}
+		
+		#sms-phone {
+			/* border: 1px dashed blue; */
+		}
+		
+		#snail-mail {
+			/* border: 1px dashed blue; */
+		}
+		
+		
+		/** / CONTACT **/
+	
+	
+/** / CONTENT **/
+
+
+/** BREADCRUMB **/
+
+
+	
+	.breadcrumb:a:active {
+		/* color: blue; */
+		color: red;
+		/* color: #0000FF; */
+		/* border: 1px dashed yellow; */
+	}
+	
+	
+#information {
+	/* border: 1px dashed blue; */
+}
+
+#bookmarker {
+	/* border: 1px dashed blue; */
+}
+
+
+/** / BREADCRUMB **/
+
+
+#portfolio img {
+	margin: 10px;
+	/* border: 1px dashed blue; */
+}
+
+#activities img {
+	margin: 10px;
+	/* border: 1px dashed blue; */
+}
+
+#blurb-footer {
+	/* text-align: center; */
+	/* margin-top: 30px; */
+	/* font-weight: bold; */
+	/* border: 1px dashed blue; */
+}
+
+#credit {
+	margin: 0 0 20px 0;
+	/* text-align: center; */
+	/* border: 1px dashed blue; */
+}
+
+#credit a:link {
+	/* color: blue; */
+	/* color: #FF0000; */
+	/* border: 1px dashed blue; */
+}
+
+#credit a:visited {
+	/* color: black; */
+	/* color: #00FF00; */
+	/* border: 1px dashed blue; */
+}
+
+#credit a:hover {
+	/* color: blue; */
+	/* color: #FF00FF; */
+	/* border: 1px dashed blue; */
+	/* border-bottom: 1px solid black; */
+}
+
+#credit a:active {
+	/* color: white; */
+	/* color: #0000FF; */
+	/* border: 1px dashed blue; */
+}
+
+#timeline-js {
+	/* border: 1px dashed blue; */
+}
+
+
+/* VERIFIED ABOVE */
+
+
+	/** / VERTICLE CENTERING +100 white **/
+	/* These are for the testing vertically centered images. */
+	/* Also need to figure out general verticle centering. */
+	/* THEY DON'T SEEM TO WORK */
+	
+	
+	#verticaltable {
+		/* display: table; */
+		/* height: 100%; */
+		/* background-color: blue; */
+		/* border: 1px dashed white; */
+	}
+	
+	#verticalcell {
+		/* display: table-cell; */
+		/* vertical-align: middle; */
+		/* text-align: center; */
+		/* background-color: silver; */
+		/* border: 1px dashed white; */
+	}
+	
+	
+	/** / VERTICLE CENTERING **/
+
+
+/** / ALL THE THINGS **/
+
+
+/*** / IDs ***/
+
+
+/*** CLASSes +10 red ***/
+
+
+/** THEIR TYPES **/
+
+
+.title-page {
+	/* text-align: center; */
+	margin-bottom: 20px;
+	/* margin: 30px 0 20px 0; */
+	/* border: 1px dashed red; */
+}
+
+.page {
+	/* margin: 70px, 0, 70px, 0; */
+	/* text-align: center; */
+	/* border: 1px dashed red; */
+}
+
+.wrapper {
+	/* text-align: center; */
+	/* border: 1px dashed red; */
+}
+
+/* WTF? */
+.box {
+	/* border: 1px dashed red; */
+}
+
+.title {
+	/* margin-bottom: 40px; */
+	/* border: 1px dashed red; */
+}
+
+.bubbles {
+	text-align: center;
+	/* font-weight: bold; *//* NOT WORKING FOR h#'s? */
+	/* border: 1px dashed red; */
+}
+
+.bubbles a:hover {
+	text-align: center;
+	color: black;
+	/* background-color: red; */
+	/* font-weight: bold; */
+	/* border: 1px dashed red; */
+}
+
+.bubbles h1, h2, h3, h4, h5 {
+	/* font-weight: bold; */
+	/* border: 1px dashed red; */
+}
+
+.bubbles h3 {
+	color: red;
+	/* font-weight: bold; */
+	/* border: 1px dashed red; */
+}
+
+.bubbles h4 {
+	color: black;
+	/* font-weight: bold; */
+	/* border: 1px dashed red; */
+}
+
+.fit {
+	width: 90%;
+	margin: 0 auto;
+	/* border: 1px dashed red; */
+}
+
+/* Small devices (tablets, 768px and up) @screen-sm-min *//*
+@media all and (min-width: 768px) {
+	.fit {
+		width: 90%;
+		margin: 0 auto;
+		border: 1px dashed red;
+	}
+}
+*/
+
+/* Medium devices (desktops, 992px and up) @screen-md-min *//*
+@media all and (min-width: 992px) {
+	.fit {
+		width: 70%;
+		margin: 0 auto;
+		border: 1px dashed red;
+	}
+}
+*/
+
+/* Large devices (large desktops, 1200px and up) @screen-lg-min *//*
+@media all and (min-width: 1200px) {
+	.fit {
+		width: 50%;
+		margin: 0 auto;
+		border: 1px dashed red;
+	}
+}
+*/
+
+
+/* VERIFIED ABOVE */
+
+
+	/** COLUMN CLASSES +10 indigo **/
+	
+	
+	/* EMPTY */
+	
+	
+	/** / COLUMN CLASSES **/
+
+
+	/** HELPER CLASSES +10 orange **/
+	
+	
+	.x100-center {
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+		/* border: 1px dashed orange; */
+	}
+	
+	.bump-right {
+		margin-left: 40px;
+		/* border: 1px dashed orange; */
+	}
+	
+	.bump-left {
+		margin-right: 40px;
+		/* border: 1px dashed orange; */
+	}
+	
+	.margin-top {
+		margin-top: 10px;
+		/* border: 1px dashed orange; */
+	}
+	
+	.green {
+		color: green;
+		border: 1px dashed orange;
+	}
+	
+	/** / HELPER CLASSES **/
+
+
+	/** ICONS +10 violet **/
+	
+	
+	/* EMPTY */
+	
+	
+	/** / ICONS **/
+
+
+/** / THEIR TYPES **/
+
+
+/*** / CLASSes ***/
+
+
+/*** ELEMENTS +1 green ***/
+
+
+/** GLOBALS **/
+
+
+html {
+	text-align: center;
+	/* overflow: hidden; */
+	overflow-x: hidden;
+	/* border: 1px dashed green; */
+}
+
+/*
+head {
+	DO NOT STYLE!
+}
+*/
+
+body {
+	/* margin: 0; */
+	/* padding-bottom: 20px; */
+	font-family: Georgia, Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	/* font-size: 14px; */
+	/* line-height: 20px; */
+	/* color: #333333; ORIGINAL */
+	/* color: #5a5a5a; */
+	/* background-color: #000000; */
+	/* border: 1px dashed green; */
+}
+
+header {
+	padding-bottom: 50px;
+	/* border: 1px dashed green; */
+}
+
+nav {
+	/* display: inline; */
+	/* border: 1px dashed green; */
+}
+
+nav ul {
+	/* display: inline; */
+	/* border: 1px dashed green; */
+}
+
+nav li {
+	/* display: inline; */
+	/* border: 1px dashed green; */
+}
+
+article{
+	/* border: 1px dashed green; */
+}
+
+aside {
+	/* border: 1px dashed green; */
+}
+
+iframe {
+	/* color: silver; */
+	/* text-align: center; */
+	/* width: 100%; */
+	/* height: 400px; */
+	/* background-color: black; */
+	/* border: 0; */
+	/* border: 1px dashed green; */
+}
+
+iframe div {
+	/* color: silver; */
+	/* text-align: center; */
+	/* width: 100%; */
+	/* height: 400px; */
+	/* background-color: black; */
+	/* border: 0; */
+	/* border: 1px dashed green; */
+}
+
+/* CANNOT STYLE?
+pre {
+	
+	border: 1px dashed green;
+}
+*/
+
+footer {
+	/* padding-top: 50px; */
+	/* margin-top: 30px; */
+	/* border: 1px dashed green; */
+}
+
+/* YOU REALLY SHOULDN'T STYLE THIS, AS WELL AS THE head ABOVE */
+/*
+#feet {
+	/* border: 1px dashed blue; *//*
+}
+*/
+
+
+/* VERIFIED ABOVE */
+
+
+	/** CONTENT ELEMENTS +1 yellow **/
+	
+	
+	h1, h2, h3, h4, h5 {
+		/* border: 1px dashed yellow; */
+	}
+	
+	h1 {
+		/* border: 1px dashed yellow; */
+	}
+	
+	h2 {
+		/* border: 1px dashed yellow; */
+	}
+	
+	h3 {
+		/* border: 1px dashed yellow; */
+	}
+	
+	h4 {
+		/* border: 1px dashed yellow; */
+	}
+	
+	h5 {
+		/* border: 1px dashed yellow; */
+	}
+	
+	p {
+		/* border: 1px dashed yellow; */
+	}
+	
+	a {
+		/* border: 1px dashed yellow; */
+	}
+	
+	a:link {
+		color: blue;
+		/* color: red; */
+		/* color: #FF0000; */
+		/* border: 1px dashed yellow; */
+	}
+	
+	a:visited {
+		color: black;
+		/* color: #00FF00; */
+		/* border: 1px dashed yellow; */
+	}
+	
+	a:hover {
+		color: blue;
+		/* color: #FF00FF; */
+		/* border: 1px dashed yellow; */
+		/* border-bottom: 1px solid black; */
+	}
+	
+	a:active {
+		/* color: blue; */
+		color: red;
+		/* color: #0000FF; */
+		/* border: 1px dashed yellow; */
+	}
+	
+	
+	/** / CONTENT ELEMENTS **/
+
+
+/** / GLOBALS **/
+
+
+/*** / ELEMENTS ***/
+
+

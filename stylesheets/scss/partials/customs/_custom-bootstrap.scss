@@ -1,0 +1,451 @@
+/*! jessegangi.com/stylesheets/scss/partials/customs/custom-bootstrap.css */
+
+
+/*** @Media ***/
+
+
+@media (max-width: 991px) {
+
+	.navbar-header {
+		float: none;
+	}
+	
+	.navbar-toggle {
+		display: block;
+	}
+	
+	.navbar-collapse {
+		border-top: 1px solid transparent;
+		box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	}
+	
+	.navbar-collapse.collapse {
+		display: none!important;
+	}
+	
+	.navbar-nav {
+		float: none!important;
+		margin: 7.5px -15px;
+	}
+	
+	.navbar-nav>li {
+		float: none;
+	}
+	
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	
+}
+
+
+/*** / @Media ***/
+
+
+/*** IDs +100 blue ***/
+
+
+#navbar-header-collapse {
+	/* border: 1px dashed blue; */
+}
+
+
+	/** / VERTICLE CENTERING +100 white **/
+	
+	
+	/* EMPTY */
+	
+	
+	/** / VERTICLE CENTERING **/
+
+
+/*** / IDs ***/
+
+
+/*** CLASSes +10 red ***/
+
+
+.navbar {
+	/* border: 1px dashed red; */
+}
+
+.navbar-inverse {
+	/* border: 1px dashed red; */
+}
+
+.navbar-static-top {
+	/* border: 1px dashed red; */
+}
+
+.navbar-header {
+	/* border: 1px dashed red; */
+}
+
+.navbar-toggle {
+	/* border: 1px dashed red; */
+}
+
+.sr-only {
+	/* border: 1px dashed red; */
+}
+
+.icon-bar {
+	/* border: 1px dashed red; */
+}
+
+.navbar-brand {
+	/* border: 1px dashed red; */
+}
+
+.navbar-collapse {
+	/* border: 1px dashed red; */
+}
+
+.collapse {
+	/* border: 1px dashed red; */
+}
+
+.nav {
+	/* border: 1px dashed red; */
+}
+
+.navbar-nav {
+	/* border: 1px dashed red; */
+}
+
+.active {
+	/* border: 1px dashed red; */
+}
+
+.dropdown {
+	/* border: 1px dashed red; */
+}
+
+.dropdown-toggle {
+	/* border: 1px dashed red; */
+}
+
+.caret {
+	/* border: 1px dashed red; */
+}
+
+.dropdown-menu {
+	/* border: 1px dashed red; */
+}
+
+
+/* Dropdown Sub-menu */
+
+/*
+.dropdown-submenu {
+	position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: -6px;
+	margin-left: -1px;
+	-webkit-border-radius: 0 6px 6px 6px;
+	-moz-border-radius: 0 6px 6px 6px;
+	border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+	display: block;
+}
+
+.dropdown-submenu>a:after {
+	display: block;
+	content: " ";
+	float: right;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 5px 0 5px 5px;
+	border-left-color: #cccccc;
+	margin-top: 5px;
+	margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+	border-left-color: #ffffff;
+}
+
+.dropdown-submenu.pull-left {
+	float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+	left: -100%;
+	margin-left: 10px;
+	-webkit-border-radius: 6px 0 6px 6px;
+	-moz-border-radius: 6px 0 6px 6px;
+	border-radius: 6px 0 6px 6px;
+}
+*/
+
+/* / Dropdown Sub-menu */
+
+
+.navbar-right {
+	/* border: 1px dashed red; */
+}
+
+/* IS THIS REALLY Bootstrap? */
+.container {
+	/* text-align: center; */
+	/* min-height: 270px; */
+	/* margin: 30px 0 30px 0; */
+	/* margin: 30px 0 0 0; */
+	/* margin-bottom: 26px; */
+	/* border: 1px dashed red; */
+}
+
+.row {
+	/* text-align: center; */
+	/* margin: 20px 0 20px 0; *//* THIS */
+	/* margin: 20px 0 0 0; */
+	/* margin-top: 30px; */
+	/* margin-bottom: 36px; */
+	/* margin-bottom: 20px;" */
+	/* margin-bottom: 8px; */
+	/* margin-bottom: 10px; */
+	/* margin-bottom: 26px; */
+	/* border: 1px dashed red; */
+}
+
+/* DOESN'T WORK? */
+.col-* {
+	/* margin: 70px; */
+	/* border: 1px dashed red; */
+}
+
+.btn-xs {
+	/* width: 80%; */
+	/* border: 1px dashed red; */
+}
+
+.btn:link {
+	/* color: black; */
+	/* color: blue; */
+	/* color: red; */
+	/* color: #FF0000; */
+	/* border: 1px dashed yellow; */
+	/* border: 1px dashed red; */
+}
+
+.btn:hover {
+	/* color: white; */
+	/* color: blue; */
+	/* color: #FF00FF; */
+	/* border: 1px dashed yellow; */
+	/* border-bottom: 1px solid black; */
+	/* border: 1px dashed red; */
+}
+
+.btn:hover:a {
+	/* margin-top: +20px; */
+	/* border: 1px dashed red; */
+}
+
+/* white DOES NOT WORK HERE - LEAVE EMPTY */
+.btn:active {
+	/* color: white; */
+	/* color: #0000FF; */
+	/* border: 1px dashed yellow; */
+}
+
+.btn:visited {
+	/* color: black; */
+	/* color: #00FF00; */
+	/* border: 1px dashed yellow; */
+}
+
+.btn-large {
+	/* border: 1px dashed red; */
+}
+
+.btn-primary {
+	/* border: 1px dashed red; */
+}
+
+.lead {
+	/* text-align: center; */
+	/* border: 1px dashed red; */
+}
+
+.featurette-divider {
+	/* margin: 40px 0; */
+	/* border: 1px dashed red; */
+}
+
+.featurette {
+	/* border: 1px dashed red; */
+}
+
+.featurette-heading {
+	/* text-align: center; */
+	/* border: 1px dashed red; */
+}
+
+.muted {
+	/* border: 1px dashed red; */
+}
+
+.featurette-image {
+	/* border: 1px dashed red; */
+}
+
+.img-responsive {
+	/* border: 1px dashed red; */
+}
+
+.jumbotron {
+	/* padding: 0 0 20px 0; */
+	/* border: 1px dashed red; */
+}
+
+.btn-info {
+	/* border: 1px dashed red; */
+}
+
+.btn-default {
+	/* border: 1px dashed red; */
+}
+
+.btn-xs {
+	/* border: 1px dashed red; */
+}
+
+/* IS THIS REALLY Bootstrap */
+.breadcrumb {
+	/* text-align: center; */
+	/* text-decoration: none; */
+	/* border: 1px dashed red; */
+}
+
+/* IS THIS REALLY Bootstrap
+.breadcrumb.active {
+	color: red;
+	border: 1px dashed red;
+}
+*/
+
+/* IS THIS REALLY Bootstrap */
+.breadcrumb a:hover {
+	/* text-decoration: none; */
+	/* border: 1px dashed red; */
+}
+
+.divider {
+	/* color: black; */
+	/* border: 1px dashed red; */
+}
+
+/* IS THIS REALLY Bootstrap */
+.credit {
+	/* border: 1px dashed red; */
+}
+
+
+	/** COLUMN CLASSES +10 indigo **/
+	
+	
+	.col-* {
+		/* border: 1px dashed indigo; */
+	}
+	
+	.col-md-* {
+		/* border: 1px dashed indigo; */
+	}
+	
+	.col-md-3 {
+		/* margin-bottom: 20px; */
+		/* border: 1px dashed indigo; */
+	}
+	
+	.col-md-4 {
+		/* margin-bottom: 20px; */
+		/* border: 1px dashed indigo; */
+	}
+	
+	.col-md-5 {
+		/* border: 1px dashed indigo; */
+	}
+	
+	.col-md-6 {
+		/* border: 1px dashed indigo; */
+	}
+	
+	.col-md-7 {
+		/* border: 1px dashed indigo; */
+	}
+	
+	.col-md-12 {
+		/* margin-top: 10px; */
+		/* border: 1px dashed indigo; */
+	}
+	
+	
+	/** / COLUMN CLASSES **/
+
+
+/* VERIFIED ABOVE */
+
+
+/* VERIFY .marketing USEFULNESS? */
+
+.marketing .span4 {
+	/* text-align: center; */
+	/* margin-top: 40px; */
+	/* border: 1px dashed red; */
+}
+
+.marketing h2 {
+	/* font-weight: normal; ORIGINAL */
+	/* font-weight: bold; */
+	/* border: 1px dashed red; */
+}
+
+.marketing .span4 p {
+	/* margin-left: 10px; */
+	/* margin-right: 10px; */
+	/* font-weight: bold; */
+	/* border: 1px dashed red; */
+}
+
+
+	/** HELPER CLASSES +10 orange **/
+	
+	
+	/* EMPTY */
+	
+	
+	/** / HELPER CLASSES **/
+
+
+/*** / CLASSes ***/
+
+
+/*** ELEMENTS +1 green ***/
+
+
+/* IS THIS REALLY Bootstrap? */
+button {
+	/* border: 1px dashed green; */
+}
+
+
+	/** CONTENT ELEMENTS +1 yellow **/
+	
+	
+	/* EMPTY */
+	
+	
+	/** / CONTENT ELEMENTS **/
+
+
+/*** / ELEMENTS ***/

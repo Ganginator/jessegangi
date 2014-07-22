@@ -1,0 +1,34 @@
+/*! ROOT/stylesheets/scss/partials/_media.scss */
+
+
+/* Small devices (tablets, 768px and up) @screen-sm-min *//*
+@media all and (min-width: 768px) {
+	.fit {
+		width: 90%;
+		margin: 0 auto;
+		border: 1px dashed red;
+	}
+}
+*/
+
+/* Medium devices (desktops, 992px and up) @screen-md-min *//*
+@media all and (min-width: 992px) {
+	.fit {
+		width: 70%;
+		margin: 0 auto;
+		border: 1px dashed red;
+	}
+}
+*/
+
+/* Large devices (large desktops, 1200px and up) @screen-lg-min *//*
+@media all and (min-width: 1200px) {
+	.fit {
+		width: 50%;
+		margin: 0 auto;
+		border: 1px dashed red;
+	}
+}
+*/
+
+

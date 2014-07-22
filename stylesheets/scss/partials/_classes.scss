@@ -1,0 +1,88 @@
+/*! ROOT/stylesheets/scss/partials/_classes.scss */
+
+
+/*** CLASSes +10 red ***/
+
+
+/** THEIR TYPES **/
+
+
+.title-page {
+	/* text-align: center; */
+	margin-bottom: 20px;
+	/* margin: 30px 0 20px 0; */
+	/* border: 1px dashed red; */
+}
+
+.page {
+	/* margin: 70px, 0, 70px, 0; */
+	/* text-align: center; */
+	/* border: 1px dashed red; */
+}
+
+.wrapper {
+	/* text-align: center; */
+	/* border: 1px dashed red; */
+}
+
+/* WTF? */
+.box {
+	/* border: 1px dashed red; */
+}
+
+.title {
+	/* margin-bottom: 40px; */
+	/* border: 1px dashed red; */
+}
+
+.breadcrumb:a:active {
+	/* color: blue; */
+	color: red;
+	/* color: #0000FF; */
+	/* border: 1px dashed yellow; */
+}
+
+.bubbles {
+	text-align: center;
+	/* font-weight: bold; *//* NOT WORKING FOR h#'s? */
+	/* border: 1px dashed red; */
+}
+
+.bubbles a:hover {
+	text-align: center;
+	color: black;
+	/* background-color: red; */
+	/* font-weight: bold; */
+	/* border: 1px dashed red; */
+}
+
+.bubbles h1, h2, h3, h4, h5 {
+	/* font-weight: bold; */
+	/* border: 1px dashed red; */
+}
+
+.bubbles h3 {
+	color: red;
+	/* font-weight: bold; */
+	/* border: 1px dashed red; */
+}
+
+.bubbles h4 {
+	color: black;
+	/* font-weight: bold; */
+	/* border: 1px dashed red; */
+}
+
+.fit {
+	width: 90%;
+	margin: 0 auto;
+	/* border: 1px dashed red; */
+}
+
+
+/** / THEIR TYPES **/
+
+
+/*** / CLASSes ***/
+
+
