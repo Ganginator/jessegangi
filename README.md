@@ -66,15 +66,6 @@ The old repository became corrupted on 6/18/13.
 I cloned this from the master branch.
 I marked other repository as 'CORRUPTED', and saved it for the history.
 
-### This is an mix of:
-
-HTML5 Boilerplate: http://html5boilerplate.com/,
-Bootstrap: http://getbootstrap.com/,
-Font Awesome: http://fontawesome.io/,
-TimelineJS: http://timeline.knightlab.com/,
-Bootstrapx Clickover: https://github.com/lecar-red/bootstrapx-clickover,
-and my own code, including many references.
-
 I'm using it for my Online Resume, my business Aerial Applications, Templating, and Examples.
 
 I'm still modifying for personal use, and will remove unnecessary stuff as I go.
@@ -83,6 +74,17 @@ I'm still considering minifying everything when finished.
 However, I am having issues with getting Grunt to work on my server.
 
 Contact me if you are interested in hiring me, with any errors, suggestions, or help.
+
+
+### This is an mix of:
+
+HTML5 Boilerplate: [//html5boilerplate.com/](//html5boilerplate.com/)
+Bootstrap: http://getbootstrap.com/
+Font Awesome: http://fontawesome.io/
+TimelineJS: http://timeline.knightlab.com/
+Bootstrapx Clickover: https://github.com/lecar-red/bootstrapx-clickover/
+
+And my own code, including many references.
 
 
 ## SPEC SPECIFIC NOTES:
