@@ -77,7 +77,7 @@ Contact me if you are interested in hiring me, with any errors, suggestions, or 
 
 ### This is an mix of:
 
-HTML5 Boilerplate: <a href="http://html5boilerplate.com/" target="_blank">//html5boilerplate.com/</a>
+HTML5 Boilerplate: <a href="http://html5boilerplate.com/" target="_blank">//html5boilerplate.com/</a>  
 Bootstrap: http://getbootstrap.com/
 Font Awesome: http://fontawesome.io/
 TimelineJS: http://timeline.knightlab.com/
