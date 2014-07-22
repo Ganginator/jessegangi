@@ -72,6 +72,9 @@ However, I am having issues with getting Grunt to work on my server.
 Contact me if you are interested in hiring me, with any errors, suggestions, or help.
 
 
+## SPEC SPECIFIC NOTES:
+
+
 ### This is an mix of:
 
 HTML5 Boilerplate: http://html5boilerplate.com/  
@@ -81,9 +84,6 @@ TimelineJS: http://timeline.knightlab.com/
 Bootstrapx Clickover: https://github.com/lecar-red/bootstrapx-clickover/  
 
 And my own code, including many references.
-
-
-## SPEC SPECIFIC NOTES:
 
 
 HTML5 does not require you to wrap your attributes in quotes, and you do not have to close your elements. However, I prefer the XHTML structured semantic approach, even though it can seem redundant.
