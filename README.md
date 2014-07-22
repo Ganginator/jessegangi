@@ -30,13 +30,13 @@ This is my Online Resume.
 Jesse Gangi, Jesse, Gangi, Aerial Applications, Aerial, Applications, Duluth, Minnesota, MN, Superior, Wisconsin, WI, Twin Ports, Twin, Ports, Northland, Upper Mid-west, Upper, Mid-west, Mid, West, HTML5 Boilerplate, HTML5, Boilerplate, Twitter Bootstrap, Twitter, Bootstrap, Font Awesome, Font, Awesome, JQuery, TimelineJS, HTML, CSS, CSS3, Sass, SCSS, JS, JavaScript, PHP
 
 ### Author/Creator:
-Ganginator | Jesse Gangi | [//jessegangi.com/](http://jessegangi.com) | <a href="tel:2183102447" target="_blank">(218) 310-2447</a> | jgangi@aerialapps.com | <a href="http://twitter.com/Ganginator" target="_blank">@Ganginator</a>
+Ganginator | Jesse Gangi | http://jessegangi.com/ | (218) 310-2447 | jgangi@aerialapps.com | @Ganginator
 
 ### Copyright:
 Copyright 2012 to 2014 Jesse Gangi. All Rights Reserved.
 
 ### Link:
-[//jessegangi.com/](http://jessegangi.com)
+http://jessegangi.com
 
 ### Life:
 8/11/12 to Current
@@ -74,11 +74,11 @@ Contact me if you are interested in hiring me, with any errors, suggestions, or 
 
 ### This is an mix of:
 
-HTML5 Boilerplate: <a href="http://html5boilerplate.com/" target="_blank">//html5boilerplate.com/</a>  
-Bootstrap: <a href="http://getbootstrap.com/" target="_blank">//getbootstrap.com/</a>  
-Font Awesome: <a href="http://fontawesome.io/" target="_blank">//fontawesome.io/</a>  
-TimelineJS: <a href="http://timeline.knightlab.com/" target="_blank">//timeline.knightlab.com/</a>  
-Bootstrapx Clickover: <a href="https://github.com/lecar-red/bootstrapx-clickover/" target="_blank">//github.com/lecar-red/bootstrapx-clickover/</a>  
+HTML5 Boilerplate: http://html5boilerplate.com/  
+Bootstrap: http://getbootstrap.com/  
+Font Awesome: http://fontawesome.io/  
+TimelineJS: http://timeline.knightlab.com/  
+Bootstrapx Clickover: https://github.com/lecar-red/bootstrapx-clickover/  
 
 And my own code, including many references.
 
@@ -89,8 +89,10 @@ And my own code, including many references.
 HTML5 does not require you to wrap your attributes in quotes, and you do not have to close your elements. However, I prefer the XHTML structured semantic approach, even though it can seem redundant.
 
 DON'T FORGET TO CHANGE the lang attribute in '&lt;html class="no-js" lang="en"&gt;' IF YOUR LANGUAGE IS NOT English!
+	<html class="no-js" lang="en">
 
-VERIFY profile: &lt;head profile='<a href="http://w3.org/2005/10/profile" target="_blank">http://w3.org/2005/10/profile</a>'&gt;
+VERIFY profile: &lt;head profile="http://w3.org/2005/10/profile"&gt;
+	<head profile="http://w3.org/2005/10/profile">
 
 I do not indent the body, use it as a wrapper, or indent any wrappers.
 
@@ -109,7 +111,7 @@ IN DATABASE SITES, THE #page CONTENT AREA'S width, THE #page GLOBALS, AND THE co
 IN DATABASELESS SITES, THE #page CONTENT IS FETCHED WITH $_GET BASED ON ?page=, AND THE RESPECTIVE FILES ARE LOCATED IN ~includes/content; WHILE THE LAYOUT IS DETERMINED BY THE RESPECTIVE FILES LOCATED IN ~includes.
 
 CONSIDER CHANGING TO em's OR rem's  
-<a href="http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw" target="_blank">http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw</a>  
+http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw  
 100% = 1 em ~= 16px ~= 14pt
 
 css.php contains all CSS links for reference.
