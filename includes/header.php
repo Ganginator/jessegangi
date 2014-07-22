@@ -1,104 +1,147 @@
-	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+<!-- ROOT/includes/header.php -->
+
+
+<!-- CONSIDER MOVING THIS INTO HEAD, MAYBE AS AN INCLUDES? THEN IT CAN BE USED BY ANY CHECKS THROUGHOUT THE PAGE -->
+<!-- CHECK IF ?page= IS SET, AND IF SO ASIGN TO $page FOR SETTING .active IN NAV -->
+<?php 
+
+	if ( isset ( $_GET [ 'page' ] )) { 
+	
+		$page = $_GET [ 'page' ]; 
+		
+	} else {
+	
+		$page = 'landing';
+		
+	}
+	
+?>
+
+
+<nav class="navbar navbar-default navbar-fixed-top hidden-print" role="navigation">
+
+
+	<div class="container-fluid">
+	
+	
+		<div class="navbar-header">
 		
 		
-			<div class="navbar-header">
+			<!-- SETTING BRAND TO .active NOT WORKING? IS THIS BECAUSE NO <li>? -->
+			<a class="navbar-brand"<?php if ( $page == 'landing' ){ echo ' style="color: black;"'; } ?><?php if ( $page == '' ){ echo ' style="color: black;"'; } ?> href="./"><i class="fa fa-umbrella"></i>&nbsp; Jesse Gangi</a>
+			
+			<!-- #cheeseburger-menu WILL BE POPULATED HERE -->
+			
+			<!-- The Infamous Hamburger Button -->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<i class="fa fa-bars fa-lg"></i>
+			</button>
 			
 			
-				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-header-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				
-				<a class="navbar-brand" href="/">Jesse Gangi</a>
-				
-				
-			</div><!-- / .navbar-header -->
-			
-			
-			<div id="navbar-header-collapse" class="navbar-collapse collapse">
-			
-			
-				<ul class="nav navbar-nav">
-				
-					<li <?php if ($page == 'home'){ echo 'class="active"'; } ?>><a href="?page=home"><i class="fa fa-home fa-inverse"></i>&nbsp;&nbsp;Home&nbsp; </a></li>
-					
-					<!-- FROM aerialapps.com FOR FIXING active class
-					<li class="dropdown <#!?php if ($pagename == 'about'){ echo 'active'; } ?>"><a href="?pagename=about" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-question-sign icon-black"></i>&nbsp;&nbsp;About&nbsp;<b class="caret"></b></a>
-					-->
-					
-					<!-- 
-					<#!?php if($url === $activePage):?>class="active"<#!?php endif;?>
-					<#!?php if($url === $activePage):?> active<#!?php endif;?>
-					-->
-					
-					<li class="dropdown<?php if ($pagename == 'about'){ echo 'active green'; } ?>"><a href="?page=about" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-question-circle fa-inverse"></i>&nbsp;&nbsp;About&nbsp; <b class="caret"></b></a>
-						
-						<ul class="dropdown-menu">
-						
-							<li <?php if ($page == 'about/experience'){ echo 'class="active"'; } ?>><a href="?page=about/experience"><i class="fa fa-road"></i>&nbsp;&nbsp;Experience&nbsp; </a></li>
-							
-							<!-- DISABLED dropdown-submenu -->
-							<li class="<?php if ($page == 'about/education'){ echo ' active'; } ?>">
-								<a href="?page=about/education"><i class="fa fa-book"></i>&nbsp;&nbsp;Education&nbsp; </a>
-								
-								<!-- DISABLED
-								<ul class="dropdown-menu">
-								
-									<li><a href="?page=about/education/learning"><i class="fa fa-book"></i>&nbsp;&nbsp;Learning&nbsp; </a></li>
-									
-								</ul>
-								-->
-								
-							</li>
-							
-							<li <?php if ($page == 'about/activities'){ echo 'class="active"'; } ?>><a href="?page=about/activities"><i class="fa fa-music"></i>&nbsp;&nbsp;Activities&nbsp; </a></li>
-							<li <?php if ($page == 'about/portfolio'){ echo 'class="active"'; } ?>><a href="?page=about/portfolio"><i class="fa fa-briefcase"></i>&nbsp;&nbsp;Portfolio&nbsp; </a></li>
-							
-						</ul><!-- / .dropdown-menu -->
-						
-					</li><!-- / .dropdown -->
-					
-					<li class="dropdown <?php if ($page == 'tools'){ echo 'active'; } ?>"><a href="?page=tools" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-wrench fa-inverse"></i>&nbsp;&nbsp;Tools&nbsp; <b class="caret"></b></a>
-						
-						<ul class="dropdown-menu">
-						
-							<li <?php if ($page == 'tools/software'){ echo 'class="active"'; } ?>><a href="?page=tools/software"><i class="fa fa-laptop"></i>&nbsp;&nbsp;Software</a></li>
-							<li <?php if ($page == 'tools/frameworks'){ echo 'class="active"'; } ?>><a href="?page=tools/frameworks"><i class="fa fa-building-o"></i>&nbsp;&nbsp;Frameworks</a></li>
-							<li <?php if ($page == 'tools/code'){ echo 'class="active"'; } ?>><a href="?page=tools/code"><i class="fa fa-code"></i>&nbsp;&nbsp;Code</a></li>
-							<li <?php if ($page == 'tools/learning'){ echo 'class="active"'; } ?>><a href="?page=tools/learning"><i class="fa fa-book"></i>&nbsp;&nbsp;Learning&nbsp; </a></li>
-							
-							
-						</ul><!-- / .dropdown-menu -->
-						
-					</li><!-- / .dropdown -->
-					
-				</ul><!-- / .nav .navbar-nav -->
-				
-				
-				<ul class="nav navbar-nav navbar-right">
-				
-					<li class="dropdown <?php if ($page == 'links'){ echo 'active'; } ?>"><a href="?page=links" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-link fa-inverse"></i>&nbsp;&nbsp;Links&nbsp; <b class="caret"></b></a>
-						
-						<ul class="dropdown-menu">
-						
-							<li><a href="http://www.linkedin.com/in/jessegangi"><i class="fa fa-linkedin"></i>&nbsp;&nbsp;LinkedIn&nbsp; </a></li>
-							<li><a href="https://github.com/Ganginator"><i class="fa fa-github-alt"></i>&nbsp;&nbsp;GitHub&nbsp; </a></li>
-							<li><a href="https://drupal.org/user/1101028"><i class="fa fa-link"></i>&nbsp;&nbsp;Drupal&nbsp; </a></li>
-							<li><a href="http://stackoverflow.com/users/1944528/ganginator"><i class="fa fa-link"></i>&nbsp;&nbsp;Stack Overflow&nbsp; </a></li>
-							
-						</ul><!-- / .dropdown-menu -->
-						
-					</li><!-- / .dropdown -->
-					
-					<li <?php if ($page == 'contact'){ echo 'class="active"'; } ?>><a href="?page=contact"><i class="fa fa-envelope fa-inverse"></i>&nbsp;&nbsp;Contact&nbsp; </a></li>
-					<li><a href="http://jessegangi.com/files/documents/resumes/resume_Jesse-Gangi_13-11-07.pdf" target="_blank"><i class="fa fa-download fa-inverse"></i>&nbsp;&nbsp;One Sheet PDF&nbsp;&nbsp;&nbsp;&nbsp; </a></li>
-					
-				</ul><!-- / .nav .navbar-nav .navbar-right -->
-				
-				
-			</div><!-- / #navbar-header-collapse .navbar-collapse .collapse -->
+		</div>
 		
 		
-	</nav><!-- / .navbar .navbar-inverse .navbar-static-top *navigation -->
+		<div id="cheeseburger-menu" class="collapse navbar-collapse">
+		
+		
+			<ul class="nav navbar-nav">
+			
+				<li class="hidden-sm<?php if ( $page == 'home'){ echo ' active'; } ?>"><a href="./?page=home"><i class="fa fa-home"></i>&nbsp; Home</a></li>
+				
+				<li class="dropdown-split-left<?php if ( $page == 'about' || $page == 'about/experience' || $page == 'about/education' || $page == 'about/activities' || $page == 'about/portfolio' ){ echo ' active'; } ?>"><a href="./?page=about"><i class="fa fa-question-circle"></i>&nbsp; About</a></li>
+				
+				<li class="dropdown dropdown-split-right hidden-xs hidden-sm" style="margin-left: -22px;">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<i class="fa fa-caret-down"></i>
+					</a>
+					
+					<!-- SHOULD BE ABLE TO MOVE .pull-right ? MAYBE DON'T NEED margins -->
+					<ul class="dropdown-menu pull-right" style="margin-right: -22px;">
+					
+						<!-- <li<#?php if ( $page == 'about' || $page == 'about/experience' || $page == 'about/education' || $page == 'about/activities' || $page == 'about/portfolio' ){ echo ' active'; } ?>><a href="./?page=about"><i class="fa fa-question-circle"></i>&nbsp; About</a></li>
+						
+							<li class="divider"></li> -->
+						
+						<li<?php if ( $page == 'about/experience' ){ echo ' class="active"'; } ?>><a href="./?page=about/experience"><i class="fa fa-road"></i>&nbsp; Experience</a></li>
+						
+						<li<?php if ( $page == 'about/education' ){ echo ' class="active"'; } ?>><a href="./?page=about/education"><i class="fa fa-graduation-cap"></i>&nbsp; Education</a></li>
+						
+						<li<?php if ( $page == 'about/activities' ){ echo ' class="active"'; } ?>><a href="./?page=about/activities"><i class="fa fa-music"></i>&nbsp; Activities</a></li>
+						
+						<li<?php if ( $page == 'about/portfolio' ){ echo ' class="active"'; } ?>><a href="./?page=about/portfolio"><i class="fa fa-briefcase"></i>&nbsp; Portfolio</a></li>
+						
+					</ul>
+					
+				</li>
+				
+				<li class="dropdown-split-left<?php if ( $page == 'tools' || $page == 'tools/software' || $page == 'tools/frameworks' || $page == 'tools/code' || $page == 'tools/learning' ){ echo ' active'; } ?>"><a href="./?page=tools"><i class="fa fa-wrench"></i>&nbsp; Tools</a></li>
+				
+				<li class="dropdown dropdown-split-right hidden-xs hidden-sm" style="margin-left: -22px;">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<i class="fa fa-caret-down"></i>
+					</a>
+					
+					<ul class="dropdown-menu pull-right" style="margin-right: -22px;">
+					
+						<!-- <li<#?php if ( $page == 'tools' || $page == 'tools/software' || $page == 'tools/frameworks' || $page == 'tools/code' || $page == 'tools/learning' ){ echo ' active'; } ?>><a href="./?page=tools"><i class="fa fa-wrench"></i>&nbsp; Tools</a></li>
+						
+							<li class="divider"></li> -->
+						
+						<li<?php if ( $page == 'tools/software' ){ echo ' class="active"'; } ?>><a href="./?page=tools/software"><i class="fa fa-laptop"></i>&nbsp; Software</a></li>
+						
+						<li<?php if ( $page == 'tools/frameworks' ){ echo ' class="active"'; } ?>><a href="./?page=tools/frameworks"><i class="fa fa-building-o"></i>&nbsp; Frameworks</a></li>
+						
+						<li<?php if ( $page == 'tools/code' ){ echo ' class="active"'; } ?>><a href="./?page=tools/code"><i class="fa fa-code"></i>&nbsp; Code</a></li>
+						
+						<li<?php if ( $page == 'tools/learning' ){ echo ' class="active"'; } ?>><a href="./?page=tools/learning"><i class="fa fa-book"></i>&nbsp; Learning</a></li>
+						
+					</ul>
+					
+				</li>
+				
+				<li class="dropdown-split-left<?php if ( $page == 'links' ){ echo ' active'; } ?>"><a href="./?page=links"><i class="fa fa-link"></i>&nbsp; Links</a></li>
+				
+				<li class="dropdown dropdown-split-right hidden-xs hidden-sm" style="margin-left: -22px;">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<i class="fa fa-caret-down"></i>
+					</a>
+					
+					<ul class="dropdown-menu pull-right" style="margin-right: -22px;">
+					
+						<!-- <li<#?php if ( $page == 'links' ){ echo ' class="active"'; } ?>><a href="./?page=links"><i class="fa fa-link"></i>&nbsp; Links</a></li>
+						
+							<li class="divider"></li> -->
+						
+						<li><a href="//linkedin.com/in/jessegangi"><i class="fa fa-linkedin"></i>&nbsp; LinkedIn</a></li>
+						
+						<li><a href="//github.com/Ganginator"><i class="fa fa-github-alt"></i>&nbsp; GitHub</a></li>
+						
+						<li><a href="//drupal.org/user/1101028"><i class="fa fa-drupal"></i>&nbsp; Drupal</a></li>
+						
+						<li><a href="//stackoverflow.com/users/1944528/ganginator"><i class="fa fa-stack-overflow"></i>&nbsp; Stack Overflow</a></li>
+						
+					</ul>
+					
+				</li>
+				
+			</ul>
+			
+			<ul class="nav navbar-nav navbar-right">
+				
+				<li<?php if ( $page == 'contact' ){ echo ' class="active"'; } ?>><a href="./?page=contact"><i class="fa fa-envelope"></i>&nbsp; Contact</a></li>
+				
+				<li><a href="./files/documents/resumes/resume_Jesse-Gangi_13-11-07.pdf"><i class="fa fa-file-pdf-o"></i>&nbsp; One Sheet PDF</a></li>
+				
+			</ul>
+			
+			
+		</div>
+		
+		
+	</div>
+	
+	
+</nav>
+
+

@@ -1,4 +1,52 @@
-/*! jessegangi.com/css/customs/custom.css */
+/*! ROOT/css/customs/custom.css */
+
+
+.red.i { 
+	color: red; 
+} 
+
+
+/* CHECK THESE BEFORE USING THEM!!!
+
+
+		
+		
+		< style>
+		
+			#math-is-fun {
+				width: 96%;
+				text-align: left;
+				margin: 0 auto;
+				font-weight: bold;
+			}
+			
+			xmp {
+				width: 400px;
+				text-align: left;
+				margin: 0 auto;
+				color: red;
+			}
+			
+			h1 {
+				color: darkblue;
+			}
+			
+			h2 {
+				color: silver;
+			}
+			
+			h3 {
+				color: green;
+			}
+			
+			h4 {
+				color: purple;
+				text-decoration: underline;
+			}
+			
+		</ style>
+		
+*/
 
 
 /*** ! IMPORTANT CONTENT ELEMENTS +10000 ***/
@@ -17,7 +65,7 @@
 
 
 #aih1tb {
-	/* margin: 20px; */
+	/* margin: 20px;*/
 	/* border: 1px dashed blue; */
 }
 
@@ -283,6 +331,15 @@
 /** BREADCRUMB **/
 
 
+	
+	.breadcrumb:a:active {
+		/* color: blue; */
+		color: red;
+		/* color: #0000FF; */
+		/* border: 1px dashed yellow; */
+	}
+	
+	
 #information {
 	/* border: 1px dashed blue; */
 }
@@ -319,26 +376,26 @@
 }
 
 #credit a:link {
-	color: blue;
+	/* color: blue; */
 	/* color: #FF0000; */
 	/* border: 1px dashed blue; */
 }
 
 #credit a:visited {
-	color: black;
+	/* color: black; */
 	/* color: #00FF00; */
 	/* border: 1px dashed blue; */
 }
 
 #credit a:hover {
-	color: blue;
+	/* color: blue; */
 	/* color: #FF00FF; */
 	/* border: 1px dashed blue; */
 	/* border-bottom: 1px solid black; */
 }
 
 #credit a:active {
-	color: white;
+	/* color: white; */
 	/* color: #0000FF; */
 	/* border: 1px dashed blue; */
 }
@@ -422,14 +479,7 @@
 	/* border: 1px dashed red; */
 }
 
-.snatch {
-	color: black;
-	/* background-color: red; */
-	/* font-weight: bold; */
-	/* border: 1px dashed red; */
-}
-
-.bubbles-snatch a:hover {
+.bubbles a:hover {
 	text-align: center;
 	color: black;
 	/* background-color: red; */
@@ -453,6 +503,43 @@
 	/* font-weight: bold; */
 	/* border: 1px dashed red; */
 }
+
+.fit {
+	width: 90%;
+	margin: 0 auto;
+	/* border: 1px dashed red; */
+}
+
+/* Small devices (tablets, 768px and up) @screen-sm-min *//*
+@media all and (min-width: 768px) {
+	.fit {
+		width: 90%;
+		margin: 0 auto;
+		border: 1px dashed red;
+	}
+}
+*/
+
+/* Medium devices (desktops, 992px and up) @screen-md-min *//*
+@media all and (min-width: 992px) {
+	.fit {
+		width: 70%;
+		margin: 0 auto;
+		border: 1px dashed red;
+	}
+}
+*/
+
+/* Large devices (large desktops, 1200px and up) @screen-lg-min *//*
+@media all and (min-width: 1200px) {
+	.fit {
+		width: 50%;
+		margin: 0 auto;
+		border: 1px dashed red;
+	}
+}
+*/
+
 
 /* VERIFIED ABOVE */
 
@@ -547,6 +634,7 @@ body {
 }
 
 header {
+	padding-bottom: 50px;
 	/* border: 1px dashed green; */
 }
 
@@ -593,7 +681,15 @@ iframe div {
 	/* border: 1px dashed green; */
 }
 
+/* CANNOT STYLE?
+pre {
+	
+	border: 1px dashed green;
+}
+*/
+
 footer {
+	/* padding-top: 50px; */
 	/* margin-top: 30px; */
 	/* border: 1px dashed green; */
 }
@@ -645,8 +741,8 @@ footer {
 	}
 	
 	a:link {
-		/* color: blue; */
-		color: red;
+		color: blue;
+		/* color: red; */
 		/* color: #FF0000; */
 		/* border: 1px dashed yellow; */
 	}
@@ -665,7 +761,8 @@ footer {
 	}
 	
 	a:active {
-		color: white;
+		/* color: blue; */
+		color: red;
 		/* color: #0000FF; */
 		/* border: 1px dashed yellow; */
 	}

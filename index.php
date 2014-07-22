@@ -5,25 +5,16 @@
 <!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!-- HTML5 Element --><!--<![endif]-->
-<!-- DON'T FORGET TO CHANGE THE ABOVE lang="??" IF YOUR LANGUAGE IS NOT English !!! -->
+<!-- !!! DON'T FORGET TO CHANGE THE ABOVE lang="??" IF YOUR LANGUAGE IS NOT English !!! -->
 
 
 <head>
 
 
-<?php include("includes/head.php") ?>
+<?php include ( "includes/head.php" ); ?>
 	
 	
 </head>
-
-
-<!-- README.md HIDDEN
-
-
-<?php include("README.md") ?>
-
-
-/ README.md HIDDEN -->
 
 
 <body>
@@ -32,31 +23,42 @@
 	<header>
 	
 	
-	<?php include("includes/header.php") ?>
+	<?php include ( "includes/header.php" ); ?>
 		
 		
 	</header>
 	
 	
-<?php include("includes/layout-begin.php") ?>
+<?php include ( "includes/layout-begin.php" ); ?>
 	
 	
-	<article id="content">
+	<div id="page">
 	
 	
-	<?php include("includes/page.php"); ?>
+	<?php include ( "includes/page.php" ); ?>
 		
 		
-	</article><!-- / #content -->
+		<!-- SHOULD BE INSIDE SAID PAGE 
+		
+		<article id="content">
+		
+		
+			EMPTY
+			
+			
+		</article> --><!-- / #content -->
+		
+		
+	</div><!-- / #page -->
 	
 	
-<?php include("includes/layout-end.php") ?>
+<?php include ( "includes/layout-end.php" ); ?>
 	
 	
 	<footer>
 	
 	
-	<?php include("includes/footer.php") ?>
+	<?php include ( "includes/footer.php" ); ?>
 		
 		
 	</footer>
@@ -68,10 +70,21 @@
 <div id="feet">
 
 
-<?php include("includes/feet.php") ?>
-	
-	
+<?php include ( "includes/feet.php" ); ?>
+
+
+<!-- README.md HIDDEN
+
+
+<?php include ( "README.md" ); ?>
+
+
+/ README.md HIDDEN -->
+
+
 </div><!-- / #feet -->
 
 
 </html>
+
+

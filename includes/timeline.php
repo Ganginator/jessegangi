@@ -16,7 +16,7 @@ https://docs.google.com/a/aerialapps.com/spreadsheet/ccc?key=0Aq0fmXuEuDNgdFdTdX
 	<!-- WORKING VIA Knightlab & Google Spreadsheet -->
 	
 	
-	<iframe src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0Aq0fmXuEuDNgdFdTdXR1aXFDVEFacVNVdWlOTkp0dmc&font=Georgia-Helvetica&maptype=HYBRID&lang=en&start_at_end=true&height=650' width='100%' height='650' background-color="black" frameborder='0'></iframe>
+	<iframe width='90%' height='700px' src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0Aq0fmXuEuDNgdFdTdXR1aXFDVEFacVNVdWlOTkp0dmc&font=Georgia-Helvetica&maptype=HYBRID&lang=en&start_at_end=true&height=650' background-color="black" frameborder='0'></iframe>
 	
 	
 	<!-- / WORKING VIA Knightlab & Google Spreadsheet -->

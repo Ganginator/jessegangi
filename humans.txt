@@ -13,23 +13,27 @@
 
 # THANKS
 
-	Sam Gangi, Kim Gangi, Tod Idhe, Joe Sauve
+	Sam Gangi, Kim Gangi, Tod Idhe, Joe Sauve, Sara Johnson
 
 
 # TECHNOLOGY COLOPHON
 
-	HTML5,
-	CSS3,
-	PHP,
-	MySQL,
-	JavaScript,
-	jQuery,
-	Modernizr,
-	Normalize,
-	InnoDB,
 	HTML5 Boilerplate,
 	Bootstrap,
-	Font Awesome
+	Font Awesome,
+	jQuery,
+	TimelineJS,
+	Respond.JS,
+	Modernizr,
+	Normalize,
+	HTML5 Shiv,
+	HTML5 Shim,
+	HTML5,
+	CSS3,
+	Sass,
+	SCSS,
+	PHP,
+	JavaScript
 	
 	
 	

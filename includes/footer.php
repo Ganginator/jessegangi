@@ -1,48 +1,78 @@
+		<!-- ROOT/includes/footer.php -->
+		
+		
 		<div class="container margin-top">
 		
 		
 			<ul class="breadcrumb po-initialize"><!-- .list-inline -->
 			
-				<!-- TRYING popover NOT WORKING - GOES TO TOP #? -->
-				<!-- <li><strong><a href="#" data-toggle="popover" title="Popover Title Test" data-content="Popover Content Test"><i class="fa fa-info-circle" title="Information"></i></a></strong></li> --><!-- ?page=information id="po-information" rel="popover" -->
+				<li><a href="?page=home"<?php if ( $page == 'home' ){ echo ' style="color: red;"'; } ?>><i class="fa fa-home" title="Home"></i></a></li>
+				&nbsp;<span class="divider">&raquo;</span>&nbsp;
 				
-				<li><strong><a href="info" id="co-information" rel="clickover"><i class="fa fa-info-circle" title="Information"></i></a></strong></li>
+				<li><a href="?page=about"<?php if ( $page == 'about' ){ echo ' style="color: red;"'; } ?>><i class="fa fa-question-circle" title="About"></i></a></li>
 				&nbsp;<span class="divider">&raquo;</span>&nbsp;
-				<li class="active"><strong><a href="/"><i class="fa fa-home" title="Home"></i></a></strong></li>
+				
+				<li><a href="?page=about/experience"<?php if ( $page == 'about/experience' ){ echo ' style="color: red;"'; } ?>><i class="fa fa-road" title="Experience"></i></a></li>
 				&nbsp;<span class="divider">&raquo;</span>&nbsp;
-				<li><a href="?page=about"><i class="fa fa-question-circle" title="About"></i></a></li>
+				
+				<li><a href="?page=about/education"<?php if ( $page == 'about/education' ){ echo ' style="color: red;"'; } ?>><i class="fa fa-graduation-cap" title="Education"></i></a></li>
 				&nbsp;<span class="divider">&raquo;</span>&nbsp;
-				<li><a href="?page=about/experience"><i class="fa fa-road" title="Experience"></i></a></li>
+				
+				<li><a href="?page=about/activities"<?php if ( $page == 'about/activities' ){ echo ' style="color: red;"'; } ?>><i class="fa fa-music" title="Activities"></i></a></li>
 				&nbsp;<span class="divider">&raquo;</span>&nbsp;
-				<li><a href="?page=about/portfolio"><i class="fa fa-briefcase" title="Portfolio"></i></a></li>
+				
+				<li><a href="?page=about/portfolio"<?php if ( $page == 'about/portfolio' ){ echo ' style="color: red;"'; } ?>><i class="fa fa-briefcase" title="Portfolio"></i></a></li>
 				&nbsp;<span class="divider">&raquo;</span>&nbsp;
-				<li><a href="?page=about/activities"><i class="fa fa-music" title="Activities"></i></a></li>
+				
+				<li><a href="?page=tools"<?php if ( $page == 'tools' ){ echo ' style="color: red;"'; } ?>><i class="fa fa-wrench" title="Tools"></i></a></li>
 				&nbsp;<span class="divider">&raquo;</span>&nbsp;
-				<li><a href="?page=about/education"><i class="fa fa-book" title="Education"></i></a></li>
+				
+				<li><a href="?page=tools/software"<?php if ( $page == 'tools/software' ){ echo ' style="color: red;"'; } ?>><i class="fa fa-laptop" title="Software"></i></a></li>
 				&nbsp;<span class="divider">&raquo;</span>&nbsp;
-				<li><a href="?page=tools"><i class="fa fa-wrench" title="Tools"></i></a></li>
+				
+				<li><a href="?page=tools/frameworks"<?php if ( $page == 'tools/frameworks' ){ echo ' style="color: red;"'; } ?>><i class="fa fa-building-o" title="Frameworks"></i></a></li>
 				&nbsp;<span class="divider">&raquo;</span>&nbsp;
-				<li><a href="?page=tools/software"><i class="fa fa-laptop" title="Software"></i></a></li>
+				
+				<li><a href="?page=tools/code"<?php if ( $page == 'tools/code' ){ echo ' style="color: red;"'; } ?>><i class="fa fa-code" title="Code"></i></a></li>
 				&nbsp;<span class="divider">&raquo;</span>&nbsp;
-				<li><a href="?page=tools/code"><i class="fa fa-code" title="Code"></i></a></li>
+				
+				<li><a href="?page=tools/learning"<?php if ( $page == 'tools/learning' ){ echo ' style="color: red;"'; } ?>><i class="fa fa-book" title="Learning"></i></a></li>
 				&nbsp;<span class="divider">&raquo;</span>&nbsp;
-				<li><a href="?page=tools/frameworks"><i class="fa fa-building-o" title="Frameworks"></i></a></li>
+				
+				<li><a href="?page=links"<?php if ( $page == 'links' ){ echo ' style="color: red;"'; } ?>><i class="fa fa-link" title="Links"></i></a></li>
 				&nbsp;<span class="divider">&raquo;</span>&nbsp;
-				<li><a href="?page=links"><i class="fa fa-link" title="Links"></i></a></li>
-				&nbsp;<span class="divider">&raquo;</span>&nbsp;
+				
 				<li><a href="http://www.linkedin.com/pub/jesse-gangi/20/244/b14"><i class="fa fa-linkedin" title="LinkedIn"></i></a></li>
 				&nbsp;<span class="divider">&raquo;</span>&nbsp;
+				
 				<li><a href="https://github.com/Ganginator"><i class="fa fa-github-alt" title="GitHub"></i></a></li>
 				&nbsp;<span class="divider">&raquo;</span>&nbsp;
-				<li><a href="https://drupal.org/user/1101028"><i class="fa fa-link" title="Drupal"></i></a></li>
+				
+				<li><a href="https://drupal.org/user/1101028"><i class="fa fa-drupal" title="Drupal"></i></a></li>
 				&nbsp;<span class="divider">&raquo;</span>&nbsp;
-				<li><a href="http://stackoverflow.com/users/1944528/ganginator"><i class="fa fa-link" title="Stack Overflow"></i></a></li>
+				
+				<li><a href="http://stackoverflow.com/users/1944528/ganginator"><i class="fa fa-stack-overflow" title="Stack Overflow"></i></a></li>
 				&nbsp;<span class="divider">&raquo;</span>&nbsp;
-				<li><a href="?page=contact"><i class="fa fa-envelope" title="Contact"></i></a></li>
-				<!-- &nbsp;<span class="divider">&raquo;</span>&nbsp;
-				<li><a href="#" id="bookmarker" rel="sidebar"><i class="fa fa-bookmark" title="Bookmark this Page!"></i></a></li> -->
+				
+				<li><a href="?page=contact"<?php if ( $page == 'contact' ){ echo ' style="color: red;"'; } ?>><i class="fa fa-envelope" title="Contact"></i></a></li>
 				&nbsp;<span class="divider">&raquo;</span>&nbsp;
-				<li><a href="http://jessegangi.com/files/documents/resumes/resume_Jesse-Gangi_13-11-07.pdf" target="_blank"><i class="fa fa-download" title="One Sheet PDF"></i></a></li>
+				
+				<!-- <li><a href="?page=privacy"<#?php if ( $page == 'privacy' ){ echo ' style="color: red;"'; } ?>><i class="fa fa-file-pdf-o" title="Privacy"></i></a></li>
+				&nbsp;<span class="divider">&raquo;</span>&nbsp; -->
+				
+				<!-- <li><a href="?page=terms"<#?php if ( $page == 'terms' ){ echo ' style="color: red;"'; } ?>><i class="fa fa-file-pdf-o" title="Terms"></i></a></li>
+				&nbsp;<span class="divider">&raquo;</span>&nbsp; -->
+				
+				<li><a href="http://jessegangi.com/files/documents/resumes/resume_Jesse-Gangi_13-11-07.pdf" target="_blank"><i class="fa fa-file-pdf-o" title="One Sheet PDF"></i></a></li>
+				&nbsp;<span class="divider">&raquo;</span>&nbsp;
+				
+				<li><a href="#"><strong><i class="fa fa-#" title="Go Back to the Top!">#</i></strong></a></li>
+				&nbsp;<span class="divider">&raquo;</span>&nbsp;
+				
+				<!-- <li><a href="#" id="bookmarker" rel="sidebar"><i class="fa fa-bookmark" title="Bookmark this Page!"></i></a></li>
+				&nbsp;<span class="divider">&raquo;</span>&nbsp; -->
+				
+				<li><a href="#" id="co-information" rel="clickover"<?php if ( $page == 'information' ){ echo ' style="color: red;"'; } ?>><i class="fa fa-info-circle" title="Information"></i></a></li>
 				
 			</ul><!-- / .breadcrumb -->
 			
@@ -50,16 +80,46 @@
 		</div><!-- / .container .margin-top -->
 		
 		
-		<div id="credit">
+		<div id="credit" style="margin-left: 40px;">
 		
 		
-			<!-- With HTML5 small is now a wrapper for 'Small Print'. Perfect for Copyright! -->
 			<small class="muted credit">
 			
 			
-				<!-- CONSIDER MAKING A .red CLASS FOR BELOW LINKS -->
-				Copyright &copy; 2012 to 2014 <a href="/">Jesse Gangi</a><!-- - Duluth, Minnesota | Built with <a href="http://html5boilerplate.com/" target="_blank">HTML5 Boilerplate</a>, <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>, and <a href="http://fontawesome.io/" target="_blank">Font Awesome</a><br />
-				<span style="color: red;">I &nbsp;&hearts;&nbsp; <a href="http://en.wikipedia.org/wiki/HTML5" target="_blank">HTML5</a> &nbsp;&amp;&nbsp; <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3" target="_blank">CSS3</a> &nbsp;&amp;&nbsp; <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a> &nbsp;&amp;&nbsp; <a href="https://en.wikipedia.org/wiki/PHP" target="_blank">PHP</a></span> | <a href="../README.md" target="_blank">README.md</a> | <a href="#">Back to top</a> &middot; <a href="?page=privacy">Privacy</a> &middot; <a href="?page=terms">Terms</a> -->
+				<!-- MOVE THIS INTO ITS OWN FILE -->
+				<!-- SIMPLE JAVASCRIPT DATE MACHINE? -->
+				
+				<script>
+				
+				
+					var today = new Date(); 
+					var dd = today.getDate(); 
+					var mm = today.getMonth() + 1 ; //January is 0! 
+					var yyyy = today.getFullYear(); 
+					
+					
+					if ( dd < 10 ) { 
+					
+						dd = '0' + dd 
+						
+					} 
+					
+					if ( mm < 10 ) { 
+					
+						mm = '0' + mm 
+						
+					} 
+					
+					
+					today = mm + '/' + dd + '/' + yyyy ; 
+					
+					/* document.write ( today ); */ 
+					
+					
+				</script>
+				
+				
+				Copyright &copy; 2012 to <script> document.write ( yyyy ); </script> <!-- 2014 -->Jesse Gangi. <!-- All Rights Reserved. -->
 				
 				
 			</small><!-- / .muted .credit -->

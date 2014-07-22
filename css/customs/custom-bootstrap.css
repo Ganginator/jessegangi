@@ -1,6 +1,48 @@
 /*! jessegangi.com/css/customs/custom-bootstrap.css */
 
 
+/*** @Media ***/
+
+
+@media (max-width: 991px) {
+
+	.navbar-header {
+		float: none;
+	}
+	
+	.navbar-toggle {
+		display: block;
+	}
+	
+	.navbar-collapse {
+		border-top: 1px solid transparent;
+		box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	}
+	
+	.navbar-collapse.collapse {
+		display: none!important;
+	}
+	
+	.navbar-nav {
+		float: none!important;
+		margin: 7.5px -15px;
+	}
+	
+	.navbar-nav>li {
+		float: none;
+	}
+	
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	
+}
+
+
+/*** / @Media ***/
+
+
 /*** IDs +100 blue ***/
 
 
@@ -95,6 +137,7 @@
 
 /* Dropdown Sub-menu */
 
+/*
 .dropdown-submenu {
 	position: relative;
 }
@@ -142,6 +185,7 @@
 	-moz-border-radius: 6px 0 6px 6px;
 	border-radius: 6px 0 6px 6px;
 }
+*/
 
 /* / Dropdown Sub-menu */
 
@@ -162,7 +206,7 @@
 
 .row {
 	/* text-align: center; */
-	margin: 20px 0 20px 0;
+	/* margin: 20px 0 20px 0; *//* THIS */
 	/* margin: 20px 0 0 0; */
 	/* margin-top: 30px; */
 	/* margin-bottom: 36px; */
@@ -173,12 +217,19 @@
 	/* border: 1px dashed red; */
 }
 
-.btn {
+/* DOESN'T WORK? */
+.col-* {
+	/* margin: 70px; */
+	/* border: 1px dashed red; */
+}
+
+.btn-xs {
+	/* width: 80%; */
 	/* border: 1px dashed red; */
 }
 
 .btn:link {
-	color: black;
+	/* color: black; */
 	/* color: blue; */
 	/* color: red; */
 	/* color: #FF0000; */
@@ -187,11 +238,16 @@
 }
 
 .btn:hover {
-	color: white;
+	/* color: white; */
 	/* color: blue; */
 	/* color: #FF00FF; */
 	/* border: 1px dashed yellow; */
 	/* border-bottom: 1px solid black; */
+	/* border: 1px dashed red; */
+}
+
+.btn:hover:a {
+	/* margin-top: +20px; */
 	/* border: 1px dashed red; */
 }
 
@@ -270,6 +326,13 @@
 	/* text-decoration: none; */
 	/* border: 1px dashed red; */
 }
+
+/* IS THIS REALLY Bootstrap
+.breadcrumb.active {
+	color: red;
+	border: 1px dashed red;
+}
+*/
 
 /* IS THIS REALLY Bootstrap */
 .breadcrumb a:hover {

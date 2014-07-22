@@ -16,7 +16,7 @@
 	<!-- Google will often use this as its description of your page/site. Make it good. -->
 	<meta name="title" content="Jesse Gangi's Online Resume" />
 	<meta name="description" content="This is Jesse Gangi's Online Resume!" />
-	<meta name="keywords" content="Duluth, Minnesota, Aerial Applications, Aerial, Applications, Jesse Gangi, Jesse, Gangi Duluth, Minnesota, MN, Superior, Wisconsin, WI, Twin Ports, Twin, Ports, Northland, Upper Mid-west, Upper, Mid-west, Mid, West, HTML5 Boilerplate, HTML5, Boilerplate, Twitter Bootstrap, Twitter, Bootstrap, Font Awesome, Font, Awesome, Timeline, HTML, CSS, CSS3, JavaScript, PHP" />
+	<meta name="keywords" content="Jesse Gangi, Jesse, Gangi, Aerial Applications, Aerial, Applications, Duluth, Minnesota, MN, Superior, Wisconsin, WI, Twin Ports, Twin, Ports, Northland, Upper Mid-west, Upper, Mid-west, Mid, West, HTML5 Boilerplate, HTML5, Boilerplate, Twitter Bootstrap, Twitter, Bootstrap, Font Awesome, Font, Awesome, TimelineJS, HTML, CSS, CSS3, JavaScript, PHP" />
 	<meta name="author" content="Jesse Gangi" />
 	<meta name="Copyright" content="Copyright &copy; 2014 Jesse Gangi" />
 	
