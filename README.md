@@ -5,6 +5,9 @@ Jesse Gangi's Online Resume
 ======================
 
 
+## CURRENTLY UNDER DEVELOPMENT ##
+
+
 ## HELLO WORLD:
 
 
