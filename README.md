@@ -139,7 +139,7 @@ Have more fun!
 
 "It's always the padding..." - Ganginator  
 "Added scripts, for added awesomeness." - Ganginator  
-"IMHO, if you support IE 6, you are the reason we cannot have nice things." - Ganginator  
+"IMHO, if you support IE 6, you are the reason we can't have nice things." - Ganginator  
 "Tactically, it's better to be small than big." - Ganginator  
 "... but what do I know." - Ganginator  
 
